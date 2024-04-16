@@ -1,0 +1,17 @@
+WARNING: Can't resolve .param loadresistance=list(0.5 1 1.5)
+Questionable use of curly braces in "rload 0 n003 {loadresistance} tol=1 pwr=5"
+    Error: yet unevaluated parameter in: "[loadresistance]"
+LTspice 24.0.11 for Windows
+Circuit: * C:\Users\alex_\Documents\IKP\HYDRA\VMM3Adapter_FCI_CARD\KiCAD\Git\HYDRA_VMM3_Adapter\LTSpice\Dual-LT1965-1.8.asc
+Start Time: Tue Apr 16 09:53:21 2024
+WARNING: Can't resolve .param loadresistance=list(0.5 1 1.5)
+WARNING: Can't resolve .param loadresistance=list(0.5 1 1.5)
+Error on line 4 : rload 0 n003 (loadresistance) tol=1 pwr=5
+	 Unable to find definition of model "loadresistance"
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = modified trap
+c1: Increased Cpar to 2.2e-11
+Fatal Error: Missing resistance value for "rload"

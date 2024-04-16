@@ -1251,4 +1251,15 @@
 			(xyz -90 0 0)
 		)
 	)
+	(model "C:/Users/alex_/Documents/IKP/HYDRA/VMM3Adapter_FCI_CARD/KiCAD/Git/HYDRA_VMM3_Adapter/Footprint_Symbols/VMM3_CARD_ASSEMBLY.STEP"
+		(offset
+			(xyz 95.5 22.5 -43)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
 )
