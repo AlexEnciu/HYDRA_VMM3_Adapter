@@ -13514,7 +13514,7 @@
 	(symbol
 		(lib_name "ME1014010101011_1")
 		(lib_id "HYDRA_Amphenol_card:ME1014010101011")
-		(at 327.66 190.5 0)
+		(at 317.5 190.5 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13523,7 +13523,7 @@
 		(fields_autoplaced yes)
 		(uuid "01bb14db-0ea9-4e78-86a8-17b4f4c95825")
 		(property "Reference" "J5"
-			(at 327.66 139.7 0)
+			(at 317.5 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13531,7 +13531,7 @@
 			)
 		)
 		(property "Value" "ME1014010101011"
-			(at 327.66 142.24 0)
+			(at 317.5 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13539,7 +13539,7 @@
 			)
 		)
 		(property "Footprint" "HYDRA_Amphenol_card_footprint:AMPHENOL_ME1014010101011"
-			(at 327.66 190.5 0)
+			(at 317.5 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13549,7 +13549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.66 190.5 0)
+			(at 317.5 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13558,7 +13558,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.66 190.5 0)
+			(at 317.5 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13567,7 +13567,7 @@
 			)
 		)
 		(property "PARTREV" "11"
-			(at 327.66 190.5 0)
+			(at 317.5 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13577,7 +13577,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 327.66 190.5 0)
+			(at 317.5 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13587,7 +13587,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "ME1014010101011"
-			(at 327.66 190.5 0)
+			(at 317.5 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13597,7 +13597,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "9.1mm"
-			(at 327.66 190.5 0)
+			(at 317.5 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13607,7 +13607,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Amphenol"
-			(at 327.66 190.5 0)
+			(at 317.5 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14047,7 +14047,7 @@
 	)
 	(symbol
 		(lib_id "HYDRA_Amphenol_card:ME1014010101011")
-		(at 328.93 83.82 0)
+		(at 318.77 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14056,7 +14056,7 @@
 		(fields_autoplaced yes)
 		(uuid "037d02e5-4169-471d-96ba-ba42763adee6")
 		(property "Reference" "J5"
-			(at 328.93 33.02 0)
+			(at 318.77 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14064,7 +14064,7 @@
 			)
 		)
 		(property "Value" "ME1014010101011"
-			(at 328.93 35.56 0)
+			(at 318.77 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14072,7 +14072,7 @@
 			)
 		)
 		(property "Footprint" "HYDRA_Amphenol_card_footprint:AMPHENOL_ME1014010101011"
-			(at 328.93 83.82 0)
+			(at 318.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14082,7 +14082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 328.93 83.82 0)
+			(at 318.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14091,7 +14091,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 328.93 83.82 0)
+			(at 318.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14100,7 +14100,7 @@
 			)
 		)
 		(property "PARTREV" "11"
-			(at 328.93 83.82 0)
+			(at 318.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14110,7 +14110,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 328.93 83.82 0)
+			(at 318.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14120,7 +14120,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "ME1014010101011"
-			(at 328.93 83.82 0)
+			(at 318.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14130,7 +14130,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "9.1mm"
-			(at 328.93 83.82 0)
+			(at 318.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14140,7 +14140,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Amphenol"
-			(at 328.93 83.82 0)
+			(at 318.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16664,7 +16664,7 @@
 	(symbol
 		(lib_name "ME1014010101011_1")
 		(lib_id "HYDRA_Amphenol_card:ME1014010101011")
-		(at 264.16 185.42 0)
+		(at 254 185.42 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16673,7 +16673,7 @@
 		(fields_autoplaced yes)
 		(uuid "b11dfc15-9e6c-4279-bb7e-ccd4eae91831")
 		(property "Reference" "J2"
-			(at 264.16 134.62 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16681,7 +16681,7 @@
 			)
 		)
 		(property "Value" "ME1014010101011"
-			(at 264.16 137.16 0)
+			(at 254 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16689,7 +16689,7 @@
 			)
 		)
 		(property "Footprint" "HYDRA_Amphenol_card_footprint:AMPHENOL_ME1014010101011"
-			(at 264.16 185.42 0)
+			(at 254 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16699,7 +16699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 185.42 0)
+			(at 254 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16708,7 +16708,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 185.42 0)
+			(at 254 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16717,7 +16717,7 @@
 			)
 		)
 		(property "PARTREV" "11"
-			(at 264.16 185.42 0)
+			(at 254 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16727,7 +16727,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 264.16 185.42 0)
+			(at 254 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16737,7 +16737,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "ME1014010101011"
-			(at 264.16 185.42 0)
+			(at 254 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16747,7 +16747,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "9.1mm"
-			(at 264.16 185.42 0)
+			(at 254 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16757,7 +16757,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Amphenol"
-			(at 264.16 185.42 0)
+			(at 254 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17795,7 +17795,7 @@
 	)
 	(symbol
 		(lib_id "HYDRA_Amphenol_card:ME1014010101011")
-		(at 391.16 85.09 0)
+		(at 375.92 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17804,7 +17804,7 @@
 		(fields_autoplaced yes)
 		(uuid "d70fc79c-5181-4872-ba00-802a96cf6411")
 		(property "Reference" "J3"
-			(at 391.16 34.29 0)
+			(at 375.92 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17812,7 +17812,7 @@
 			)
 		)
 		(property "Value" "ME1014010101011"
-			(at 391.16 36.83 0)
+			(at 375.92 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17820,7 +17820,7 @@
 			)
 		)
 		(property "Footprint" "HYDRA_Amphenol_card_footprint:AMPHENOL_ME1014010101011"
-			(at 391.16 85.09 0)
+			(at 375.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17830,7 +17830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 391.16 85.09 0)
+			(at 375.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17839,7 +17839,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 391.16 85.09 0)
+			(at 375.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17848,7 +17848,7 @@
 			)
 		)
 		(property "PARTREV" "11"
-			(at 391.16 85.09 0)
+			(at 375.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17858,7 +17858,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 391.16 85.09 0)
+			(at 375.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17868,7 +17868,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "ME1014010101011"
-			(at 391.16 85.09 0)
+			(at 375.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17878,7 +17878,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "9.1mm"
-			(at 391.16 85.09 0)
+			(at 375.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17888,7 +17888,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Amphenol"
-			(at 391.16 85.09 0)
+			(at 375.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18397,7 +18397,7 @@
 	(symbol
 		(lib_name "ME1014010101011_1")
 		(lib_id "HYDRA_Amphenol_card:ME1014010101011")
-		(at 391.16 187.96 0)
+		(at 375.92 186.69 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18406,7 +18406,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee094aec-647a-40ec-80c4-ee9d86809d92")
 		(property "Reference" "J3"
-			(at 391.16 137.16 0)
+			(at 375.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18414,7 +18414,7 @@
 			)
 		)
 		(property "Value" "ME1014010101011"
-			(at 391.16 139.7 0)
+			(at 375.92 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18422,7 +18422,7 @@
 			)
 		)
 		(property "Footprint" "HYDRA_Amphenol_card_footprint:AMPHENOL_ME1014010101011"
-			(at 391.16 187.96 0)
+			(at 375.92 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18432,7 +18432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 391.16 187.96 0)
+			(at 375.92 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18441,7 +18441,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 391.16 187.96 0)
+			(at 375.92 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18450,7 +18450,7 @@
 			)
 		)
 		(property "PARTREV" "11"
-			(at 391.16 187.96 0)
+			(at 375.92 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18460,7 +18460,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 391.16 187.96 0)
+			(at 375.92 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18470,7 +18470,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "ME1014010101011"
-			(at 391.16 187.96 0)
+			(at 375.92 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18480,7 +18480,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "9.1mm"
-			(at 391.16 187.96 0)
+			(at 375.92 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18490,7 +18490,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Amphenol"
-			(at 391.16 187.96 0)
+			(at 375.92 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18930,7 +18930,7 @@
 	)
 	(symbol
 		(lib_id "HYDRA_Amphenol_card:ME1014010101011")
-		(at 264.16 85.09 0)
+		(at 254 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18939,7 +18939,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7f114e2-df24-4d5f-93a7-dacdbd96f7f8")
 		(property "Reference" "J2"
-			(at 264.16 34.29 0)
+			(at 254 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18947,7 +18947,7 @@
 			)
 		)
 		(property "Value" "ME1014010101011"
-			(at 264.16 36.83 0)
+			(at 254 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18955,7 +18955,7 @@
 			)
 		)
 		(property "Footprint" "HYDRA_Amphenol_card_footprint:AMPHENOL_ME1014010101011"
-			(at 264.16 85.09 0)
+			(at 254 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18965,7 +18965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 85.09 0)
+			(at 254 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18974,7 +18974,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 85.09 0)
+			(at 254 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18983,7 +18983,7 @@
 			)
 		)
 		(property "PARTREV" "11"
-			(at 264.16 85.09 0)
+			(at 254 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18993,7 +18993,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 264.16 85.09 0)
+			(at 254 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19003,7 +19003,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "ME1014010101011"
-			(at 264.16 85.09 0)
+			(at 254 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19013,7 +19013,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "9.1mm"
-			(at 264.16 85.09 0)
+			(at 254 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19023,7 +19023,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Amphenol"
-			(at 264.16 85.09 0)
+			(at 254 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
