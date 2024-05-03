@@ -5832,7 +5832,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 256.54) (xy 64.77 256.54)
+			(xy 60.96 224.79) (xy 71.12 224.79)
 		)
 		(stroke
 			(width 0)
@@ -5842,7 +5842,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 261.62) (xy 31.75 261.62)
+			(xy 35.56 229.87) (xy 38.1 229.87)
 		)
 		(stroke
 			(width 0)
@@ -5852,7 +5852,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 259.08) (xy 64.77 259.08)
+			(xy 68.58 227.33) (xy 71.12 227.33)
 		)
 		(stroke
 			(width 0)
@@ -5862,7 +5862,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 264.16) (xy 64.77 264.16)
+			(xy 60.96 232.41) (xy 71.12 232.41)
 		)
 		(stroke
 			(width 0)
@@ -5872,7 +5872,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 256.54) (xy 31.75 256.54)
+			(xy 27.94 224.79) (xy 38.1 224.79)
 		)
 		(stroke
 			(width 0)
@@ -5882,7 +5882,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 254) (xy 64.77 254)
+			(xy 68.58 222.25) (xy 71.12 222.25)
 		)
 		(stroke
 			(width 0)
@@ -5892,7 +5892,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 266.7) (xy 64.77 266.7)
+			(xy 68.58 234.95) (xy 71.12 234.95)
 		)
 		(stroke
 			(width 0)
@@ -5902,7 +5902,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 259.08) (xy 31.75 259.08)
+			(xy 35.56 227.33) (xy 38.1 227.33)
 		)
 		(stroke
 			(width 0)
@@ -5912,7 +5912,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 264.16) (xy 31.75 264.16)
+			(xy 27.94 232.41) (xy 38.1 232.41)
 		)
 		(stroke
 			(width 0)
@@ -5922,7 +5922,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 254) (xy 31.75 254)
+			(xy 35.56 222.25) (xy 38.1 222.25)
 		)
 		(stroke
 			(width 0)
@@ -5932,7 +5932,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 266.7) (xy 31.75 266.7)
+			(xy 35.56 234.95) (xy 38.1 234.95)
 		)
 		(stroke
 			(width 0)
@@ -5942,7 +5942,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 261.62) (xy 64.77 261.62)
+			(xy 68.58 229.87) (xy 71.12 229.87)
 		)
 		(stroke
 			(width 0)
@@ -6788,7 +6788,7 @@
 	)
 	(global_label "P1B"
 		(shape input)
-		(at 62.23 266.7 180)
+		(at 68.58 234.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6798,7 +6798,7 @@
 		)
 		(uuid "0d626243-1b12-4421-9d6a-46fcf50e12a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.4953 266.7 0)
+			(at 61.8453 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10044,7 +10044,7 @@
 	)
 	(global_label "P1A"
 		(shape input)
-		(at 29.21 259.08 180)
+		(at 35.56 227.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10054,7 +10054,7 @@
 		)
 		(uuid "4aefebee-6197-4f2f-9049-48a8a9a4abe1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.6567 259.08 0)
+			(at 29.0067 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15324,7 +15324,7 @@
 	)
 	(global_label "P2B"
 		(shape input)
-		(at 62.23 261.62 180)
+		(at 68.58 229.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15334,7 +15334,7 @@
 		)
 		(uuid "a10c72ed-1816-49e8-8599-1ff1a304475b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.4953 261.62 0)
+			(at 61.8453 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15456,7 +15456,7 @@
 	)
 	(global_label "P2B"
 		(shape input)
-		(at 62.23 254 180)
+		(at 68.58 222.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15466,7 +15466,7 @@
 		)
 		(uuid "a418a9e9-8700-4dbb-818b-8381f682514d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.4953 254 0)
+			(at 61.8453 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16402,7 +16402,7 @@
 	)
 	(global_label "P2A"
 		(shape input)
-		(at 29.21 261.62 180)
+		(at 35.56 229.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16412,7 +16412,7 @@
 		)
 		(uuid "b1e0bb76-7f41-4dc2-bb7e-7c0d3309d0c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.6567 261.62 0)
+			(at 29.0067 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17128,7 +17128,7 @@
 	)
 	(global_label "P2A"
 		(shape input)
-		(at 29.21 254 180)
+		(at 35.56 222.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17138,7 +17138,7 @@
 		)
 		(uuid "c09a2351-881d-4c60-973a-d3f044c3249c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.6567 254 0)
+			(at 29.0067 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17744,7 +17744,7 @@
 	)
 	(global_label "P1A"
 		(shape input)
-		(at 29.21 266.7 180)
+		(at 35.56 234.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17754,7 +17754,7 @@
 		)
 		(uuid "c894573d-9ec6-4ab8-a84c-af185e980d8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.6567 266.7 0)
+			(at 29.0067 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19152,7 +19152,7 @@
 	)
 	(global_label "P1B"
 		(shape input)
-		(at 62.23 259.08 180)
+		(at 68.58 227.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19162,7 +19162,7 @@
 		)
 		(uuid "e1bbada5-1dc3-4c93-ac90-38904d89e74e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.4953 259.08 0)
+			(at 61.8453 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21979,7 +21979,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 256.54 0)
+		(at 96.52 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21987,7 +21987,7 @@
 		(dnp no)
 		(uuid "1f2d6a03-b25c-4077-90a2-ea920ce72b4e")
 		(property "Reference" "#PWR04"
-			(at 90.17 262.89 0)
+			(at 96.52 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21996,7 +21996,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.884 256.54 0)
+			(at 94.234 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22004,7 +22004,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 256.54 0)
+			(at 96.52 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22013,7 +22013,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 256.54 0)
+			(at 96.52 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22022,7 +22022,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 256.54 0)
+			(at 96.52 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22577,7 +22577,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 256.54 0)
+		(at 60.96 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22585,7 +22585,7 @@
 		(dnp no)
 		(uuid "31cc135f-3b4b-4fd5-b136-8131627575e5")
 		(property "Reference" "#PWR05"
-			(at 54.61 262.89 0)
+			(at 60.96 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22594,7 +22594,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.324 256.54 0)
+			(at 58.674 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22602,7 +22602,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 256.54 0)
+			(at 60.96 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22611,7 +22611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 256.54 0)
+			(at 60.96 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22620,7 +22620,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 256.54 0)
+			(at 60.96 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22642,7 +22642,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 110.49 256.54 0)
+		(at 116.84 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22651,7 +22651,7 @@
 		(fields_autoplaced yes)
 		(uuid "324edd92-d327-4865-a131-0b85ca58bbf0")
 		(property "Reference" "J8"
-			(at 111.76 256.5399 0)
+			(at 118.11 224.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22660,7 +22660,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 111.76 257.8099 0)
+			(at 118.11 226.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22670,7 +22670,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 110.49 256.54 0)
+			(at 116.84 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22679,7 +22679,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 256.54 0)
+			(at 116.84 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22688,7 +22688,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 110.49 256.54 0)
+			(at 116.84 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22710,7 +22710,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 256.54 0)
+		(at 111.76 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22718,7 +22718,7 @@
 		(dnp no)
 		(uuid "4e329d30-5b3f-4cd5-95d0-256971f01d69")
 		(property "Reference" "#PWR06"
-			(at 105.41 262.89 0)
+			(at 111.76 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22727,7 +22727,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 103.124 256.54 0)
+			(at 109.474 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22735,7 +22735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 256.54 0)
+			(at 111.76 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22744,7 +22744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 256.54 0)
+			(at 111.76 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22753,7 +22753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 256.54 0)
+			(at 111.76 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22775,7 +22775,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 261.62 0)
+		(at 96.52 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22783,7 +22783,7 @@
 		(dnp no)
 		(uuid "56250c08-4e40-4062-9620-08e0cb027a98")
 		(property "Reference" "#PWR07"
-			(at 90.17 267.97 0)
+			(at 96.52 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22792,7 +22792,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.884 261.62 0)
+			(at 94.234 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22800,7 +22800,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 261.62 0)
+			(at 96.52 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22809,7 +22809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 261.62 0)
+			(at 96.52 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22818,7 +22818,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 261.62 0)
+			(at 96.52 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22840,7 +22840,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 21.59 256.54 0)
+		(at 27.94 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22848,7 +22848,7 @@
 		(dnp no)
 		(uuid "5d85dc26-45f9-4db6-bded-160de9a9565a")
 		(property "Reference" "#PWR03"
-			(at 21.59 262.89 0)
+			(at 27.94 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22857,7 +22857,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.304 256.54 0)
+			(at 25.654 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22865,7 +22865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 256.54 0)
+			(at 27.94 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22874,7 +22874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 256.54 0)
+			(at 27.94 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22883,7 +22883,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 256.54 0)
+			(at 27.94 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23438,7 +23438,7 @@
 	)
 	(symbol
 		(lib_id "Molex_PCB_Power_Connector:39-30-1060")
-		(at 41.91 259.08 0)
+		(at 48.26 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23446,7 +23446,7 @@
 		(dnp no)
 		(uuid "6a466c5f-e5be-4073-a39e-9756f59d05c3")
 		(property "Reference" "Input_A1"
-			(at 37.846 249.428 0)
+			(at 44.196 217.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23455,7 +23455,7 @@
 			)
 		)
 		(property "Value" "39-30-1060"
-			(at 35.306 250.19 0)
+			(at 41.656 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23465,7 +23465,7 @@
 			)
 		)
 		(property "Footprint" "Molex_PCB_Power_Connector:MOLEX_39-30-1060"
-			(at 41.91 259.08 0)
+			(at 48.26 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23475,7 +23475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 259.08 0)
+			(at 48.26 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23484,7 +23484,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 259.08 0)
+			(at 48.26 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23493,7 +23493,7 @@
 			)
 		)
 		(property "MF" "Molex"
-			(at 41.91 259.08 0)
+			(at 48.26 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23503,7 +23503,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "10 mm"
-			(at 41.91 259.08 0)
+			(at 48.26 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23513,7 +23513,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 41.91 259.08 0)
+			(at 48.26 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23523,7 +23523,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 41.91 259.08 0)
+			(at 48.26 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23533,7 +23533,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/39-30-1060/Molex/view-part/?ref=eda"
-			(at 41.91 259.08 0)
+			(at 48.26 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23543,7 +23543,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 41.91 259.08 0)
+			(at 48.26 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23553,7 +23553,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 41.91 259.08 0)
+			(at 48.26 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23563,7 +23563,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/39-30-1060/Molex/view-part/?ref=snap"
-			(at 41.91 259.08 0)
+			(at 48.26 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23573,7 +23573,7 @@
 			)
 		)
 		(property "MP" "39-30-1060"
-			(at 41.91 259.08 0)
+			(at 48.26 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23583,7 +23583,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=49531&manufacturer=Molex&part_name=39-30-1060&search_term=molex 39301060"
-			(at 41.91 259.08 0)
+			(at 48.26 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23593,7 +23593,7 @@
 			)
 		)
 		(property "Description_1" "\nConnector Header Through Hole, Right Angle 6 position 0.165 (4.20mm)\n"
-			(at 41.91 259.08 0)
+			(at 48.26 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23603,7 +23603,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 41.91 259.08 0)
+			(at 48.26 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23613,7 +23613,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 41.91 259.08 0)
+			(at 48.26 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23651,7 +23651,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 21.59 264.16 0)
+		(at 27.94 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23659,7 +23659,7 @@
 		(dnp no)
 		(uuid "7fb4f525-59c3-49ab-9832-1781872cbe86")
 		(property "Reference" "#PWR09"
-			(at 21.59 270.51 0)
+			(at 27.94 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23668,7 +23668,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.304 264.16 0)
+			(at 25.654 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23676,7 +23676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 264.16 0)
+			(at 27.94 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23685,7 +23685,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 264.16 0)
+			(at 27.94 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23694,7 +23694,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 264.16 0)
+			(at 27.94 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23716,7 +23716,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 95.25 261.62 0)
+		(at 101.6 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23725,7 +23725,7 @@
 		(fields_autoplaced yes)
 		(uuid "82fb3d83-7e8d-4296-9610-9afedcaade20")
 		(property "Reference" "J9"
-			(at 96.52 261.6199 0)
+			(at 102.87 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23734,7 +23734,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 96.52 262.8899 0)
+			(at 102.87 231.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23744,7 +23744,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 95.25 261.62 0)
+			(at 101.6 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23753,7 +23753,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 261.62 0)
+			(at 101.6 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23762,7 +23762,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 95.25 261.62 0)
+			(at 101.6 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23784,7 +23784,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 261.62 0)
+		(at 111.76 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23792,7 +23792,7 @@
 		(dnp no)
 		(uuid "8a501474-a2dd-4acf-80e9-dc3315e45dab")
 		(property "Reference" "#PWR010"
-			(at 105.41 267.97 0)
+			(at 111.76 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23801,7 +23801,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 103.124 261.62 0)
+			(at 109.474 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23809,7 +23809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 261.62 0)
+			(at 111.76 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23818,7 +23818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 261.62 0)
+			(at 111.76 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23827,7 +23827,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 261.62 0)
+			(at 111.76 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23849,7 +23849,7 @@
 	)
 	(symbol
 		(lib_id "Molex_PCB_Power_Connector:39-30-1060")
-		(at 74.93 259.08 0)
+		(at 81.28 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23857,7 +23857,7 @@
 		(dnp no)
 		(uuid "8cd6e9f1-b030-42db-8f32-68b65c1c0099")
 		(property "Reference" "Input_B1"
-			(at 70.612 249.682 0)
+			(at 76.962 217.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23866,7 +23866,7 @@
 			)
 		)
 		(property "Value" "39-30-1060"
-			(at 69.088 249.174 0)
+			(at 75.438 217.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23876,7 +23876,7 @@
 			)
 		)
 		(property "Footprint" "Molex_PCB_Power_Connector:MOLEX_39-30-1060"
-			(at 74.93 259.08 0)
+			(at 81.28 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23886,7 +23886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 259.08 0)
+			(at 81.28 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23895,7 +23895,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 259.08 0)
+			(at 81.28 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23904,7 +23904,7 @@
 			)
 		)
 		(property "MF" "Molex"
-			(at 74.93 259.08 0)
+			(at 81.28 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23914,7 +23914,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "10 mm"
-			(at 74.93 259.08 0)
+			(at 81.28 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23924,7 +23924,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 74.93 259.08 0)
+			(at 81.28 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23934,7 +23934,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 74.93 259.08 0)
+			(at 81.28 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23944,7 +23944,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/39-30-1060/Molex/view-part/?ref=eda"
-			(at 74.93 259.08 0)
+			(at 81.28 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23954,7 +23954,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 74.93 259.08 0)
+			(at 81.28 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23964,7 +23964,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 74.93 259.08 0)
+			(at 81.28 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23974,7 +23974,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/39-30-1060/Molex/view-part/?ref=snap"
-			(at 74.93 259.08 0)
+			(at 81.28 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23984,7 +23984,7 @@
 			)
 		)
 		(property "MP" "39-30-1060"
-			(at 74.93 259.08 0)
+			(at 81.28 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23994,7 +23994,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=49531&manufacturer=Molex&part_name=39-30-1060&search_term=molex 39301060"
-			(at 74.93 259.08 0)
+			(at 81.28 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24004,7 +24004,7 @@
 			)
 		)
 		(property "Description_1" "\nConnector Header Through Hole, Right Angle 6 position 0.165 (4.20mm)\n"
-			(at 74.93 259.08 0)
+			(at 81.28 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24014,7 +24014,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 74.93 259.08 0)
+			(at 81.28 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24024,7 +24024,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 74.93 259.08 0)
+			(at 81.28 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25129,7 +25129,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 264.16 0)
+		(at 60.96 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25137,7 +25137,7 @@
 		(dnp no)
 		(uuid "be0d01a4-edb6-47bf-999a-9ec7fa82d54e")
 		(property "Reference" "#PWR08"
-			(at 54.61 270.51 0)
+			(at 60.96 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25146,7 +25146,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.324 264.16 0)
+			(at 58.674 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25154,7 +25154,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 264.16 0)
+			(at 60.96 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25163,7 +25163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 264.16 0)
+			(at 60.96 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25172,7 +25172,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 264.16 0)
+			(at 60.96 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25727,7 +25727,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 95.25 256.54 0)
+		(at 101.6 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25736,7 +25736,7 @@
 		(fields_autoplaced yes)
 		(uuid "deef4055-4a64-40d2-85b1-2bf27e74b376")
 		(property "Reference" "J7"
-			(at 96.52 256.5399 0)
+			(at 102.87 224.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25745,7 +25745,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 96.52 257.8099 0)
+			(at 102.87 226.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25755,7 +25755,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 95.25 256.54 0)
+			(at 101.6 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25764,7 +25764,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 256.54 0)
+			(at 101.6 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25773,7 +25773,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 95.25 256.54 0)
+			(at 101.6 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27396,7 +27396,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 110.49 261.62 0)
+		(at 116.84 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27405,7 +27405,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcd16e7b-f211-40b1-8fbc-83d9519be359")
 		(property "Reference" "J10"
-			(at 111.76 261.6199 0)
+			(at 118.11 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27414,7 +27414,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 111.76 262.8899 0)
+			(at 118.11 231.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27424,7 +27424,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 110.49 261.62 0)
+			(at 116.84 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27433,7 +27433,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 261.62 0)
+			(at 116.84 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27442,7 +27442,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 110.49 261.62 0)
+			(at 116.84 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
