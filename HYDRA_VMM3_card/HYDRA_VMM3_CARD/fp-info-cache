@@ -1,4 +1,4 @@
-23325998895390210
+23327715430954248
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6411,6 +6411,13 @@ Edge-Card-Connector
 0
 140
 140
+Card_Edge_Connector_FCI
+Hirose-FX10
+
+
+0
+156
+141
 Connector
 Banana_Cliff_FCR7350B_S16N-PC_Horizontal
 Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, black, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf
