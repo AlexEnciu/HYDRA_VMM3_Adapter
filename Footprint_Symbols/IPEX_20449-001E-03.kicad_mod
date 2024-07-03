@@ -400,37 +400,6 @@
 			)
 		)
 	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "B.Cu")
-		(uuid "6efc423c-0e7d-4a18-b7e9-e58c16a7c9aa")
-		(hatch full 0.508)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.001)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -0.67 0.27) (xy -0.75 0.19) (xy -0.75 -0.19) (xy -0.67 -0.27) (xy -0.67 -0.79) (xy -0.25 -0.79)
-				(xy -0.25 -0.75) (xy 0.25 -0.75) (xy 0.25 -0.79) (xy 0.67 -0.79) (xy 0.67 -0.27) (xy 0.75 -0.19)
-				(xy 0.75 0.19) (xy 0.67 0.27) (xy 0.67 0.79) (xy 0.3 0.79) (xy 0.3 0.7) (xy -0.3 0.7) (xy -0.3 0.79)
-				(xy -0.67 0.79)
-			)
-		)
-	)
 	(model "${POJEC_PATH}/Git/HYDRA_VMM3_Adapter/STEP/20449-001E-03.step"
 		(offset
 			(xyz 0 0 0)
