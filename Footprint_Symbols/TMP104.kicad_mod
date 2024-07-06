@@ -1,0 +1,140 @@
+(footprint "TMP104"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2 -4.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "344b3e6c-e7ef-468b-b2ca-14c13c6f14d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TMP104"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c5a1d93-e006-44e8-bfdb-9b90c4f77fe9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "TMP104"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "773c523d-d062-41cf-9bf6-a216e98aa88d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e2deb7c-3507-4861-a854-5de29e425553")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76f773e1-d465-4286-ab1c-6a2f0d014389")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.6 -0.6)
+		(end 0.6 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "47ac970a-7db6-4ad2-9679-27b466f2b96a")
+	)
+	(fp_circle
+		(center 1 0.4)
+		(end 1.2 0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "c5af19f7-06cb-4eb4-b8be-e9b4c653414a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1e8d560c-2c82-4684-ae0f-77cae08ce6c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0.2 0.2)
+		(size 0.15 0.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ccf73f75-69b9-489f-9013-3313124fa512")
+	)
+	(pad "2" smd circle
+		(at -0.2 0.2)
+		(size 0.15 0.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "879e4047-ecc6-4510-b6ef-6a4afb8f4b27")
+	)
+	(pad "3" smd circle
+		(at 0.2 -0.2)
+		(size 0.15 0.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "60e91567-85ad-4937-9676-15c445e221b2")
+	)
+	(pad "4" smd circle
+		(at -0.2 -0.2)
+		(size 0.15 0.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7e12c769-24c3-4ee7-89b4-6ddb0e55c57b")
+	)
+	(model "${POJEC_PATH}/Git/HYDRA_VMM3_Adapter/STEP/TMP104YFFR--3DModel-STEP-56544.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)
