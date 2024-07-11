@@ -5,6 +5,330 @@
 	(uuid "5cc5fa4e-32d4-4542-92e2-2ba1c177d887")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:Conn_01x06_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_Pin"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -6729,6 +7053,18 @@
 		(color 0 0 0 0)
 		(uuid "a1dd77d4-4cdb-4731-9f01-4757c7036956")
 	)
+	(junction
+		(at 142.24 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5b1a088-0055-4454-8e26-1411f6fa22dd")
+	)
+	(junction
+		(at 172.72 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e871d378-7e30-4e7f-9a6a-b3839cd9541e")
+	)
 	(wire
 		(pts
 			(xy 67.31 71.12) (xy 64.77 71.12)
@@ -6801,6 +7137,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 21.59) (xy 172.72 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf02fc2-29b0-49b1-848f-b9b86488704b")
+	)
+	(wire
+		(pts
 			(xy 162.56 21.59) (xy 163.83 21.59)
 		)
 		(stroke
@@ -6818,6 +7164,16 @@
 			(type default)
 		)
 		(uuid "2559e982-5873-4413-88c6-91587b21ac6c")
+	)
+	(wire
+		(pts
+			(xy 167.64 101.6) (xy 181.61 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e33c9c-7cb7-44fc-b7f9-26650d8860e1")
 	)
 	(wire
 		(pts
@@ -6871,7 +7227,27 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 21.59) (xy 134.62 21.59)
+			(xy 142.24 21.59) (xy 142.24 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64952796-00e3-4e5d-9975-0581980d26e0")
+	)
+	(wire
+		(pts
+			(xy 142.24 21.59) (xy 143.51 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6add68a2-8424-4e5f-8908-e74654f6a20d")
+	)
+	(wire
+		(pts
+			(xy 130.81 21.59) (xy 133.35 21.59)
 		)
 		(stroke
 			(width 0)
@@ -6951,6 +7327,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 21.59) (xy 172.72 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b734079f-0bb8-4a90-b03b-a8ed2b1a71ce")
+	)
+	(wire
+		(pts
 			(xy 35.56 68.58) (xy 39.37 68.58)
 		)
 		(stroke
@@ -6961,6 +7347,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 21.59) (xy 171.45 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0dafef7-3d65-47ab-9bd6-429ffe84eee1")
+	)
+	(wire
+		(pts
 			(xy 67.31 55.88) (xy 64.77 55.88)
 		)
 		(stroke
@@ -6968,6 +7364,16 @@
 			(type default)
 		)
 		(uuid "c38f423f-688d-4341-8e99-1d33c91fb024")
+	)
+	(wire
+		(pts
+			(xy 140.97 21.59) (xy 142.24 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d31102fb-6798-4df5-8e19-693e0b3e0438")
 	)
 	(wire
 		(pts
@@ -7459,28 +7865,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 189.23 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0ded33d4-65d6-41c3-92fb-950998845a00")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.6767 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -8123,6 +8507,28 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape input)
+		(at 181.61 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f2eab8b-fbae-41d6-b65b-fbf23477207e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.0567 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Ch_32"
 		(shape input)
 		(at 64.77 91.44 0)
@@ -8554,6 +8960,28 @@
 		(uuid "376a32ac-5ffa-476a-b2c0-a191a50c9eeb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 101.6992 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 181.61 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37729416-cf5d-4504-b4df-b7e3fd086620")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.1172 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9289,6 +9717,28 @@
 			)
 		)
 	)
+	(global_label "I2C_VCC"
+		(shape input)
+		(at 181.61 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57cfc47b-e438-4da8-92d7-f58bf9464278")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.9443 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Ch_95"
 		(shape input)
 		(at 125.73 166.37 0)
@@ -9421,28 +9871,6 @@
 			)
 		)
 	)
-	(global_label "SCL"
-		(shape input)
-		(at 189.23 144.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5f41f181-fc11-440c-9fdf-036bba5afdec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.7372 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Ch_38"
 		(shape input)
 		(at 64.77 99.06 0)
@@ -9483,6 +9911,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Signal_In"
+		(shape input)
+		(at 181.61 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65a1d767-24ae-4227-8c90-54dcc890d9db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.9769 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9949,28 +10399,6 @@
 			)
 		)
 	)
-	(global_label "Signal_In"
-		(shape input)
-		(at 189.23 163.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "77f29ed2-af6d-402d-9afc-f27cb3b476ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.5969 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Ch_53"
 		(shape input)
 		(at 125.73 113.03 0)
@@ -10050,6 +10478,28 @@
 		(uuid "7ed6a77e-ca08-4aa1-8930-dbd90030d9dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 33.9053 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Signal_Out"
+		(shape input)
+		(at 181.61 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f69ffc1-dbd9-4617-b2c1-4a0d6242bc75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.5255 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10209,28 +10659,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Signal_Out"
-		(shape input)
-		(at 189.23 172.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "84f60791-002f-492e-bd2c-73575cd88fd5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.1455 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -10583,28 +11011,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Signal_GND"
-		(shape input)
-		(at 189.23 153.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9d418702-562e-4709-bbf7-e69a8c4d4ae2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.4802 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -12105,28 +12511,6 @@
 			)
 		)
 	)
-	(global_label "I2C_VCC"
-		(shape input)
-		(at 189.23 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d75a4f8f-a4e7-4e64-8c8d-876908a2f5fb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.5643 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Ch_110"
 		(shape input)
 		(at 110.49 184.15 180)
@@ -12536,28 +12920,6 @@
 		(uuid "ebf9fc62-91c1-4bed-b1cf-405dbb8a287b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 73.5608 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Signal_GND"
-		(shape input)
-		(at 125.73 209.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ec79bdc0-98ea-4555-913f-d8df43540b8f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.4798 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13120,16 +13482,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 162.56 25.4 90)
+		(at 172.72 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "115128f4-d1aa-441e-9738-65375395b4d2")
 		(property "Reference" "1.8_On1"
-			(at 166.37 25.7174 90)
+			(at 176.53 28.2574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13138,7 +13499,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 166.37 28.2574 90)
+			(at 176.53 30.7974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13147,7 +13508,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 162.56 25.4 0)
+			(at 172.72 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13156,7 +13517,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 25.4 0)
+			(at 172.72 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13165,7 +13526,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 162.56 25.4 0)
+			(at 172.72 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13524,45 +13885,35 @@
 		)
 	)
 	(symbol
-		(lib_id "IPEX:20449-001E-03")
-		(at 191.77 138.43 0)
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 186.69 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2d412e8d-3200-40ed-b0a1-144988833d30")
-		(property "Reference" "SDA1"
-			(at 198.12 137.4139 0)
+		(uuid "30f05f0d-63e1-4e32-8a4d-7797659003a4")
+		(property "Reference" "J2"
+			(at 187.96 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "20449-001E-03"
-			(at 198.12 139.9539 0)
+		(property "Value" "Conn_01x06_Pin"
+			(at 187.96 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "IPEX:IPEX_20449-001E-03"
-			(at 191.77 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 138.43 0)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Horizontal"
+			(at 186.69 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13570,8 +13921,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 191.77 138.43 0)
+		(property "Datasheet" "~"
+			(at 186.69 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13579,132 +13930,37 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "I-PEX"
-			(at 191.77 138.43 0)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 186.69 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n1 POS Vertical SMD Small form factor with big performance through 6 GHz connector, RF, micro-coaxial MHF 4 Receptacle\n"
-			(at 191.77 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "5"
+			(uuid "9521f60f-823b-4748-81e0-6a22aa1ae37b")
 		)
-		(property "Package" "None"
-			(at 191.77 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 191.77 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/20449-001E-03/I-PEX/view-part/?ref=eda"
-			(at 191.77 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "5"
-			(at 191.77 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/20449-001E-03/I-PEX/view-part/?ref=snap"
-			(at 191.77 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "20449-001E-03"
-			(at 191.77 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3220640&manufacturer=I-PEX&part_name=20449-001E-03&search_term=ipex"
-			(at 191.77 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 191.77 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDART" "Manufacturer Recomendations"
-			(at 191.77 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "ba6fd6ec-fa07-45b7-a362-d479b262b7be")
-		)
-		(pin "1"
-			(uuid "82b71b49-3645-41cb-b998-28f835387ba3")
+		(pin "6"
+			(uuid "1cf65b66-35e2-4734-b5d5-089c921649e7")
 		)
 		(pin "2"
-			(uuid "240b2460-c43c-43c2-934f-3b8db318e557")
+			(uuid "95a56e73-ee76-469d-bc47-3629e44d5ce7")
+		)
+		(pin "4"
+			(uuid "310fe144-ad0b-4b2a-9205-0b9404006a06")
 		)
 		(pin "3"
-			(uuid "29d67fb0-b306-4a17-9c7e-731b5445a3ba")
+			(uuid "642269ab-6c1e-4784-b4eb-538a54b9a440")
+		)
+		(pin "1"
+			(uuid "76e9624d-8186-4ec6-b9f4-4764f617efa8")
 		)
 		(instances
 			(project "HYDRA_VMM3_CARD"
 				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887"
-					(reference "SDA1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -14482,7 +14738,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 138.43 21.59 90)
+		(at 137.16 21.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14491,7 +14747,7 @@
 		(fields_autoplaced yes)
 		(uuid "43b9b8a5-65c1-4678-a31f-95875096d914")
 		(property "Reference" "3.3V_0.5A1"
-			(at 138.43 15.24 90)
+			(at 137.16 15.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14499,7 +14755,7 @@
 			)
 		)
 		(property "Value" "0.5A"
-			(at 138.43 17.78 90)
+			(at 137.16 17.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14507,7 +14763,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 138.43 23.368 90)
+			(at 137.16 23.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14516,7 +14772,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 21.59 0)
+			(at 137.16 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14525,7 +14781,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 138.43 21.59 0)
+			(at 137.16 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15169,7 +15425,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 36.83 0)
+		(at 142.24 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15178,7 +15434,7 @@
 		(fields_autoplaced yes)
 		(uuid "545e3913-8949-486e-bab5-12633267d32c")
 		(property "Reference" "#PWR020"
-			(at 130.81 43.18 0)
+			(at 142.24 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15187,7 +15443,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 41.91 0)
+			(at 142.24 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15195,7 +15451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 36.83 0)
+			(at 142.24 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15204,7 +15460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 36.83 0)
+			(at 142.24 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15213,7 +15469,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 36.83 0)
+			(at 142.24 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15234,8 +15490,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 167.64 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58dc811a-dc23-42b1-9cc8-bfe801817259")
+		(property "Reference" "#PWR026"
+			(at 161.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60ee09e8-1113-4da6-a179-fddb9f8172ed")
+		)
+		(instances
+			(project "HYDRA_VMM3_CARD"
+				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 171.45 21.59 270)
+		(at 173.99 21.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15244,7 +15567,7 @@
 		(fields_autoplaced yes)
 		(uuid "5924c2c2-e861-4015-9386-ba533e380146")
 		(property "Reference" "1.8V1"
-			(at 176.53 20.3199 90)
+			(at 179.07 20.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15253,7 +15576,7 @@
 			)
 		)
 		(property "Value" "1.8V"
-			(at 176.53 22.8599 90)
+			(at 179.07 22.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15262,7 +15585,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 171.45 26.67 0)
+			(at 173.99 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15271,7 +15594,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 26.67 0)
+			(at 173.99 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15280,7 +15603,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 171.45 21.59 0)
+			(at 173.99 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15503,73 +15826,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 177.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6acd77e4-b7f0-435f-bd0e-5c09275cc023")
-		(property "Reference" "#PWR036"
-			(at 182.88 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 177.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c707ba11-8bbb-43ea-89a0-f1368c322524")
-		)
-		(instances
-			(project "HYDRA_VMM3_CARD"
-				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 67.31 53.34 90)
 		(mirror x)
 		(unit 1)
@@ -15636,262 +15892,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 189.23 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "718dbdc7-bb59-460a-8ad4-d0b7f299834b")
-		(property "Reference" "#PWR040"
-			(at 182.88 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 140.9699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ea61de9-dce8-447b-9405-a1187f349300")
-		)
-		(instances
-			(project "HYDRA_VMM3_CARD"
-				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IPEX:20449-001E-03")
-		(at 191.77 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7327fd65-11c9-4156-96b0-d18daac97d8e")
-		(property "Reference" "SCL1"
-			(at 198.12 146.3039 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20449-001E-03"
-			(at 198.12 148.8439 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IPEX:IPEX_20449-001E-03"
-			(at 191.77 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "I-PEX"
-			(at 191.77 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n1 POS Vertical SMD Small form factor with big performance through 6 GHz connector, RF, micro-coaxial MHF 4 Receptacle\n"
-			(at 191.77 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 191.77 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 191.77 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/20449-001E-03/I-PEX/view-part/?ref=eda"
-			(at 191.77 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "5"
-			(at 191.77 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/20449-001E-03/I-PEX/view-part/?ref=snap"
-			(at 191.77 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "20449-001E-03"
-			(at 191.77 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3220640&manufacturer=I-PEX&part_name=20449-001E-03&search_term=ipex"
-			(at 191.77 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 191.77 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDART" "Manufacturer Recomendations"
-			(at 191.77 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a2bfb3a1-20ce-4433-bb20-d6370f744c90")
-		)
-		(pin "1"
-			(uuid "8bb7fb67-aa80-44be-a13d-df662deafc5d")
-		)
-		(pin "2"
-			(uuid "7a72da34-c40c-4088-88e1-8fa07c5ad626")
-		)
-		(pin "3"
-			(uuid "0edb699a-d993-4001-8973-c1e65e980ca2")
-		)
-		(instances
-			(project "HYDRA_VMM3_CARD"
-				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887"
-					(reference "SCL1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 162.56 33.02 0)
+		(at 172.72 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15900,7 +15902,7 @@
 		(fields_autoplaced yes)
 		(uuid "73656912-34c8-4ad1-a162-c8abed9908c3")
 		(property "Reference" "R2"
-			(at 165.1 31.7499 0)
+			(at 175.26 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15909,7 +15911,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 165.1 34.2899 0)
+			(at 175.26 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15918,7 +15920,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 160.782 33.02 90)
+			(at 170.942 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15927,7 +15929,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 33.02 0)
+			(at 172.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15936,7 +15938,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 33.02 0)
+			(at 172.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15954,193 +15956,6 @@
 			(project "HYDRA_VMM3_CARD"
 				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IPEX:20449-001E-03")
-		(at 191.77 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a768ff0-834e-4fa2-abdc-661f4a40a72c")
-		(property "Reference" "Sig_out1"
-			(at 198.12 174.2439 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20449-001E-03"
-			(at 198.12 176.7839 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IPEX:IPEX_20449-001E-03"
-			(at 191.77 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "I-PEX"
-			(at 191.77 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n1 POS Vertical SMD Small form factor with big performance through 6 GHz connector, RF, micro-coaxial MHF 4 Receptacle\n"
-			(at 191.77 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 191.77 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 191.77 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/20449-001E-03/I-PEX/view-part/?ref=eda"
-			(at 191.77 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "5"
-			(at 191.77 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/20449-001E-03/I-PEX/view-part/?ref=snap"
-			(at 191.77 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "20449-001E-03"
-			(at 191.77 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3220640&manufacturer=I-PEX&part_name=20449-001E-03&search_term=ipex"
-			(at 191.77 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 191.77 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDART" "Manufacturer Recomendations"
-			(at 191.77 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "ce2382d9-02f1-4e2a-8378-a5d682fea40e")
-		)
-		(pin "1"
-			(uuid "83661127-3b58-4302-bf36-723fe26a8007")
-		)
-		(pin "2"
-			(uuid "259cd6b2-020d-43ad-9943-89d4e4d0d32a")
-		)
-		(pin "3"
-			(uuid "2767cf33-3bef-4853-889c-b83e5de956be")
-		)
-		(instances
-			(project "HYDRA_VMM3_CARD"
-				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887"
-					(reference "Sig_out1")
 					(unit 1)
 				)
 			)
@@ -16215,7 +16030,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 130.81 25.4 90)
+		(at 142.24 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16224,7 +16039,7 @@
 		(fields_autoplaced yes)
 		(uuid "8842a260-4845-4be2-a50e-69db1b18682c")
 		(property "Reference" "3.3V_On1"
-			(at 134.62 25.7174 90)
+			(at 146.05 26.9874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16233,7 +16048,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 134.62 28.2574 90)
+			(at 146.05 29.5274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16242,7 +16057,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 130.81 25.4 0)
+			(at 142.24 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16251,7 +16066,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 25.4 0)
+			(at 142.24 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16260,7 +16075,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 130.81 25.4 0)
+			(at 142.24 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16471,260 +16286,6 @@
 		)
 	)
 	(symbol
-		(lib_id "IPEX:20449-001E-03")
-		(at 191.77 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e9c9813-fae2-421f-9426-26f6291ab167")
-		(property "Reference" "I2C_VCC1"
-			(at 198.12 127.2539 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20449-001E-03"
-			(at 198.12 129.7939 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IPEX:IPEX_20449-001E-03"
-			(at 191.77 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "I-PEX"
-			(at 191.77 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n1 POS Vertical SMD Small form factor with big performance through 6 GHz connector, RF, micro-coaxial MHF 4 Receptacle\n"
-			(at 191.77 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 191.77 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 191.77 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/20449-001E-03/I-PEX/view-part/?ref=eda"
-			(at 191.77 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "5"
-			(at 191.77 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/20449-001E-03/I-PEX/view-part/?ref=snap"
-			(at 191.77 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "20449-001E-03"
-			(at 191.77 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3220640&manufacturer=I-PEX&part_name=20449-001E-03&search_term=ipex"
-			(at 191.77 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 191.77 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDART" "Manufacturer Recomendations"
-			(at 191.77 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "9f41c99b-b578-4edb-8add-de45d70a2cb1")
-		)
-		(pin "1"
-			(uuid "d3bd19f4-9c50-40a0-b012-900f75d7b880")
-		)
-		(pin "2"
-			(uuid "4027ba62-1189-4668-b217-9b745c6745d3")
-		)
-		(pin "3"
-			(uuid "094471dc-512d-4f48-ac42-79c8fdad3752")
-		)
-		(instances
-			(project "HYDRA_VMM3_CARD"
-				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887"
-					(reference "I2C_VCC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 168.91 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a1dfb42-d4ac-4bde-ae54-32f89471fd47")
-		(property "Reference" "#PWR039"
-			(at 182.88 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 168.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8060317-6e3b-4a5d-ba44-3898b63f1cd2")
-		)
-		(instances
-			(project "HYDRA_VMM3_CARD"
-				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 215.9 58.42 270)
 		(unit 1)
@@ -16868,193 +16429,6 @@
 		)
 	)
 	(symbol
-		(lib_id "IPEX:20449-001E-03")
-		(at 191.77 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5c0051f-5c2b-439d-a62a-cbaba5115f48")
-		(property "Reference" "Sig_GND1"
-			(at 198.12 155.1939 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20449-001E-03"
-			(at 198.12 157.7339 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IPEX:IPEX_20449-001E-03"
-			(at 191.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "I-PEX"
-			(at 191.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n1 POS Vertical SMD Small form factor with big performance through 6 GHz connector, RF, micro-coaxial MHF 4 Receptacle\n"
-			(at 191.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 191.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 191.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/20449-001E-03/I-PEX/view-part/?ref=eda"
-			(at 191.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "5"
-			(at 191.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/20449-001E-03/I-PEX/view-part/?ref=snap"
-			(at 191.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "20449-001E-03"
-			(at 191.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3220640&manufacturer=I-PEX&part_name=20449-001E-03&search_term=ipex"
-			(at 191.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 191.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDART" "Manufacturer Recomendations"
-			(at 191.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "72b1883d-5dba-47b5-8742-c468f5e1acb4")
-		)
-		(pin "1"
-			(uuid "73eebf03-29f9-4321-8694-ab2cf3efca06")
-		)
-		(pin "2"
-			(uuid "9ac9192b-512c-4b94-915e-f07aed0f8dd7")
-		)
-		(pin "3"
-			(uuid "428191b7-4d4e-46bc-8361-f509d1372891")
-		)
-		(instances
-			(project "HYDRA_VMM3_CARD"
-				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887"
-					(reference "Sig_GND1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 67.31 71.12 90)
 		(mirror x)
@@ -17116,73 +16490,6 @@
 			(project "HYDRA_VMM3_CARD"
 				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 149.86 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b732a8b6-3b3b-415d-97b9-3783761a2c70")
-		(property "Reference" "#PWR037"
-			(at 182.88 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa6e2556-c999-44f5-8c82-f80b0f6da6df")
-		)
-		(instances
-			(project "HYDRA_VMM3_CARD"
-				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -17789,193 +17096,6 @@
 		)
 	)
 	(symbol
-		(lib_id "IPEX:20449-001E-03")
-		(at 191.77 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c07e437b-7a5c-443b-a7d1-b470f532b93f")
-		(property "Reference" "Sig_in1"
-			(at 198.12 165.3539 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20449-001E-03"
-			(at 198.12 167.8939 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IPEX:IPEX_20449-001E-03"
-			(at 191.77 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "I-PEX"
-			(at 191.77 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n1 POS Vertical SMD Small form factor with big performance through 6 GHz connector, RF, micro-coaxial MHF 4 Receptacle\n"
-			(at 191.77 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 191.77 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 191.77 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/20449-001E-03/I-PEX/view-part/?ref=eda"
-			(at 191.77 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "5"
-			(at 191.77 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/20449-001E-03/I-PEX/view-part/?ref=snap"
-			(at 191.77 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "20449-001E-03"
-			(at 191.77 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3220640&manufacturer=I-PEX&part_name=20449-001E-03&search_term=ipex"
-			(at 191.77 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 191.77 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDART" "Manufacturer Recomendations"
-			(at 191.77 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "752c4cc4-5ab1-4688-8388-d4d3ca531f46")
-		)
-		(pin "1"
-			(uuid "402afbaf-67ec-46bc-9155-1a45b314e990")
-		)
-		(pin "2"
-			(uuid "c3b514ab-3a79-43f7-9338-e86af404c5da")
-		)
-		(pin "3"
-			(uuid "91c77e48-b9fc-49f5-9ec5-42d791d7d010")
-		)
-		(instances
-			(project "HYDRA_VMM3_CARD"
-				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887"
-					(reference "Sig_in1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 195.58 21.59 270)
 		(unit 1)
@@ -18037,73 +17157,6 @@
 			(project "HYDRA_VMM3_CARD"
 				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 158.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3397ca3-0446-4a06-a523-38d2bf99313a")
-		(property "Reference" "#PWR038"
-			(at 182.88 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 158.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17c89bc3-e009-4bed-8252-6adfa91a4267")
-		)
-		(instances
-			(project "HYDRA_VMM3_CARD"
-				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -18312,7 +17365,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 142.24 21.59 270)
+		(at 143.51 21.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18321,7 +17374,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb1f0494-0a22-419d-83f8-0ad954e8edf9")
 		(property "Reference" "3.3V1"
-			(at 147.32 20.3199 90)
+			(at 148.59 20.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18330,7 +17383,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 147.32 22.8599 90)
+			(at 148.59 22.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18339,7 +17392,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 142.24 26.67 0)
+			(at 143.51 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18348,7 +17401,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 26.67 0)
+			(at 143.51 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18357,7 +17410,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 142.24 21.59 0)
+			(at 143.51 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18978,6 +18031,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 125.73 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "debfc622-5bdb-4411-99b5-6386d469610d")
+		(property "Reference" "#PWR027"
+			(at 132.08 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 209.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cd715be-f8cf-408e-bf59-9cd159112db0")
+		)
+		(instances
+			(project "HYDRA_VMM3_CARD"
+				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 195.58 21.59 270)
 		(unit 1)
@@ -19046,7 +18166,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 130.81 33.02 0)
+		(at 142.24 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19055,7 +18175,7 @@
 		(fields_autoplaced yes)
 		(uuid "e93138e7-b1b7-4ae9-a418-2ed13aaa4caa")
 		(property "Reference" "R1"
-			(at 133.35 31.7499 0)
+			(at 144.78 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19064,7 +18184,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 133.35 34.2899 0)
+			(at 144.78 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19073,7 +18193,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 129.032 33.02 90)
+			(at 140.462 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19082,7 +18202,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 33.02 0)
+			(at 142.24 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19091,7 +18211,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 130.81 33.02 0)
+			(at 142.24 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19116,7 +18236,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 36.83 0)
+		(at 172.72 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19125,7 +18245,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5fb3db9-192e-4f49-9ee7-d61e0deceff4")
 		(property "Reference" "#PWR021"
-			(at 162.56 43.18 0)
+			(at 172.72 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19134,7 +18254,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 41.91 0)
+			(at 172.72 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19142,7 +18262,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 36.83 0)
+			(at 172.72 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19151,7 +18271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 36.83 0)
+			(at 172.72 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19160,7 +18280,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 36.83 0)
+			(at 172.72 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19242,73 +18362,6 @@
 			(project "HYDRA_VMM3_CARD"
 				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 130.81 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd33b391-a03b-4010-bc03-a5e0e28f3bd6")
-		(property "Reference" "#PWR035"
-			(at 182.88 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 130.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c83ff7c-e29c-4fe2-a1e9-565a049704db")
-		)
-		(instances
-			(project "HYDRA_VMM3_CARD"
-				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
