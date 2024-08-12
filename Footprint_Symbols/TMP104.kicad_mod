@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -2 -4.25 0)
+		(at 0 -1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "344b3e6c-e7ef-468b-b2ca-14c13c6f14d9")
@@ -79,16 +79,17 @@
 		(layer "F.SilkS")
 		(uuid "47ac970a-7db6-4ad2-9679-27b466f2b96a")
 	)
-	(fp_circle
-		(center 1 0.4)
-		(end 1.2 0.4)
+	(fp_poly
+		(pts
+			(xy 0.85 0.285) (xy 0.71 0.43) (xy 0.85 0.57)
+		)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "c5af19f7-06cb-4eb4-b8be-e9b4c653414a")
+		(uuid "ce23c081-2f3e-47a1-84d6-b66de986d220")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
@@ -104,29 +105,29 @@
 	)
 	(pad "1" smd circle
 		(at 0.2 0.2)
-		(size 0.15 0.15)
+		(size 0.25 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "ccf73f75-69b9-489f-9013-3313124fa512")
 	)
 	(pad "2" smd circle
 		(at -0.2 0.2)
-		(size 0.15 0.15)
+		(size 0.25 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "879e4047-ecc6-4510-b6ef-6a4afb8f4b27")
 	)
 	(pad "3" smd circle
 		(at 0.2 -0.2)
-		(size 0.15 0.15)
+		(size 0.25 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "60e91567-85ad-4937-9676-15c445e221b2")
 	)
 	(pad "4" smd circle
 		(at -0.2 -0.2)
-		(size 0.15 0.15)
+		(size 0.25 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "7e12c769-24c3-4ee7-89b4-6ddb0e55c57b")
 	)
-	(model "${POJEC_PATH}/Git/HYDRA_VMM3_Adapter/STEP/TMP104YFFR--3DModel-STEP-56544.STEP"
+	(model "${PROJEC_PATH}/Git/HYDRA_VMM3_Adapter/Footprint_Symbols/TMP104YFFT.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -52,7 +52,7 @@
 		(symbol "TPC_Pinreadout_16x44_0_1"
 			(rectangle
 				(start 0 173.99)
-				(end 307.34 0)
+				(end 306.07 0)
 				(stroke
 					(width 0)
 					(type default)
