@@ -1,0 +1,5 @@
+LTspice 24.0.11 for Windows
+Circuit: * C:\Users\alex_\Documents\IKP\HYDRA\VMM3Adapter_FCI_CARD\KiCAD\Git\HYDRA_VMM3_Adapter\LTSpice\Draft1.asc
+Start Time: Mon Aug 26 15:36:41 2024
+Fatal Error: Unknown subcircuit called in:
+   xu1 nc_03 nc_04 nc_05 nc_06 nc_07 op492
