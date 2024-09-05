@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "TMP104"
+	(property "Value" "TMP104YFFR"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" "TMP104"
+	(property "Footprint" "TMP104YFFR"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

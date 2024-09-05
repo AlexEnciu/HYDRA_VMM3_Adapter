@@ -13406,7 +13406,7 @@
 		(symbol "TPS75918KTTT_0_1"
 			(rectangle
 				(start -10.16 -1.27)
-				(end 10.16 -10.16)
+				(end 10.16 -13.97)
 				(stroke
 					(width 0)
 					(type default)
@@ -13436,7 +13436,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -8.89 0)
+				(at -12.7 -12.7 0)
 				(length 2.54)
 				(name "In"
 					(effects
@@ -13454,7 +13454,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -12.7 90)
+				(at 0 -16.51 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -13490,7 +13490,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -8.89 180)
+				(at 12.7 -12.7 180)
 				(length 2.54)
 				(name "/PG"
 					(effects
