@@ -1,6 +1,13 @@
-from machine import Pin, UART
+from machine import Pin, UART,PWM
 import time
 
+
+pwm_pin = Pin(2)  # GPIO2
+pwm = PWM(pwm_pin)
+
+# Set the PWM frequency to a suitable value (e.g., 100 kHz)
+pwm.freq(4800)
+pwm.duty_u16(32767)
 # Configure UART with 9600 baud rate
 uart = UART(0, baudrate=9600, tx=Pin(0), rx=Pin(1))
 sensor_nr=2
