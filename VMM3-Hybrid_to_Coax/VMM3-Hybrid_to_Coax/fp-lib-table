@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Hirose-FX10")(type "KiCad")(uri "${PROJEC_PATH}/Git/HYDRA_VMM3_Adapter/Footprint_Symbols/Card_Edge_Connector_FCI.pretty")(options "")(descr ""))
+)
