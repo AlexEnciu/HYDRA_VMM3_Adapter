@@ -1,13 +1,23 @@
 LTspice 24.0.11 for Windows
 Circuit: * C:\Users\alex_\Documents\IKP\HYDRA\VMM3Adapter_FCI_CARD\KiCAD\Git\HYDRA_VMM3_Adapter\LTSpice\Draft1.asc
-Start Time: Thu Oct 10 13:45:45 2024
+Start Time: Wed Nov  6 12:32:20 2024
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
 solver = Normal
 Maximum thread count: 20
 tnom = 27
 temp = 27
 method = modified trap
-Limiting rise time of source v1 to 0.005
-Limiting fall time of source v1 to 0.005
+Limiting rise time of source v§gpio_pwm to 2e-07
+Limiting fall time of source v§gpio_pwm to 2e-07
+Limiting rise time of source v§gpio_pwm1 to 1e-06
+Limiting fall time of source v§gpio_pwm1 to 1e-06
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 0.040 seconds.
+Heightened Def Con from 0.100291 to 0.100291
+Heightened Def Con from 0.101911 to 0.101911
+Heightened Def Con from 0.141511 to 0.141511
+Heightened Def Con from 0.180751 to 0.180751
+Total elapsed time: 9.705 seconds.
 
