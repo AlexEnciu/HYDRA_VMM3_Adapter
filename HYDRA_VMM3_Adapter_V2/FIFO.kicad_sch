@@ -1486,7 +1486,7 @@
 			)
 		)
 	)
-	(global_label "Master_Trigg_A"
+	(global_label "Master_Trigg_B"
 		(shape output)
 		(at 231.14 68.58 0)
 		(fields_autoplaced yes)
@@ -1498,7 +1498,7 @@
 		)
 		(uuid "0c61a969-527a-4d51-8098-66cc003dd023")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.0346 68.58 0)
+			(at 248.216 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1508,7 +1508,7 @@
 			)
 		)
 	)
-	(global_label "Heimtime_A"
+	(global_label "Heimtime_B"
 		(shape output)
 		(at 233.68 104.14 0)
 		(fields_autoplaced yes)
@@ -1520,7 +1520,7 @@
 		)
 		(uuid "0d3024aa-243a-4a5d-b705-668c8831cef2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.551 104.14 0)
+			(at 247.7324 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,7 +1530,7 @@
 			)
 		)
 	)
-	(global_label "P1A"
+	(global_label "P1B"
 		(shape input)
 		(at 209.55 109.22 0)
 		(fields_autoplaced yes)
@@ -1542,7 +1542,7 @@
 		)
 		(uuid "10544ca2-6289-4b76-8b9a-c430099c03fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.1033 109.22 0)
+			(at 216.2847 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,7 +1552,7 @@
 			)
 		)
 	)
-	(global_label "Heimtime_A_In"
+	(global_label "Heimtime_B_In"
 		(shape input)
 		(at 167.64 104.14 180)
 		(fields_autoplaced yes)
@@ -1564,7 +1564,7 @@
 		)
 		(uuid "1db11b93-cc94-4f26-82bb-4e31688897cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.0476 104.14 0)
+			(at 150.8662 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1596,7 +1596,7 @@
 			)
 		)
 	)
-	(global_label "P1A"
+	(global_label "P1B"
 		(shape input)
 		(at 207.01 76.2 0)
 		(fields_autoplaced yes)
@@ -1608,7 +1608,7 @@
 		)
 		(uuid "21cf630b-4fe9-48c8-ad9b-a845bbd5538f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.5633 76.2 0)
+			(at 213.7447 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,7 +1618,7 @@
 			)
 		)
 	)
-	(global_label "P1A"
+	(global_label "P1B"
 		(shape input)
 		(at 184.15 101.6 180)
 		(fields_autoplaced yes)
@@ -1630,7 +1630,7 @@
 		)
 		(uuid "2401b809-8666-424b-ac7c-b0d476fb63f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.5967 101.6 0)
+			(at 177.4153 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +1684,7 @@
 			)
 		)
 	)
-	(global_label "Heimtime_A"
+	(global_label "Heimtime_B"
 		(shape output)
 		(at 233.68 101.6 0)
 		(fields_autoplaced yes)
@@ -1696,7 +1696,7 @@
 		)
 		(uuid "457f7f1b-0851-40af-afad-30c6903f6a48")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.551 101.6 0)
+			(at 247.7324 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +1750,7 @@
 			)
 		)
 	)
-	(global_label "Master_Trigg_A"
+	(global_label "Master_Trigg_B"
 		(shape output)
 		(at 231.14 71.12 0)
 		(fields_autoplaced yes)
@@ -1762,7 +1762,7 @@
 		)
 		(uuid "48c2c906-6a72-4fde-851f-30b6c286c14d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.0346 71.12 0)
+			(at 248.216 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1772,7 +1772,7 @@
 			)
 		)
 	)
-	(global_label "P1A"
+	(global_label "P1B"
 		(shape input)
 		(at 184.15 57.15 180)
 		(fields_autoplaced yes)
@@ -1784,7 +1784,7 @@
 		)
 		(uuid "4c2831ca-397c-435c-a349-a49220bab6b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.5967 57.15 0)
+			(at 177.4153 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,7 +1794,7 @@
 			)
 		)
 	)
-	(global_label "P1A"
+	(global_label "P1B"
 		(shape input)
 		(at 180.34 93.98 180)
 		(fields_autoplaced yes)
@@ -1806,7 +1806,7 @@
 		)
 		(uuid "51df32bb-a884-4912-b6d5-095242a54e1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.7867 93.98 0)
+			(at 173.6053 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,7 +1904,7 @@
 			)
 		)
 	)
-	(global_label "P1A"
+	(global_label "P1B"
 		(shape input)
 		(at 181.61 68.58 180)
 		(fields_autoplaced yes)
@@ -1916,7 +1916,7 @@
 		)
 		(uuid "7d6d49a9-f5c7-4dad-8a47-bf70aaa30a90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.0567 68.58 0)
+			(at 174.8753 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,7 +1948,7 @@
 			)
 		)
 	)
-	(global_label "P1A"
+	(global_label "P1B"
 		(shape input)
 		(at 181.61 76.2 180)
 		(fields_autoplaced yes)
@@ -1960,7 +1960,7 @@
 		)
 		(uuid "82b88000-e35e-4ef2-ab0a-98ce1771ace1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.0567 76.2 0)
+			(at 174.8753 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +1970,7 @@
 			)
 		)
 	)
-	(global_label "Master_Trigg_A_In"
+	(global_label "Master_Trigg_B_In"
 		(shape input)
 		(at 165.1 71.12 180)
 		(fields_autoplaced yes)
@@ -1982,7 +1982,7 @@
 		)
 		(uuid "909e006e-d0c1-4e3e-b69a-27d818348fd2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.484 71.12 0)
+			(at 145.3026 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,7 +1992,7 @@
 			)
 		)
 	)
-	(global_label "P1A"
+	(global_label "P1B"
 		(shape input)
 		(at 207.01 73.66 0)
 		(fields_autoplaced yes)
@@ -2004,7 +2004,7 @@
 		)
 		(uuid "a3e45538-aa57-47a9-91d9-937e4493b161")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.5633 73.66 0)
+			(at 213.7447 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2014,7 +2014,7 @@
 			)
 		)
 	)
-	(global_label "P1A"
+	(global_label "P1B"
 		(shape input)
 		(at 209.55 106.68 0)
 		(fields_autoplaced yes)
@@ -2026,7 +2026,7 @@
 		)
 		(uuid "a73b56d0-28d0-4b79-b1d8-5cd27011bfc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.1033 106.68 0)
+			(at 216.2847 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,7 +2058,7 @@
 			)
 		)
 	)
-	(global_label "Heimtime_A"
+	(global_label "Heimtime_B"
 		(shape output)
 		(at 233.68 99.06 0)
 		(fields_autoplaced yes)
@@ -2070,7 +2070,7 @@
 		)
 		(uuid "aaf50f09-e25a-4ab5-87d2-688117a199ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.551 99.06 0)
+			(at 247.7324 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +2124,7 @@
 			)
 		)
 	)
-	(global_label "P1A"
+	(global_label "P1B"
 		(shape input)
 		(at 184.15 109.22 180)
 		(fields_autoplaced yes)
@@ -2136,7 +2136,7 @@
 		)
 		(uuid "be2c71c0-f25e-41f4-90f3-ff68f09aedc4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.5967 109.22 0)
+			(at 177.4153 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,7 +2234,7 @@
 			)
 		)
 	)
-	(global_label "Master_Trigg_A"
+	(global_label "Master_Trigg_B"
 		(shape output)
 		(at 231.14 66.04 0)
 		(fields_autoplaced yes)
@@ -2246,7 +2246,7 @@
 		)
 		(uuid "f2bcd411-53df-4227-89d5-2d0f3decdef0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.0346 66.04 0)
+			(at 248.216 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)

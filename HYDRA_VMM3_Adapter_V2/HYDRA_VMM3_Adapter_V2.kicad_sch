@@ -10985,22 +10985,22 @@
 	)
 	(global_label "Col_40-Row_15"
 		(shape input)
-		(at 260.35 67.31 0)
+		(at 260.35 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "38dffc1e-ebed-40e7-b6a7-da8b2607fadb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.5145 67.31 0)
+			(at 242.1855 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12189,6 +12189,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Heimtime_B_In"
+		(shape input)
+		(at 171.45 241.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a586438-b23d-4cdb-b696-d8e7bf08d04d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.2238 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -14653,6 +14675,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Master_Trigg_B_In"
+		(shape input)
+		(at 215.9 241.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7458f4a8-7563-4848-b00b-ec81089137fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.6974 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
