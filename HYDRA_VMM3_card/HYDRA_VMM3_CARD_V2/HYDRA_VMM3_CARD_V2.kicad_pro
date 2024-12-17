@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 35.0,
-          "width": 18.0
+          "height": 0.55,
+          "width": 0.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -212,6 +212,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.35,
+          "drill": 0.15
         },
         {
           "diameter": 0.4,
@@ -435,7 +439,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -476,7 +480,13 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "GND": "rgb(69, 51, 255)",
+      "P1": "rgb(255, 54, 189)",
+      "P1_Out": "rgb(255, 54, 189)",
+      "P2": "rgb(255, 202, 28)",
+      "P2_Out": "rgb(255, 202, 28)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
