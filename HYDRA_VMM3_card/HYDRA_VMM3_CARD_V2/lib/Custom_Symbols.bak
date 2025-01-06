@@ -118,6 +118,24 @@
 				)
 			)
 			(pin input line
+				(at -1.27 -22.86 90)
+				(length 6.35)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "CLK_OUT1"
@@ -128,6 +146,24 @@
 					)
 				)
 				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 -22.86 90)
+				(length 6.35)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -181,7 +217,7 @@
 						)
 					)
 				)
-				(number "2,7,12"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -199,7 +235,7 @@
 						)
 					)
 				)
-				(number "3,9,14,21"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -262,6 +298,24 @@
 				)
 			)
 			(pin input line
+				(at -1.27 -22.86 90)
+				(length 6.35)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at 12.7 -10.16 180)
 				(length 2.54)
 				(name "CLK_OUT4"
@@ -272,6 +326,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 -22.86 90)
+				(length 6.35)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
