@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.55,
-          "width": 0.6
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -607,6 +607,14 @@
     [
       "5cc5fa4e-32d4-4542-92e2-2ba1c177d887",
       "Root"
+    ],
+    [
+      "7a0c3721-c63c-4060-847a-9d31f95c66e3",
+      "Master_trigg"
+    ],
+    [
+      "e719c1b8-dc56-418d-8a0a-d85a3ab921ba",
+      "Heimtime"
     ]
   ],
   "text_variables": {}

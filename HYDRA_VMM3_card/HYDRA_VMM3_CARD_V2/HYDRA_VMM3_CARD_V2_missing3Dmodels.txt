@@ -1,9 +1,10 @@
-### Missing 3D models - created on 2024-12-16 16:48
+### Missing 3D models - created on 2025-01-02 13:28
 ### Printed by checking_3D_models plugin
-Board file: C:\Users\alex_\Documents\IKP\HYDRA\VMM3Adapter_FCI_CARD\KiCAD\Git\HYDRA_VMM3_Adapter\HYDRA_VMM3_card\HYDRA_VMM3_CARD_V2\HYDRA_VMM3_CARD_V2.kicad_pcb
+Board file: C:\Users\alex_\Documents\IKP\HYDRA\HYDRA_VMM3_Adapter\HYDRA_VMM3_card\HYDRA_VMM3_CARD_V2\HYDRA_VMM3_CARD_V2.kicad_pcb
 3D missing models written to:
-C:\Users\alex_\Documents\IKP\HYDRA\VMM3Adapter_FCI_CARD\KiCAD\Git\HYDRA_VMM3_Adapter\HYDRA_VMM3_card\HYDRA_VMM3_CARD_V2\HYDRA_VMM3_CARD_V2_missing3Dmodels.txt
+C:\Users\alex_\Documents\IKP\HYDRA\HYDRA_VMM3_Adapter\HYDRA_VMM3_card\HYDRA_VMM3_CARD_V2\HYDRA_VMM3_CARD_V2_missing3Dmodels.txt
 -------
+('Temp_1', '${PROJEC_PATH}/Git/HYDRA_VMM3_Adapter/STEP/TMP104YFFR--3DModel-STEP-56544.STEP')
 -------
-NUM of 3D missing models:0
+NUM of 3D missing models:1
 checked extensions ['.stp', '.step', '.stpZ']
