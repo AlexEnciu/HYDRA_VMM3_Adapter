@@ -7830,7 +7830,7 @@
 			(at 0 -2.3 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "e015828a-722a-43cd-931f-3a6bf14f9da6")
+			(uuid "845ca90f-a3f6-4379-b2f9-a4df7dddaed0")
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -7843,7 +7843,7 @@
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "e148dd1b-1a16-4b43-8118-c8980fbd69e6")
+			(uuid "f4652e3b-ae04-4428-866b-7fc59d1f5e2d")
 			(effects
 				(font
 					(size 1 1)
@@ -7856,7 +7856,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc5c280a-3ba8-465f-b0a7-93e7e8a7f7eb")
+			(uuid "441e6286-92eb-43f5-b4db-53bb96fc1c38")
 			(effects
 				(font
 					(size 1 1)
@@ -7869,7 +7869,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9f5e0a6-e8ce-43c7-ad5a-2fa18bacb6e1")
+			(uuid "ce9023da-4019-4e51-9172-d32c06447f04")
 			(effects
 				(font
 					(size 1 1)
@@ -7882,7 +7882,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "32d7ccdc-7edc-458d-897d-e5466765e231")
+			(uuid "b9fa0823-117d-40b8-bead-e080c7567cb2")
 			(effects
 				(font
 					(size 1 1)
@@ -7902,7 +7902,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "9ca27548-8993-4257-aba7-0282bcb583d1")
+			(uuid "c729d772-ae08-4fc5-a074-5b4546b65432")
 		)
 		(fp_line
 			(start -1.25 -0.95)
@@ -7912,7 +7912,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5962eec1-41f1-4248-8123-497a7797d655")
+			(uuid "a963e0eb-75ed-4d16-bd6f-8b3d65552ba4")
 		)
 		(fp_line
 			(start -1.25 1.25)
@@ -7922,7 +7922,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "4a9b697d-c647-4d55-bbcc-f68accca33fa")
+			(uuid "3a64698b-51c3-4593-bdce-87d063bd0a5f")
 		)
 		(fp_line
 			(start -0.95 1.25)
@@ -7932,7 +7932,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "0a0d19ce-3cca-474b-bee5-f5a510cc71d4")
+			(uuid "eba4267d-2165-4e5a-a691-4ebdcd202752")
 		)
 		(fp_line
 			(start 0.95 -1.25)
@@ -7942,7 +7942,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d225d858-d072-4c99-a6bc-6bd293c96736")
+			(uuid "00c7fa37-4138-4684-bd10-5690f0e6c4f6")
 		)
 		(fp_line
 			(start 1.25 -1.25)
@@ -7952,7 +7952,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d05129db-56e3-4464-90ac-c7b0aaaf8cc6")
+			(uuid "4b6d48ee-e112-481d-a693-1dee6a515d4d")
 		)
 		(fp_line
 			(start 1.25 0.95)
@@ -7962,7 +7962,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "7714e9dd-112b-4640-bfcb-2c8f68898cad")
+			(uuid "299a948b-593d-4ca7-b419-88c5eb7d94e5")
 		)
 		(fp_line
 			(start 1.25 1.25)
@@ -7972,13 +7972,13 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "46c175b1-c8f1-4f31-b5df-7fe1894f124d")
+			(uuid "34b852c1-c484-47bd-87ac-e71b9b004425")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "58728115-419d-4720-a037-6e5971ef6507")
+			(uuid "9fb845d7-7339-477a-8020-bfcaddff56d1")
 			(effects
 				(font
 					(size 1 1)
@@ -7997,7 +7997,7 @@
 			(pinfunction "OE_2")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "4f2b1812-ff13-48e6-be15-ce96cbf074b4")
+			(uuid "72d58483-8c0f-4cbc-ab0b-4c675215b535")
 		)
 		(pad "2" smd rect
 			(at -1.125 -0.2 90)
@@ -8007,7 +8007,7 @@
 			(pinfunction "VDD")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "f635acc1-447d-415f-aea2-6b63fd6cebc3")
+			(uuid "98ac8878-76cd-4d46-83af-b97e18c22e16")
 		)
 		(pad "3" smd rect
 			(at -1.125 0.2 90)
@@ -8017,7 +8017,7 @@
 			(pinfunction "GND")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "3cca8af9-085b-428e-bb15-a0a01e1ac5a2")
+			(uuid "912d1b15-1aed-4888-8cc7-71023b4a916b")
 		)
 		(pad "4" smd rect
 			(at -1.125 0.6 90)
@@ -8027,7 +8027,7 @@
 			(pinfunction "OE_3")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "4c5fa9e1-0013-4764-810d-307f33e4840b")
+			(uuid "e8405d11-3465-4d70-a8a8-35ab0ccc710c")
 		)
 		(pad "5" smd rect
 			(at -0.6 1.125 180)
@@ -8037,7 +8037,7 @@
 			(pinfunction "OE_4")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "fe9482ce-5d8e-4b70-9928-b57f146884c8")
+			(uuid "ef851573-65e7-4e42-a2c9-1580c080ec6a")
 		)
 		(pad "6" smd rect
 			(at -0.2 1.125 180)
@@ -8047,7 +8047,7 @@
 			(pinfunction "OE_OSC")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "26b3169a-66e4-48b8-b747-19856e196e80")
+			(uuid "aea266a4-e505-46cf-8cba-52f5b3546a38")
 		)
 		(pad "7" smd rect
 			(at 0.2 1.125 180)
@@ -8057,7 +8057,7 @@
 			(pinfunction "VDD")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "e12ee20a-b7e5-4620-a854-651623af5152")
+			(uuid "68abc8b6-bbf6-43bd-8be9-a2e8b1338a10")
 		)
 		(pad "8" smd rect
 			(at 0.6 1.125 180)
@@ -8067,7 +8067,7 @@
 			(pinfunction "CLK_OUT4")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "3dbcccd9-7edb-4f67-9c3e-bd1f6e63f605")
+			(uuid "9d4a39ad-791a-43ae-8bd9-c1f7cca67986")
 		)
 		(pad "9" smd rect
 			(at 1.125 0.6 270)
@@ -8077,7 +8077,7 @@
 			(pinfunction "GND")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "58aca556-8148-45b7-a8af-f856e3ede006")
+			(uuid "330735c5-651e-43cb-8963-99a19bdda7da")
 		)
 		(pad "10" smd rect
 			(at 1.125 0.2 270)
@@ -8087,7 +8087,7 @@
 			(pinfunction "CLK_OUT3")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "e16001b1-baab-4868-8d31-ebcec1e3c1d6")
+			(uuid "80e07f8b-cf37-44b0-80b9-a2f4efdda6a5")
 		)
 		(pad "11" smd rect
 			(at 1.125 -0.2 270)
@@ -8097,7 +8097,7 @@
 			(pinfunction "CLK_OUT2")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "747e84d4-e30b-44be-9e3f-f8584af20dae")
+			(uuid "65d599ec-7ea3-48e4-9b67-4a6d36c69ccf")
 		)
 		(pad "12" smd rect
 			(at 1.125 -0.6 270)
@@ -8107,7 +8107,7 @@
 			(pinfunction "VDD")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "f022c1c6-9d3a-44b5-9ea2-445214a6afef")
+			(uuid "a6665b78-f480-46d8-856a-79de913557a4")
 		)
 		(pad "13" smd rect
 			(at 0.6 -1.125)
@@ -8117,7 +8117,7 @@
 			(pinfunction "CLK_OUT1")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "8e4b2a2e-3e68-4a99-a850-bf99266e0cf4")
+			(uuid "34e4b2e7-2f62-4d5a-868f-ddd06d26f94b")
 		)
 		(pad "14" smd rect
 			(at 0.2 -1.125)
@@ -8127,7 +8127,7 @@
 			(pinfunction "GND")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "34f73a41-452f-4bed-ac25-77b35c6e224f")
+			(uuid "5bfe535a-ac2f-4d34-ab58-6460632c2dd5")
 		)
 		(pad "15" smd rect
 			(at -0.2 -1.125)
@@ -8137,7 +8137,7 @@
 			(pinfunction "CLK_IN")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "43e76ed0-1279-4af1-afd3-90a86879a4aa")
+			(uuid "dc407faa-4a80-42d8-a93a-182b929d6fa3")
 		)
 		(pad "16" smd rect
 			(at -0.6 -1.125)
@@ -8147,7 +8147,18 @@
 			(pinfunction "OE_1")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "e27a7b19-6fce-4c50-a1a4-a1ff2d0c2355")
+			(uuid "19280eed-d8d8-4a49-8d71-efc72f6068a7")
+		)
+		(model "${CARD_V2}/STEP/5PB1214CMGK8_4pin.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Resistor_SMD:R_0201_0603Metric"
@@ -9296,7 +9307,7 @@
 			(at 0 -2.3 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "b538fbc0-1e1c-4fa2-8a67-50c6fb55e272")
+			(uuid "73797caf-95a8-42ca-98ee-12745ac6834c")
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -9309,7 +9320,7 @@
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "2f02c02b-eb0e-427b-bcda-3737ad463fa0")
+			(uuid "8ab57e2a-043f-4286-bdd5-b89a3cd6910f")
 			(effects
 				(font
 					(size 1 1)
@@ -9322,7 +9333,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d45e822-a542-4138-b872-4dee588e1eee")
+			(uuid "de2f2034-d1c0-48be-a893-5a005b79a7de")
 			(effects
 				(font
 					(size 1 1)
@@ -9335,7 +9346,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "afdf3db6-4ecb-4a43-affe-a6156a7b2105")
+			(uuid "105b5c24-9aae-4495-857c-b4c8929a37fb")
 			(effects
 				(font
 					(size 1 1)
@@ -9348,7 +9359,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b6c6a87e-0889-437f-ba7f-b3ff349a163d")
+			(uuid "db22a21c-92e1-40dd-8808-3ce3efe66649")
 			(effects
 				(font
 					(size 1 1)
@@ -9368,7 +9379,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5fc9aa5f-9f1c-4591-937f-ff676324b5ae")
+			(uuid "fe5dc589-568b-416e-ba9a-2e125106254a")
 		)
 		(fp_line
 			(start -1.25 -0.95)
@@ -9378,7 +9389,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ea6b843e-6b08-42c1-8a02-56e72e3d2838")
+			(uuid "4fc52348-6557-4797-a14d-e9e1e3015dc6")
 		)
 		(fp_line
 			(start -1.25 1.25)
@@ -9388,7 +9399,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "edd273d3-2757-48fe-af8c-9b63fc7a66c2")
+			(uuid "5bb18de9-aef7-4b5d-bfcd-391e05b2c39f")
 		)
 		(fp_line
 			(start -0.95 1.25)
@@ -9398,7 +9409,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "af3ab9b4-2abf-48d7-845c-98f6a96d391d")
+			(uuid "01d95217-60e1-4125-890b-50e7b381a632")
 		)
 		(fp_line
 			(start 0.95 -1.25)
@@ -9408,7 +9419,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f345a806-a6bc-4d91-a98a-f325342137bf")
+			(uuid "8a7db9af-03bb-41a0-90d7-7e2cafbd6291")
 		)
 		(fp_line
 			(start 1.25 -1.25)
@@ -9418,7 +9429,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "c3bcbc91-25ee-4735-97db-ffe87d3e83b1")
+			(uuid "8eb44be8-a9c8-49d8-8fd1-b46da201fb56")
 		)
 		(fp_line
 			(start 1.25 0.95)
@@ -9428,7 +9439,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d9164723-ea54-4e4e-8ee2-739de2f50592")
+			(uuid "f5ed4777-8892-49ae-989e-aa0675ae606a")
 		)
 		(fp_line
 			(start 1.25 1.25)
@@ -9438,13 +9449,13 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "8fd75e9e-d171-48bd-8108-8f9e9089a89b")
+			(uuid "64993b2d-a0d4-4d5b-8fb6-a359d6bce550")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "6bac96bf-d7ff-4cb0-8ec8-0d8e352deb18")
+			(uuid "5d79aaac-2944-423d-8eb3-aaa3750ab766")
 			(effects
 				(font
 					(size 1 1)
@@ -9463,7 +9474,7 @@
 			(pinfunction "OE_2")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "c3e3aee7-8892-4409-9eb2-b8b07602fa05")
+			(uuid "d834e9e0-6e43-4c26-b366-c76896284d4c")
 		)
 		(pad "2" smd rect
 			(at -1.125 -0.2 90)
@@ -9473,7 +9484,7 @@
 			(pinfunction "VDD")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "c90a7632-9d1f-4f02-a6ba-6d6996ac5a36")
+			(uuid "f0185fff-b68f-4d5c-b422-66991e0f41a3")
 		)
 		(pad "3" smd rect
 			(at -1.125 0.2 90)
@@ -9483,7 +9494,7 @@
 			(pinfunction "GND")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "b88d95af-ec2b-48fc-b0d0-c6f2ef9060ff")
+			(uuid "5f5a5222-52ae-4fba-8b7a-1c2e42026376")
 		)
 		(pad "4" smd rect
 			(at -1.125 0.6 90)
@@ -9493,7 +9504,7 @@
 			(pinfunction "OE_3")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "23493798-529d-4eeb-9dcf-6ce466b1138a")
+			(uuid "784224ad-4411-4fb2-a8f0-cc355185c838")
 		)
 		(pad "5" smd rect
 			(at -0.6 1.125 180)
@@ -9503,7 +9514,7 @@
 			(pinfunction "OE_4")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "a8a24301-5802-4879-848f-86fcc0395182")
+			(uuid "6c544359-0383-4986-8f95-d6b45d3d3287")
 		)
 		(pad "6" smd rect
 			(at -0.2 1.125 180)
@@ -9513,7 +9524,7 @@
 			(pinfunction "OE_OSC")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "2f1bfcb4-68a1-4e94-93e3-1bcb9a8bbec5")
+			(uuid "d8347da8-366e-41a2-b74e-b2f43ce7ed27")
 		)
 		(pad "7" smd rect
 			(at 0.2 1.125 180)
@@ -9523,7 +9534,7 @@
 			(pinfunction "VDD")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "3bf2272f-83a8-4d6f-a62f-7026e11189f5")
+			(uuid "1055df7b-3c05-41fc-bdbf-15c61ca51346")
 		)
 		(pad "8" smd rect
 			(at 0.6 1.125 180)
@@ -9533,7 +9544,7 @@
 			(pinfunction "CLK_OUT4")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "d99d33d4-c030-4801-b547-f2549434eb5b")
+			(uuid "9398bf50-9639-4c5a-bc9f-177a542a2f95")
 		)
 		(pad "9" smd rect
 			(at 1.125 0.6 270)
@@ -9543,7 +9554,7 @@
 			(pinfunction "GND")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "0d09bbd8-0020-4f32-b465-7b6aa1f540ef")
+			(uuid "d78acb41-eff3-488b-9af5-7b12c21883cc")
 		)
 		(pad "10" smd rect
 			(at 1.125 0.2 270)
@@ -9553,7 +9564,7 @@
 			(pinfunction "CLK_OUT3")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "c4f33878-7b1e-4645-9232-37b2e33ed5f7")
+			(uuid "b667b1ae-7fe2-4226-a9b4-110d5d90cdf1")
 		)
 		(pad "11" smd rect
 			(at 1.125 -0.2 270)
@@ -9563,7 +9574,7 @@
 			(pinfunction "CLK_OUT2")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "6cb1f7bc-8a0f-4078-839b-8ea95d585d61")
+			(uuid "2312a56c-a6c0-4b33-adfe-535f601ddbe7")
 		)
 		(pad "12" smd rect
 			(at 1.125 -0.6 270)
@@ -9573,7 +9584,7 @@
 			(pinfunction "VDD")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "75e06f7d-2b00-47fc-a8b6-9d9ba1134b18")
+			(uuid "410b634a-dc50-49be-a0ea-db6bd586a379")
 		)
 		(pad "13" smd rect
 			(at 0.6 -1.125)
@@ -9583,7 +9594,7 @@
 			(pinfunction "CLK_OUT1")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "bb6b5683-ac20-4558-9c08-955a188e24da")
+			(uuid "72a75d27-0a5e-4c1a-a4aa-706d349afd68")
 		)
 		(pad "14" smd rect
 			(at 0.2 -1.125)
@@ -9593,7 +9604,7 @@
 			(pinfunction "GND")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "1004819c-07a5-4678-b666-fc4bec60d187")
+			(uuid "d0e24e51-a48d-40b4-8f31-384bcfef9bd2")
 		)
 		(pad "15" smd rect
 			(at -0.2 -1.125)
@@ -9603,7 +9614,7 @@
 			(pinfunction "CLK_IN")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "c14a55aa-2d2e-4e69-be06-8eb22f11ad19")
+			(uuid "85775d88-8327-40e1-a9f0-bc9422989cd6")
 		)
 		(pad "16" smd rect
 			(at -0.6 -1.125)
@@ -9613,7 +9624,18 @@
 			(pinfunction "OE_1")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "2a744071-a180-48c3-a99f-bf528274942b")
+			(uuid "48d696e4-2a55-4bf7-bfcf-9c04989e167c")
+		)
+		(model "${CARD_V2}/STEP/5PB1214CMGK8_4pin.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Resistor_SMD:R_0201_0603Metric"

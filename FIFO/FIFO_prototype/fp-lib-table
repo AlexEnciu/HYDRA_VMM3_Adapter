@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Clock_Buffers")(type "KiCad")(uri "${FIFO_PROTOTYPE}/FIFO_prototype/lib/Custom_Footprints.pretty")(options "")(descr ""))
+)
