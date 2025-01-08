@@ -1871,7 +1871,7 @@
 		(uuid "255c895b-2d7a-4543-8534-82bf2375f96c")
 	)
 	(junction
-		(at 72.39 46.99)
+		(at 72.39 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32d12ce4-ad9f-4e76-b811-ed980e3579c0")
@@ -1880,7 +1880,7 @@
 		(at 223.52 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3357453c-7bc6-48c7-92a0-6201abf45666")
+		(uuid "4ada7c20-f319-4781-b953-8f61828463c2")
 	)
 	(junction
 		(at 231.14 48.26)
@@ -1913,7 +1913,7 @@
 		(uuid "69f4058b-7e3e-4408-9571-62caa3bb5afd")
 	)
 	(junction
-		(at 73.66 46.99)
+		(at 71.12 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7848cb83-a4b3-4fbb-876b-565a6d53e6b9")
@@ -1925,7 +1925,7 @@
 		(uuid "9804ef9c-cee6-48a2-a7f1-37c39b0e2591")
 	)
 	(junction
-		(at 71.12 46.99)
+		(at 73.66 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dc40bb9-6544-4934-b68e-f2a9c569dfe1")
@@ -2146,7 +2146,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 46.99) (xy 76.2 46.99)
+			(xy 71.12 44.45) (xy 68.58 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2206,26 +2206,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 62.23) (xy 73.66 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2916fd88-0372-4683-8618-b8eb34657b96")
-	)
-	(wire
-		(pts
-			(xy 76.2 62.23) (xy 76.2 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a314c70-3939-4640-b349-ebf88eccfd57")
-	)
-	(wire
-		(pts
 			(xy 236.22 33.02) (xy 236.22 34.29)
 		)
 		(stroke
@@ -2256,7 +2236,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 46.99) (xy 72.39 46.99)
+			(xy 73.66 44.45) (xy 72.39 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2386,6 +2366,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 59.69) (xy 68.58 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "498fb8ff-a381-49ab-9a6d-eed9d27f0e53")
+	)
+	(wire
+		(pts
 			(xy 109.22 173.99) (xy 127 173.99)
 		)
 		(stroke
@@ -2446,6 +2436,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 59.69) (xy 71.12 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "534fd601-cc9f-4ce4-be72-91dc6554c21f")
+	)
+	(wire
+		(pts
 			(xy 154.94 81.28) (xy 154.94 99.06)
 		)
 		(stroke
@@ -2496,7 +2496,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 45.72) (xy 72.39 46.99)
+			(xy 73.66 59.69) (xy 73.66 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b30e818-7801-45b8-8c40-ec8702304770")
+	)
+	(wire
+		(pts
+			(xy 72.39 43.18) (xy 72.39 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2606,7 +2616,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 46.99) (xy 73.66 46.99)
+			(xy 72.39 44.45) (xy 71.12 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2703,16 +2713,6 @@
 			(type default)
 		)
 		(uuid "a2905bba-a3c6-45fe-891b-39cb676883d0")
-	)
-	(wire
-		(pts
-			(xy 68.58 62.23) (xy 68.58 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5c523cd-a189-43e0-8bd4-0ac7121f6221")
 	)
 	(wire
 		(pts
@@ -2906,6 +2906,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 59.69) (xy 76.2 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc174a48-47d9-45ad-8c2b-5cb377120a79")
+	)
+	(wire
+		(pts
 			(xy 149.86 105.41) (xy 149.86 114.3)
 		)
 		(stroke
@@ -2923,16 +2933,6 @@
 			(type default)
 		)
 		(uuid "dddf8a13-7796-4c7b-8d9a-9cca78ac6f4c")
-	)
-	(wire
-		(pts
-			(xy 71.12 62.23) (xy 71.12 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0302a0f-55a7-4faf-82de-58d8450d2b46")
 	)
 	(wire
 		(pts
@@ -2976,7 +2976,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 46.99) (xy 71.12 46.99)
+			(xy 76.2 44.45) (xy 73.66 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4407,7 +4407,8 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 72.39 45.72 0)
+		(at 72.39 43.18 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4415,7 +4416,7 @@
 		(dnp no)
 		(uuid "3c237cd8-2424-4f17-87aa-e8d54d18af7c")
 		(property "Reference" "#PWR06"
-			(at 72.39 49.53 0)
+			(at 72.39 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,7 +4425,7 @@
 			)
 		)
 		(property "Value" "+3.3V_Filtered"
-			(at 72.39 42.164 0)
+			(at 72.39 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,7 +4436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 45.72 0)
+			(at 72.39 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4444,7 +4445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 45.72 0)
+			(at 72.39 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4453,7 +4454,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 72.39 45.72 0)
+			(at 72.39 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,7 +4476,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
-		(at 228.6 33.02 0)
+		(at 231.14 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4491,7 +4492,7 @@
 			)
 		)
 		(property "Value" "Power Connector"
-			(at 226.568 38.1 0)
+			(at 234.95 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4500,7 @@
 			)
 		)
 		(property "Footprint" "Clock_Buffers:SAMTEC_IPL1-102-01-X-D-RA-K"
-			(at 228.6 33.02 0)
+			(at 231.14 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4509,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 33.02 0)
+			(at 231.14 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,7 +4518,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 228.6 33.02 0)
+			(at 231.14 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6133,7 +6134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Clock_Buffers:WE-TPC_4828"
 			(at 238.76 48.26 0)
 			(effects
 				(font
@@ -6153,6 +6154,15 @@
 		)
 		(property "Description" "Inductor with iron core"
 			(at 238.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "7440430018"
+			(at 238.76 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8225,7 +8235,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x04")
-		(at 73.66 54.61 90)
+		(at 71.12 52.07 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8233,7 +8244,7 @@
 		(dnp no)
 		(uuid "ec951eea-ac63-4b20-9284-e80bd183261b")
 		(property "Reference" "SW1"
-			(at 61.468 51.816 90)
+			(at 83.312 49.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8242,7 +8253,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x04"
-			(at 53.34 54.61 90)
+			(at 91.44 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8252,7 +8263,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W6.73mm_P2.54mm_LowProfile_JPin"
-			(at 73.66 54.61 0)
+			(at 71.12 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8261,7 +8272,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 54.61 0)
+			(at 71.12 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8270,7 +8281,7 @@
 			)
 		)
 		(property "Description" "4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 73.66 54.61 0)
+			(at 71.12 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
