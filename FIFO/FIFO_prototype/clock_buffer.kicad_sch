@@ -5,7 +5,7 @@
 	(uuid "639c9433-8cfa-4546-9127-f54410a63d0e")
 	(paper "A4")
 	(title_block
-		(title "16 Channels FIFO")
+		(title "16 Channels Clock Buffer")
 		(date "2025-01-07")
 		(rev "REV 0")
 		(company "TU Darmstadt")
