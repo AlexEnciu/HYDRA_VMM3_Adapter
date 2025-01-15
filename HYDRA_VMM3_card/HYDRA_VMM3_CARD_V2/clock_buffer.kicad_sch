@@ -728,6 +728,10 @@
 		(color 0 0 0 0)
 		(uuid "6cfd1f15-84c1-4ace-a1d4-2b946dea89e0")
 	)
+	(no_connect
+		(at 129.54 87.63)
+		(uuid "5cc2913a-a43d-4352-9b6c-1bd03a46def6")
+	)
 	(wire
 		(pts
 			(xy 111.76 90.17) (xy 111.76 92.71)
@@ -747,16 +751,6 @@
 			(type default)
 		)
 		(uuid "19da1301-8ce8-4058-a356-e2b64241c499")
-	)
-	(wire
-		(pts
-			(xy 120.65 87.63) (xy 129.54 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1df0b6e5-9172-4d7d-a949-0c3417cfd452")
 	)
 	(wire
 		(pts
@@ -857,16 +851,6 @@
 			(type default)
 		)
 		(uuid "965c8d96-8103-40be-96ec-2b0607f3dfe3")
-	)
-	(wire
-		(pts
-			(xy 110.49 87.63) (xy 113.03 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f088865-c274-443f-a325-9e8ca4ab80bf")
 	)
 	(wire
 		(pts
@@ -1099,18 +1083,6 @@
 			(justify right)
 		)
 		(uuid "99db5e56-3597-4f4a-b6e8-952f9aab0255")
-	)
-	(hierarchical_label "GND_Buffer"
-		(shape input)
-		(at 110.49 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a4ba90a8-168e-4437-9997-834d4135ffa8")
 	)
 	(hierarchical_label "GND_Buffer"
 		(shape input)
@@ -1383,78 +1355,6 @@
 				)
 				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887/e719c1b8-dc56-418d-8a0a-d85a3ab921ba"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 116.84 87.63 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5cc7a712-1df9-46ee-aeb0-9fbe67d62c44")
-		(property "Reference" "R9"
-			(at 116.84 85.344 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 117.094 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 116.84 85.852 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 116.84 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bc7c84a-5b02-4bd6-bd4a-d46561027f3f")
-		)
-		(pin "2"
-			(uuid "23107420-863a-493d-a749-2102df80e191")
-		)
-		(instances
-			(project "HYDRA_VMM3_CARD_V2"
-				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887/7a0c3721-c63c-4060-847a-9d31f95c66e3"
-					(reference "R9")
-					(unit 1)
-				)
-				(path "/5cc5fa4e-32d4-4542-92e2-2ba1c177d887/e719c1b8-dc56-418d-8a0a-d85a3ab921ba"
-					(reference "R14")
 					(unit 1)
 				)
 			)

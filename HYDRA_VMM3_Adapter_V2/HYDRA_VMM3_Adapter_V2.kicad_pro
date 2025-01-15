@@ -479,19 +479,7 @@
     "meta": {
       "version": 3
     },
-    "net_colors": {
-      "GND": "rgb(31, 40, 255)",
-      "Heimtime_A": "rgb(60, 255, 135)",
-      "Heimtime_A_In": "rgb(60, 255, 135)",
-      "Master_Trigg_A": "rgb(60, 255, 135)",
-      "Master_Trigg_A_In": "rgb(60, 255, 135)",
-      "Net-(U3-Out_2)": "rgb(60, 255, 135)",
-      "Net-(U3-Out_3)": "rgb(60, 255, 135)",
-      "P1A": "rgb(255, 215, 36)",
-      "P1B": "rgb(255, 215, 36)",
-      "P2A": "rgb(255, 48, 210)",
-      "P2B": "rgb(255, 48, 210)"
-    },
+    "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": []
   },
