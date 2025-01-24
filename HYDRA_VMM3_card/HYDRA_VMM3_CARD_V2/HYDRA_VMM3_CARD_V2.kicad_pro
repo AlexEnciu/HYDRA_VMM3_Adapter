@@ -518,7 +518,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "HYDRA_VMM3_CARD_V2.step",
-      "svg": "../",
+      "svg": "plots/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
