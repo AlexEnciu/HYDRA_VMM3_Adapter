@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Custom_Footprints")(type "KiCad")(uri "${CARD_V2}/HYDRA_VMM3_card/HYDRA_VMM3_CARD_V3_Flex/lib/Custom_Footprints.pretty")(options "")(descr ""))
+)
