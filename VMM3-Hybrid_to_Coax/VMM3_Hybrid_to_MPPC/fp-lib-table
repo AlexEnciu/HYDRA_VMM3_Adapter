@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Hirose-FX10")(type "KiCad")(uri "${CARD_V2}/Footprint_Symbols/Card_Edge_Connector_FCI.pretty")(options "")(descr ""))
+  (lib (name "Onsemi")(type "KiCad")(uri "${CARD_V2}/VMM3-Hybrid_to_Coax/VMM3_Hybrid_to_MPPC/lib")(options "")(descr ""))
+)
