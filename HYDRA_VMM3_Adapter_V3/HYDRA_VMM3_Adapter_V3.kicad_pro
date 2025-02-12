@@ -1,6 +1,102 @@
 {
   "board": {
-    "3dviewports": [],
+    "3dviewports": [
+      {
+        "name": "Bottom",
+        "ww": 1.0,
+        "wx": -11.719773292541504,
+        "wy": 7.926976680755615,
+        "wz": -13.223138809204102,
+        "xw": 0.0,
+        "xx": 1.0,
+        "xy": 0.0,
+        "xz": 0.0,
+        "yw": 0.0,
+        "yx": 0.0,
+        "yy": 1.0,
+        "yz": 1.7484555314695172e-07,
+        "zw": 0.0,
+        "zx": 0.0,
+        "zy": -1.7484555314695172e-07,
+        "zz": 1.0
+      },
+      {
+        "name": "LateralTop",
+        "ww": 1.0,
+        "wx": -11.719773292541504,
+        "wy": -6.791135311126709,
+        "wz": -9.549261093139648,
+        "xw": 0.0,
+        "xx": 1.0,
+        "xy": 0.0,
+        "xz": 0.0,
+        "yw": 0.0,
+        "yx": 0.0,
+        "yy": -0.9396924376487732,
+        "yz": 0.3420206606388092,
+        "zw": 0.0,
+        "zx": 0.0,
+        "zy": -0.3420206606388092,
+        "zz": -0.9396924376487732
+      },
+      {
+        "name": "LateralTop_2",
+        "ww": 1.0,
+        "wx": 11.719773292541504,
+        "wy": 6.258849620819092,
+        "wz": -13.548048973083496,
+        "xw": 0.0,
+        "xx": -1.0,
+        "xy": -8.777771654422395e-06,
+        "xz": -1.5203557268250734e-05,
+        "yw": 0.0,
+        "yx": 0.0,
+        "yy": 0.8660255670547485,
+        "yz": -0.4999997615814209,
+        "zw": 0.0,
+        "zx": 1.7555552403791808e-05,
+        "zy": -0.4999997615814209,
+        "zz": -0.8660255670547485
+      },
+      {
+        "name": "LateralView",
+        "ww": 1.0,
+        "wx": -11.719773292541504,
+        "wy": 6.2361860275268555,
+        "wz": -8.577729225158691,
+        "xw": 0.0,
+        "xx": 1.0,
+        "xy": 0.0,
+        "xz": 0.0,
+        "yw": 0.0,
+        "yx": 0.0,
+        "yy": 0.766044557094574,
+        "yz": 0.642787516117096,
+        "zw": 0.0,
+        "zx": 0.0,
+        "zy": -0.642787516117096,
+        "zz": 0.766044557094574
+      },
+      {
+        "name": "Top",
+        "ww": 1.0,
+        "wx": -11.719773292541504,
+        "wy": -6.526977062225342,
+        "wz": -13.223134994506836,
+        "xw": 0.0,
+        "xx": 1.0,
+        "xy": 0.0,
+        "xz": 0.0,
+        "yw": 0.0,
+        "yx": 0.0,
+        "yy": -1.0,
+        "yz": 6.278329465203569e-07,
+        "zw": 0.0,
+        "zx": 0.0,
+        "zy": -6.278329465203569e-07,
+        "zz": -1.0
+      }
+    ],
     "design_settings": {
       "defaults": {
         "apply_defaults_to_fp_fields": false,
@@ -48,7 +144,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.125
         }
       },
       "diff_pair_dimensions": [
@@ -58,10 +154,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "unconnected_items|90580000|85300000|4bd2535e-ade7-43be-bbc5-13b5a86a926b|08473092-efb9-4865-88a0-a317fe35ab30",
-        "unconnected_items|90670000|87630000|aee7155e-4c15-4826-95c6-b3ca6aa3da39|80733f30-a03b-4bf3-979c-0d74fd9e5768"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -183,6 +276,7 @@
       "track_widths": [
         0.0,
         0.1,
+        0.245,
         0.38
       ],
       "tuning_pattern_settings": {
@@ -491,11 +585,11 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "HYDRA_VMM3_Adapter_Nov24.step",
+      "step": "../SW/Revision5/HYDRA_VMM3_Adapter_January25.step",
       "svg": "../../../../../../../../Desktop/Gemini/",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "${CARD_V2}/DataSheet/Alexandru_Enciu_HYDRA_Template.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -612,10 +706,6 @@
     [
       "0a8d5ffb-92ed-4995-a32c-939f9643c0b7",
       "TPC_Adapter"
-    ],
-    [
-      "5baa4a22-7491-4862-a81b-270f1a5cefe0",
-      "FIFO"
     ]
   ],
   "text_variables": {}

@@ -476,6 +476,420 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x08_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x08_Socket"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x08, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x08_Socket_1_1"
+				(arc
+					(start 0 -9.652)
+					(mid -0.5058 -10.16)
+					(end 0 -10.668)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -7.112)
+					(mid -0.5058 -7.62)
+					(end 0 -8.128)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -4.572)
+					(mid -0.5058 -5.08)
+					(end 0 -5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -10.16) (xy -0.508 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 7.62) (xy -0.508 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.048)
+					(mid -0.5058 2.54)
+					(end 0 2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.588)
+					(mid -0.5058 5.08)
+					(end 0 4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 8.128)
+					(mid -0.5058 7.62)
+					(end 0 7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -3541,498 +3955,6 @@
 						)
 					)
 					(number "B70"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "MCX_Coax:MCX-J-P-X-RA-SM1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -3.81 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "MCX-J-P-X-RA-SM1"
-				(at -4.064 -4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "MCX-J-P-X-RA-SM1:SAMTEC_MCX-J-P-X-RA-SM1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Samtec Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "6.76mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/MCX-J-P-H-RA-SM1/Samtec+Inc./view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MCX-J-P-H-RA-SM1/Samtec+Inc./view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "MCX-J-P-H-RA-SM1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            MCX Connector Jack, Female Socket 50 Ohms Surface Mount, Right Angle Solder\n                        \n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Samtec"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "MCX-J-P-X-RA-SM1_0_0"
-				(polyline
-					(pts
-						(xy -3.302 -0.762) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 0.762) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 1.778) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 3.302) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.524) (xy 0 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -0.762) (xy -1.27 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy -0.762 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy -0.508 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 0.762 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.286 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 1.016 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -0.762) (xy 0.254 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -7167,6 +7089,26 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 232.41) (xy 199.39 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c002d50-82d4-47f9-b978-31608ffc785e")
+	)
+	(wire
+		(pts
+			(xy 245.11 240.03) (xy 255.27 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb4ba3d-154e-48b2-8f68-2d892c3b9d2e")
+	)
+	(wire
+		(pts
 			(xy 60.96 224.79) (xy 68.58 224.79)
 		)
 		(stroke
@@ -7217,6 +7159,36 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 242.57) (xy 255.27 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48654629-1652-458a-8bf6-7f15a319c194")
+	)
+	(wire
+		(pts
+			(xy 191.77 227.33) (xy 199.39 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f31659-7899-4d24-8449-a81be64688b7")
+	)
+	(wire
+		(pts
+			(xy 189.23 242.57) (xy 199.39 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5605b1bd-572f-4cde-991c-3f2c0c366feb")
+	)
+	(wire
+		(pts
 			(xy 27.94 224.79) (xy 35.56 224.79)
 		)
 		(stroke
@@ -7227,6 +7199,36 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 229.87) (xy 199.39 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "641e4183-4162-4045-91d4-8a64a6cd133f")
+	)
+	(wire
+		(pts
+			(xy 189.23 240.03) (xy 199.39 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9316ef-d750-4267-8ca0-be6a67f34239")
+	)
+	(wire
+		(pts
+			(xy 245.11 232.41) (xy 255.27 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84411d1d-8404-40ef-a89f-557196ed5952")
+	)
+	(wire
+		(pts
 			(xy 68.58 222.25) (xy 71.12 222.25)
 		)
 		(stroke
@@ -7234,6 +7236,16 @@
 			(type default)
 		)
 		(uuid "864b9048-2d90-4562-8ae9-a26bb12558c4")
+	)
+	(wire
+		(pts
+			(xy 245.11 229.87) (xy 255.27 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88686fec-e430-45b9-966e-f3ab4f0bcfcf")
 	)
 	(wire
 		(pts
@@ -7257,6 +7269,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 234.95) (xy 199.39 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "901eae81-e510-466d-bbc1-3458c733d371")
+	)
+	(wire
+		(pts
 			(xy 35.56 224.79) (xy 38.1 224.79)
 		)
 		(stroke
@@ -7267,6 +7289,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 224.79) (xy 255.27 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f32e9aa-3f3c-43d0-9aa4-3bcb4b16ddd3")
+	)
+	(wire
+		(pts
 			(xy 68.58 234.95) (xy 71.12 234.95)
 		)
 		(stroke
@@ -7274,6 +7306,16 @@
 			(type default)
 		)
 		(uuid "9ff36533-6030-4e04-a54a-17733f10a984")
+	)
+	(wire
+		(pts
+			(xy 189.23 237.49) (xy 199.39 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a08fdc64-539d-431b-8fb7-62b59fc4f415")
 	)
 	(wire
 		(pts
@@ -7317,6 +7359,36 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 237.49) (xy 255.27 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b072fd38-d183-4335-87a7-630c9cc5f920")
+	)
+	(wire
+		(pts
+			(xy 245.11 234.95) (xy 255.27 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0827520-b450-4037-87f9-1d175c75bd9f")
+	)
+	(wire
+		(pts
+			(xy 247.65 227.33) (xy 255.27 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2785fd2-9096-4830-a554-09d2818ced3b")
+	)
+	(wire
+		(pts
 			(xy 27.94 232.41) (xy 38.1 232.41)
 		)
 		(stroke
@@ -7354,6 +7426,16 @@
 			(type default)
 		)
 		(uuid "dc704717-4e8f-4f0b-8943-bf3fe9e9e371")
+	)
+	(wire
+		(pts
+			(xy 198.12 224.79) (xy 199.39 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c1e896-2415-477b-a9a7-2fa0c7d09c59")
 	)
 	(wire
 		(pts
@@ -9245,6 +9327,28 @@
 			)
 		)
 	)
+	(global_label "Master_Trigg_A"
+		(shape input)
+		(at 245.11 240.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1bd4a805-4130-42bb-8812-260d696c7ed4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.2154 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col_6-Row_15"
 		(shape input)
 		(at 171.45 74.93 180)
@@ -9663,6 +9767,28 @@
 			)
 		)
 	)
+	(global_label "Master_Trigg_A"
+		(shape input)
+		(at 245.11 234.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2218680c-f1d4-49d9-8a6a-e0f10963cff1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.2154 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col_30-Row_6"
 		(shape input)
 		(at 356.87 151.13 180)
@@ -9918,6 +10044,28 @@
 		(uuid "25772c37-e19a-4d63-8fc5-4042251ab3d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 153.2855 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Master_Trigg_B"
+		(shape input)
+		(at 189.23 240.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2598ca60-4d6d-460c-b6e6-bedc44fd9f82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.154 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10477,28 +10625,6 @@
 			)
 		)
 	)
-	(global_label "Master_Trigg_A_In"
-		(shape input)
-		(at 170.18 224.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2f9f775a-2396-4c37-a7ef-12de96a0de6a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.796 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "P2B"
 		(shape input)
 		(at 105.41 264.16 90)
@@ -10939,6 +11065,28 @@
 			)
 		)
 	)
+	(global_label "Heimtime_B"
+		(shape input)
+		(at 189.23 237.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3792d793-e733-4e68-9149-c92b202f74e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.1776 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "P2A"
 		(shape input)
 		(at 85.09 264.16 90)
@@ -11287,6 +11435,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Heimtime_B"
+		(shape input)
+		(at 189.23 242.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3cd0d5a7-bcae-4b0d-bd50-7013953b5a11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.1776 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11907,6 +12077,28 @@
 			)
 		)
 	)
+	(global_label "Master_Trigg_B"
+		(shape input)
+		(at 189.23 229.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45eca28e-0598-41aa-8b60-7ab7c3ddd0c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.154 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col_43-Row_15"
 		(shape input)
 		(at 234.95 62.23 180)
@@ -12189,28 +12381,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Heimtime_B_In"
-		(shape input)
-		(at 171.45 241.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4a586438-b23d-4cdb-b696-d8e7bf08d04d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.2238 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -12778,6 +12948,28 @@
 		(uuid "52eab8d0-c277-48ad-9dcf-ba6bccbbc498")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 31.305 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1A"
+		(shape input)
+		(at 254 224.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "530e8e6e-17f7-407c-a549-373f3ab58b0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.4467 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14679,28 +14871,6 @@
 			)
 		)
 	)
-	(global_label "Master_Trigg_B_In"
-		(shape input)
-		(at 215.9 241.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7458f4a8-7563-4848-b00b-ec81089137fb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.6974 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Col_32-Row_11"
 		(shape input)
 		(at 382.27 153.67 0)
@@ -15291,28 +15461,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Heimtime_A_In"
-		(shape input)
-		(at 210.82 224.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7d4c6d33-48dd-4684-98e6-873cafee67ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.4124 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -16373,6 +16521,28 @@
 			)
 		)
 	)
+	(global_label "Heimtime_B"
+		(shape input)
+		(at 189.23 232.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89df5ab2-e0f5-48eb-8f13-f5b50286d71e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.1776 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col_2-Row_6"
 		(shape input)
 		(at 109.22 64.77 180)
@@ -16914,6 +17084,28 @@
 		(uuid "8fc60f57-b0b3-4c12-990a-a8e3d1a1dd7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 92.265 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Master_Trigg_A"
+		(shape input)
+		(at 245.11 229.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fe50734-0fb2-4738-b45a-ed03b9bbfaea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.2154 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22313,6 +22505,28 @@
 			)
 		)
 	)
+	(global_label "Heimtime_A"
+		(shape input)
+		(at 245.11 237.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dff2f016-dd5a-4f18-b430-a60bf52ddd09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.239 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col_24-Row_3"
 		(shape input)
 		(at 73.66 196.85 0)
@@ -22573,6 +22787,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Heimtime_A"
+		(shape input)
+		(at 245.11 232.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2644c87-5942-49f8-970c-419b7be85483")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.239 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -23479,6 +23715,28 @@
 			)
 		)
 	)
+	(global_label "Master_Trigg_B"
+		(shape input)
+		(at 189.23 234.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f29e651c-d164-49da-99e6-e439dc3f13b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.154 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col_9-Row_8"
 		(shape input)
 		(at 322.58 95.25 0)
@@ -23536,6 +23794,28 @@
 		(uuid "f33159fb-9511-424e-8089-35666bf95ffb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 93.4745 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1B"
+		(shape input)
+		(at 198.12 224.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f33d2938-99a5-439b-b747-acdf8ee7826a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.3853 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24223,6 +24503,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Heimtime_A"
+		(shape input)
+		(at 245.11 242.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fee3cbc8-dcd5-4cb4-a530-82c979ae9253")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.239 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -27976,71 +28278,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 227.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3909fe62-e7a5-4cb0-91dc-5fe2ead3d861")
-		(property "Reference" "#PWR057"
-			(at 217.17 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 210.82 229.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "826a70b4-2b4d-424f-8a7d-59f93500ee44")
-		)
-		(instances
-			(project "HYDRA_VMM3_Adapter_V2"
-				(path "/041f2f8e-c63c-48f8-b3e9-38130b311be3"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 134.62 34.29 90)
 		(mirror x)
 		(unit 1)
@@ -28776,204 +29013,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MCX_Coax:MCX-J-P-X-RA-SM1")
-		(at 167.64 227.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4eb26c0b-2b6c-4550-bde2-df832c9c3ac2")
-		(property "Reference" "J8"
-			(at 167.259 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCX-J-P-X-RA-SM1"
-			(at 167.259 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCI-E_SMD:SAMTEC_MCX-J-P-X-RA-SM1"
-			(at 167.64 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Samtec Inc."
-			(at 167.64 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.76mm"
-			(at 167.64 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 167.64 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 167.64 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MCX-J-P-H-RA-SM1/Samtec+Inc./view-part/?ref=eda"
-			(at 167.64 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 167.64 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "E"
-			(at 167.64 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MCX-J-P-H-RA-SM1/Samtec+Inc./view-part/?ref=snap"
-			(at 167.64 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MCX-J-P-H-RA-SM1"
-			(at 167.64 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            MCX Connector Jack, Female Socket 50 Ohms Surface Mount, Right Angle Solder\n                        \n"
-			(at 167.64 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 167.64 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Samtec"
-			(at 167.64 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "S4"
-			(uuid "69218e90-14f0-4819-8b7e-a51c7ff3099c")
-		)
-		(pin "S1"
-			(uuid "d694b2f8-cb5b-4755-be23-780e00506e04")
-		)
-		(pin "1"
-			(uuid "15771cd2-2a4c-45b3-9563-daefba5f0f9f")
-		)
-		(pin "S2"
-			(uuid "48eceafb-f065-4bd1-9d34-90d388498d80")
-		)
-		(pin "S3"
-			(uuid "2129009f-5418-4f74-88b9-fa919d4de642")
-		)
-		(instances
-			(project "HYDRA_VMM3_Adapter_V2"
-				(path "/041f2f8e-c63c-48f8-b3e9-38130b311be3"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 109.22 52.07 270)
 		(unit 1)
@@ -29433,6 +29472,72 @@
 			(project "HYDRA_VMM3_Adapter"
 				(path "/041f2f8e-c63c-48f8-b3e9-38130b311be3"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "586ccd04-572e-405d-a2f0-5be4c7f72c02")
+		(property "Reference" "#PWR039"
+			(at 191.77 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.484 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0185909-bcf5-458d-b3ba-2b798a8feb31")
+		)
+		(instances
+			(project "HYDRA_VMM3_Adapter_V3"
+				(path "/041f2f8e-c63c-48f8-b3e9-38130b311be3"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -30791,71 +30896,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 243.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ac4bd32-787a-46ed-a2ce-9688dd5f9362")
-		(property "Reference" "#PWR044"
-			(at 177.8 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 246.126 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "209bb291-ee21-4ead-86bd-c6e8c94d7e20")
-		)
-		(instances
-			(project "HYDRA_VMM3_Adapter_V2"
-				(path "/041f2f8e-c63c-48f8-b3e9-38130b311be3"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 95.25 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31121,71 +31161,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 243.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7444caed-ca71-4abd-a02e-41eaaceaff4d")
-		(property "Reference" "#PWR058"
-			(at 222.25 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.9 246.126 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b898bf71-2e37-4706-b780-d8688e9494b9")
-		)
-		(instances
-			(project "HYDRA_VMM3_Adapter_V2"
-				(path "/041f2f8e-c63c-48f8-b3e9-38130b311be3"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 73.66 57.15 90)
 		(mirror x)
 		(unit 1)
@@ -31386,43 +31361,34 @@
 		)
 	)
 	(symbol
-		(lib_id "MCX_Coax:MCX-J-P-X-RA-SM1")
-		(at 208.28 227.33 0)
+		(lib_id "power:GND")
+		(at 247.65 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d79b080-fccb-4082-b1e1-4b4ff850ff03")
-		(property "Reference" "J9"
-			(at 207.899 218.44 0)
+		(uuid "7ae15b58-d4c0-43b7-bf93-247b5220730c")
+		(property "Reference" "#PWR040"
+			(at 247.65 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Value" "MCX-J-P-X-RA-SM1"
-			(at 207.899 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCI-E_SMD:SAMTEC_MCX-J-P-X-RA-SM1"
-			(at 208.28 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 208.28 227.33 0)
+		(property "Value" "GND"
+			(at 245.364 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31430,8 +31396,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 208.28 227.33 0)
+		(property "Datasheet" ""
+			(at 247.65 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31439,145 +31405,22 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Samtec Inc."
-			(at 208.28 227.33 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.76mm"
-			(at 208.28 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 208.28 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 208.28 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MCX-J-P-H-RA-SM1/Samtec+Inc./view-part/?ref=eda"
-			(at 208.28 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 208.28 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "E"
-			(at 208.28 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MCX-J-P-H-RA-SM1/Samtec+Inc./view-part/?ref=snap"
-			(at 208.28 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MCX-J-P-H-RA-SM1"
-			(at 208.28 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            MCX Connector Jack, Female Socket 50 Ohms Surface Mount, Right Angle Solder\n                        \n"
-			(at 208.28 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 208.28 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Samtec"
-			(at 208.28 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "S4"
-			(uuid "07167d73-b7ee-4b88-af7f-a130dc69ed20")
-		)
-		(pin "S1"
-			(uuid "52ec60e0-f99a-432a-9f2e-c1fb9ffd05de")
 		)
 		(pin "1"
-			(uuid "177dc00e-015b-4f7b-9387-760c1d0a8f9d")
-		)
-		(pin "S2"
-			(uuid "1684d1c8-b96c-45f3-9a10-2b71f8d0e593")
-		)
-		(pin "S3"
-			(uuid "ddb77c51-4e98-4aa3-bba2-2f43f8dde1da")
+			(uuid "0afeaefd-9420-4417-b7c7-95f63182ff92")
 		)
 		(instances
-			(project "HYDRA_VMM3_Adapter_V2"
+			(project "HYDRA_VMM3_Adapter_V3"
 				(path "/041f2f8e-c63c-48f8-b3e9-38130b311be3"
-					(reference "J9")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -34427,204 +34270,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MCX_Coax:MCX-J-P-X-RA-SM1")
-		(at 213.36 243.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b40b9866-65ee-40b8-b7cd-e2ce9d3fbff8")
-		(property "Reference" "J12"
-			(at 212.979 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCX-J-P-X-RA-SM1"
-			(at 212.979 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCI-E_SMD:SAMTEC_MCX-J-P-X-RA-SM1"
-			(at 213.36 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Samtec Inc."
-			(at 213.36 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.76mm"
-			(at 213.36 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 213.36 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 213.36 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MCX-J-P-H-RA-SM1/Samtec+Inc./view-part/?ref=eda"
-			(at 213.36 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 213.36 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "E"
-			(at 213.36 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MCX-J-P-H-RA-SM1/Samtec+Inc./view-part/?ref=snap"
-			(at 213.36 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MCX-J-P-H-RA-SM1"
-			(at 213.36 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            MCX Connector Jack, Female Socket 50 Ohms Surface Mount, Right Angle Solder\n                        \n"
-			(at 213.36 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 213.36 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Samtec"
-			(at 213.36 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "S4"
-			(uuid "f6a4def4-3578-4abb-affc-02875a03c91e")
-		)
-		(pin "S1"
-			(uuid "0a565254-5e18-4282-9c41-f531bea85859")
-		)
-		(pin "1"
-			(uuid "da207117-e817-484d-b29d-584c8b7ddfb1")
-		)
-		(pin "S2"
-			(uuid "05bab5c8-5e5e-46ee-a75b-5367294e5fc4")
-		)
-		(pin "S3"
-			(uuid "7b70f3d9-86a1-4fe7-84e6-9b8108a702af")
-		)
-		(instances
-			(project "HYDRA_VMM3_Adapter_V2"
-				(path "/041f2f8e-c63c-48f8-b3e9-38130b311be3"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 234.95 57.15 270)
 		(unit 1)
@@ -35836,6 +35481,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x08_Socket")
+		(at 260.35 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c469dfc2-fdd2-40a1-868a-8d12c73994c3")
+		(property "Reference" "J8"
+			(at 261.62 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x08_Socket"
+			(at 261.62 234.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Components:2_in_6_out_module"
+			(at 260.35 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 260.35 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "6471923b-669c-4431-8e7a-c727662200c5")
+		)
+		(pin "8"
+			(uuid "000db86f-14c3-4104-9629-614b511ba301")
+		)
+		(pin "3"
+			(uuid "ddc17fee-4f19-437b-b4a3-6b57d9551a3b")
+		)
+		(pin "5"
+			(uuid "11ce6b38-bcdb-45aa-8bf8-2b5de26335a3")
+		)
+		(pin "1"
+			(uuid "61b05f67-20a1-493a-9be7-a353ea349422")
+		)
+		(pin "2"
+			(uuid "400fe891-40d6-4a1e-8c18-40b5bb059736")
+		)
+		(pin "7"
+			(uuid "dc8f7601-9de4-43e3-8ebb-c77eb039a091")
+		)
+		(pin "4"
+			(uuid "dc2cbb92-1003-4443-a3ca-283e0b4b510c")
+		)
+		(instances
+			(project "HYDRA_VMM3_Adapter_V3"
+				(path "/041f2f8e-c63c-48f8-b3e9-38130b311be3"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 297.18 52.07 270)
 		(unit 1)
@@ -35971,6 +35704,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x08_Socket")
+		(at 204.47 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdc0beec-3bcf-48c1-bde5-d24da4c4be9e")
+		(property "Reference" "J7"
+			(at 205.74 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x08_Socket"
+			(at 205.74 234.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Components:2_in_6_out_module"
+			(at 204.47 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 204.47 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "13069d51-e0ba-4a67-b6aa-5e0122248501")
+		)
+		(pin "8"
+			(uuid "777dcc3c-b9ee-4f1b-ba67-976e375acc8f")
+		)
+		(pin "3"
+			(uuid "95729788-ead4-40b3-9208-7e8fbf48a351")
+		)
+		(pin "5"
+			(uuid "a21c01fa-f8d9-4276-8df2-fb040f484920")
+		)
+		(pin "1"
+			(uuid "f3d1ab29-e713-44a9-b6d9-15ae364ddd86")
+		)
+		(pin "2"
+			(uuid "4deeeac9-698f-49a5-ad0a-3efcf99720a2")
+		)
+		(pin "7"
+			(uuid "4feaa3e3-f82d-4e72-bfae-e025f4acfba2")
+		)
+		(pin "4"
+			(uuid "7fa53337-b227-4d15-a53f-6a8a174aab5d")
+		)
+		(instances
+			(project ""
+				(path "/041f2f8e-c63c-48f8-b3e9-38130b311be3"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 260.35 34.29 90)
 		(mirror x)
@@ -36100,71 +35921,6 @@
 			(project "HYDRA_VMM3_Adapter_V2"
 				(path "/041f2f8e-c63c-48f8-b3e9-38130b311be3"
 					(reference "#PWR0144")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 170.18 227.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d043cc4e-5328-4953-97f6-6b03325ffdb0")
-		(property "Reference" "#PWR049"
-			(at 176.53 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 170.18 229.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4cd766c0-b3ef-4492-8619-31ad5a43b60e")
-		)
-		(instances
-			(project "HYDRA_VMM3_Adapter_V2"
-				(path "/041f2f8e-c63c-48f8-b3e9-38130b311be3"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -37439,204 +37195,6 @@
 			(project "HYDRA_VMM3_Adapter"
 				(path "/041f2f8e-c63c-48f8-b3e9-38130b311be3"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCX_Coax:MCX-J-P-X-RA-SM1")
-		(at 168.91 243.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "deaf4d3f-bb38-4661-a0cf-e8befd3950d0")
-		(property "Reference" "J10"
-			(at 168.529 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCX-J-P-X-RA-SM1"
-			(at 168.529 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCI-E_SMD:SAMTEC_MCX-J-P-X-RA-SM1"
-			(at 168.91 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Samtec Inc."
-			(at 168.91 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.76mm"
-			(at 168.91 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 168.91 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 168.91 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MCX-J-P-H-RA-SM1/Samtec+Inc./view-part/?ref=eda"
-			(at 168.91 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 168.91 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "E"
-			(at 168.91 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MCX-J-P-H-RA-SM1/Samtec+Inc./view-part/?ref=snap"
-			(at 168.91 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MCX-J-P-H-RA-SM1"
-			(at 168.91 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            MCX Connector Jack, Female Socket 50 Ohms Surface Mount, Right Angle Solder\n                        \n"
-			(at 168.91 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 168.91 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Samtec"
-			(at 168.91 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "S4"
-			(uuid "3e784ba3-1584-4414-b5c8-966c96b2d6c2")
-		)
-		(pin "S1"
-			(uuid "5b7704db-5661-4aae-b2e4-ff57741979fc")
-		)
-		(pin "1"
-			(uuid "088ace90-0c4b-46b5-b1a3-e5b6ba4e67fa")
-		)
-		(pin "S2"
-			(uuid "18866a2f-2e82-47af-acd2-2c1e9b410f01")
-		)
-		(pin "S3"
-			(uuid "4c6fc1b6-a2a3-4a61-a03d-9fdd4cc76ef6")
-		)
-		(instances
-			(project "HYDRA_VMM3_Adapter_V2"
-				(path "/041f2f8e-c63c-48f8-b3e9-38130b311be3"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -41164,47 +40722,9 @@
 			)
 		)
 		(instances
-			(project "HYDRA_VMM3_Adapter_V2"
+			(project "HYDRA_VMM3_Adapter_V3"
 				(path "/041f2f8e-c63c-48f8-b3e9-38130b311be3"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 340.36 220.98)
-		(size 30.48 17.78)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 242 31 1.0000)
-		)
-		(uuid "5baa4a22-7491-4862-a81b-270f1a5cefe0")
-		(property "Sheetname" "FIFO"
-			(at 340.36 220.2684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "FIFO.kicad_sch"
-			(at 340.36 239.3446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "HYDRA_VMM3_Adapter_V2"
-				(path "/041f2f8e-c63c-48f8-b3e9-38130b311be3"
-					(page "3")
 				)
 			)
 		)

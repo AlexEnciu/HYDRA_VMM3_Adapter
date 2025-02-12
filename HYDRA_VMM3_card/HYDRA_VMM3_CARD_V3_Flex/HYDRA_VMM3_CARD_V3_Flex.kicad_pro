@@ -588,7 +588,7 @@
       "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "HYDRA_VMM3_CARD_V3_Flex.step",
+      "step": "../../SW/Revision5/HYDRA_VMM3_CARD_V3_Flex.step",
       "svg": "plots/",
       "vrml": ""
     },
