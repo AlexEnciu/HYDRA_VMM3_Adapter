@@ -11427,7 +11427,7 @@
 	)
 	(global_label "Heimtime"
 		(shape input)
-		(at 128.27 34.29 180)
+		(at 128.27 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11440,7 +11440,7 @@
 		)
 		(uuid "582ab7c4-83d4-49b0-ae1e-23bf73e73078")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.9792 34.29 0)
+			(at 115.9792 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13280,7 +13280,7 @@
 	)
 	(global_label "Master_Trigg"
 		(shape input)
-		(at 128.27 39.37 180)
+		(at 128.27 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13293,7 +13293,7 @@
 		)
 		(uuid "abb81c0b-06fb-4085-90f0-d7c65d0dea0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.9556 39.37 0)
+			(at 112.9556 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
