@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "FX10_")(type "KiCad")(uri "C:/Users/alex/Documents/IKP/HYDRA/FiberDetector/KiCAD/Test_PCB_MPPC-array_FARICH/SmallFiber/SiPM_Array_for_VMM3a_Rev-0/lib/FX10_.kicad_sym")(options "")(descr ""))
+)
