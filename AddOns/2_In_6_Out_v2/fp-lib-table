@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "AddOn_lib")(type "KiCad")(uri "${CARD_V2}/AddOns/2_In_6_Out_v2/lib")(options "")(descr ""))
+)

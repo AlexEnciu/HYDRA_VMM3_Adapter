@@ -9705,7 +9705,7 @@
 		(uuid "17c73862-066c-45c5-82a9-9c145f75e806")
 	)
 	(via
-		(at 107.29625 60.92)
+		(at 107.12625 60.53)
 		(size 0.45)
 		(drill 0.25)
 		(layers "F.Cu" "B.Cu")
@@ -10104,7 +10104,7 @@
 		(uuid "47712814-4c01-4f48-8a9f-01ad442702f6")
 	)
 	(via
-		(at 106.43625 60.86)
+		(at 106.43625 61.16)
 		(size 0.45)
 		(drill 0.25)
 		(layers "F.Cu" "B.Cu")
@@ -12288,7 +12288,7 @@
 		(uuid "fb71099b-21e2-4692-a790-3803436fef76")
 	)
 	(via
-		(at 105.67625 60.46)
+		(at 105.91625 60.59)
 		(size 0.45)
 		(drill 0.25)
 		(layers "F.Cu" "B.Cu")
@@ -16875,7 +16875,7 @@
 		(last_status "tuned")
 		(last_track_width 0.245)
 		(last_tuning "12,0000 mm (tuned)")
-		(max_amplitude 2.07)
+		(max_amplitude 2.069999)
 		(min_amplitude 0.2)
 		(min_spacing 0.89)
 		(origin
