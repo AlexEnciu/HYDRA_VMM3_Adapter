@@ -49,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0fe0fdff_ffffffff",
+    "visible_layers": "00000000_00000000_0feafff5_77ffffff",
     "zone_display_mode": 1
   },
   "git": {
@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "HYDRA_VMM3_CARD_V2.kicad_prl",
+    "filename": "HYDRA_VMM3_CARD_V3_Flex.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -100,22 +100,22 @@
       15
     ],
     "col_widths": [
-      186,
-      171,
-      112,
-      79,
-      112,
-      112,
-      112,
-      83,
-      112,
-      112,
-      112,
-      112,
-      112,
-      112,
-      112,
-      112
+      162,
+      147,
+      91,
+      67,
+      91,
+      91,
+      91,
+      71,
+      91,
+      91,
+      91,
+      91,
+      91,
+      91,
+      91,
+      91
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

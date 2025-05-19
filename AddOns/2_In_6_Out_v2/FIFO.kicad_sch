@@ -1853,10 +1853,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "34da9d05-5556-4102-9f5b-6e43daee244d")
 		(property "Reference" "C11"
-			(at 66.0399 60.96 0)
+			(at 67.818 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +1864,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 68.5799 60.96 0)
+			(at 72.136 63.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2663,7 +2662,7 @@
 		(dnp no)
 		(uuid "de42d9d0-1967-46a8-9818-53a805e3e914")
 		(property "Reference" "C3"
-			(at 67.31 48.26 90)
+			(at 67.31 51.816 90)
 			(effects
 				(font
 					(size 1.27 1.27)

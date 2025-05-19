@@ -1,4 +1,4 @@
-Module Pin,Module Net,Carrier J1,Carrier J2,Carrier J3,Carrier J4,Carrier J5,Carrier J6
+Module Pin,Module Net,Carrier J1 Net,Carrier J2 Net,Carrier J3 Net,Carrier J4 Net,Carrier J5 Net,Carrier J6 Net
 A1,P2,P2B,P2B,P2B,P2A,P2A,P2A
 A10,Heimtime,Heimtime_B,Heimtime_B,Heimtime_B,Heimtime_A,Heimtime_A,Heimtime_A
 A11,GND,GND,GND,GND,GND,GND,GND

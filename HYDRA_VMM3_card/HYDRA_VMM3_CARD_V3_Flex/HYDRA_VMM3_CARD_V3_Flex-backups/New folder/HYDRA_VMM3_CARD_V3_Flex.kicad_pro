@@ -1,6 +1,45 @@
 {
   "board": {
-    "3dviewports": [],
+    "3dviewports": [
+      {
+        "name": "View 1",
+        "ww": 1.0,
+        "wx": 2.4050469398498535,
+        "wy": 3.53240966796875,
+        "wz": -31.885000228881836,
+        "xw": 0.0,
+        "xx": 0.4188261926174164,
+        "xy": -0.23109284043312073,
+        "xz": 0.8781678676605225,
+        "yw": 0.0,
+        "yx": 0.9052665829658508,
+        "yy": 0.1821405589580536,
+        "yz": -0.38381731510162354,
+        "zw": 0.0,
+        "zx": -0.07125277817249298,
+        "zy": 0.9557284116744995,
+        "zz": 0.2854863107204437
+      },
+      {
+        "name": "View_1",
+        "ww": 1.0,
+        "wx": -4.183723449707031,
+        "wy": 12.588052749633789,
+        "wz": -26.76939582824707,
+        "xw": 0.0,
+        "xx": 0.7417032122612,
+        "xy": -0.4595347046852112,
+        "xz": 0.48857152462005615,
+        "yw": 0.0,
+        "yx": 0.6295889616012573,
+        "yy": 0.728177011013031,
+        "yz": -0.2708781659603119,
+        "zw": 0.0,
+        "zx": -0.2312888503074646,
+        "zy": 0.5085103511810303,
+        "zz": 0.8294088840484619
+      }
+    ],
     "design_settings": {
       "defaults": {
         "apply_defaults_to_fp_fields": false,
@@ -38,7 +77,7 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.6,
+          "height": 1.2,
           "width": 0.3
         },
         "silk_line_width": 0.1,
@@ -64,7 +103,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -72,7 +111,7 @@
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "error",
+        "drill_out_of_range": "ignore",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
@@ -80,13 +119,13 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
-        "hole_near_hole": "error",
-        "hole_to_hole": "error",
+        "hole_near_hole": "ignore",
+        "hole_to_hole": "ignore",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
-        "items_not_allowed": "error",
+        "items_not_allowed": "ignore",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
@@ -105,7 +144,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -478,14 +517,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HYDRA_VMM3_CARD_V2.kicad_pro",
+    "filename": "HYDRA_VMM3_CARD_V3_Flex.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -496,9 +535,27 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.1,
+        "via_diameter": 0.35,
+        "via_drill": 0.15,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "0.1/0.25 mm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.35,
+        "via_drill": 0.15,
         "wire_width": 6
       }
     ],
@@ -506,6 +563,15 @@
       "version": 4
     },
     "net_colors": {
+      "/Heimtime/Enable_1": "rgb(101, 206, 255)",
+      "/Heimtime/Enable_2": "rgb(242, 101, 0)",
+      "/Heimtime/Enable_3": "rgb(101, 206, 255)",
+      "/Heimtime/Enable_4": "rgb(101, 206, 255)",
+      "/Master_trigg/Enable_1": "rgb(242, 101, 0)",
+      "/Master_trigg/Enable_2": "rgb(101, 206, 255)",
+      "/Master_trigg/Enable_3": "rgb(242, 101, 0)",
+      "/Master_trigg/Enable_4": "rgb(242, 101, 0)",
+      "Ch_55": "rgb(242, 101, 0)",
       "Ch_57": "rgb(242, 101, 0)",
       "Ch_59": "rgb(242, 101, 0)",
       "Ch_61": "rgb(101, 206, 255)",
@@ -514,6 +580,7 @@
       "Ch_67": "rgb(101, 206, 255)",
       "Ch_69": "rgb(242, 101, 0)",
       "Ch_71": "rgb(242, 101, 0)",
+      "Ch_73": "rgb(242, 101, 0)",
       "GND": "rgb(69, 51, 255)",
       "Net-(U2-CLK_OUT1)": "rgb(101, 206, 255)",
       "Net-(U2-CLK_OUT2)": "rgb(101, 206, 255)",
@@ -529,7 +596,12 @@
       "P2_Out": "rgb(255, 171, 15)"
     },
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "0.1/0.25 mm",
+        "pattern": "0.1 mm"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -539,7 +611,7 @@
       "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "HYDRA_VMM3_CARD_V2.step",
+      "step": "../../SW/Revision5/HYDRA_VMM3_CARD_V3_Flex_lightweight.step",
       "svg": "plots/",
       "vrml": ""
     },
@@ -650,14 +722,6 @@
     [
       "5cc5fa4e-32d4-4542-92e2-2ba1c177d887",
       "Root"
-    ],
-    [
-      "7a0c3721-c63c-4060-847a-9d31f95c66e3",
-      "Master_trigg"
-    ],
-    [
-      "e719c1b8-dc56-418d-8a0a-d85a3ab921ba",
-      "Heimtime"
     ]
   ],
   "text_variables": {}
