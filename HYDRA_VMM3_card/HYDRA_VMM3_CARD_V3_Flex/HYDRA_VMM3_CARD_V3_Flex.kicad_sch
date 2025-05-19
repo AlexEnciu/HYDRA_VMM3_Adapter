@@ -8265,12 +8265,6 @@
 		(uuid "7cd57c24-af72-4bd1-9fd1-9d40407f0f74")
 	)
 	(junction
-		(at 172.72 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f83910a-5b2b-435e-b905-4ef7f904ca34")
-	)
-	(junction
 		(at 73.66 60.96)
 		(diameter 0)
 		(color 255 228 54 0.8509803922)
@@ -8434,16 +8428,6 @@
 			(type default)
 		)
 		(uuid "199b6d4a-20dd-4cd1-8df5-bb7e860a37e0")
-	)
-	(wire
-		(pts
-			(xy 172.72 134.62) (xy 176.53 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aad209a-8625-458e-994b-f88026f71ef3")
 	)
 	(wire
 		(pts
@@ -8644,16 +8628,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 137.16) (xy 176.53 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55728e68-c150-4adf-993e-d242567e0a13")
-	)
-	(wire
-		(pts
 			(xy 172.72 173.99) (xy 172.72 172.72)
 		)
 		(stroke
@@ -8727,16 +8701,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 139.7) (xy 176.53 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dbfd2f3-52de-40de-a4e9-be5fe4df971c")
-	)
-	(wire
-		(pts
 			(xy 73.66 60.96) (xy 72.39 60.96)
 		)
 		(stroke
@@ -8776,16 +8740,6 @@
 			(type default)
 		)
 		(uuid "72f514a2-4a43-46db-9305-892acdd15499")
-	)
-	(wire
-		(pts
-			(xy 172.72 160.02) (xy 176.53 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "751cc892-12dd-431b-94c3-44e00ece1423")
 	)
 	(wire
 		(pts
@@ -9122,16 +9076,6 @@
 			(color 255 228 54 0.8509803922)
 		)
 		(uuid "edd313e9-d950-4120-a682-29971be2879c")
-	)
-	(wire
-		(pts
-			(xy 172.72 147.32) (xy 176.53 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f050ec63-6836-4055-9334-016209a751ac")
 	)
 	(wire
 		(pts
@@ -10138,7 +10082,7 @@
 			)
 		)
 	)
-	(global_label "Ch_118"
+	(global_label "Ch_116"
 		(shape input)
 		(at 101.6 161.29 0)
 		(fields_autoplaced yes)
@@ -10716,7 +10660,7 @@
 			)
 		)
 	)
-	(global_label "Ch_120"
+	(global_label "Ch_118"
 		(shape input)
 		(at 101.6 163.83 0)
 		(fields_autoplaced yes)
@@ -11026,7 +10970,7 @@
 	)
 	(global_label "Ch_53"
 		(shape input)
-		(at 176.53 139.7 0)
+		(at 184.15 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11036,7 +10980,7 @@
 		)
 		(uuid "3c0df484-bb29-4283-9845-f47f2094364d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.3208 139.7 0)
+			(at 192.9408 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11547,7 +11491,7 @@
 	)
 	(global_label "Ch_49"
 		(shape input)
-		(at 176.53 134.62 0)
+		(at 184.15 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11557,7 +11501,7 @@
 		)
 		(uuid "561ebafc-9851-402f-912e-1f81cd81efba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.3208 134.62 0)
+			(at 192.9408 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12285,7 +12229,7 @@
 	)
 	(global_label "Ch_51"
 		(shape input)
-		(at 176.53 137.16 0)
+		(at 184.15 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12295,7 +12239,7 @@
 		)
 		(uuid "70ec5aa8-5e15-4e87-a710-741c76107a75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.3208 137.16 0)
+			(at 192.9408 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12550,7 +12494,7 @@
 			)
 		)
 	)
-	(global_label "Ch_128"
+	(global_label "Ch_126"
 		(shape input)
 		(at 101.6 173.99 0)
 		(fields_autoplaced yes)
@@ -12638,7 +12582,7 @@
 			)
 		)
 	)
-	(global_label "Ch_114"
+	(global_label "Ch_112"
 		(shape input)
 		(at 101.6 156.21 0)
 		(fields_autoplaced yes)
@@ -13150,7 +13094,7 @@
 			)
 		)
 	)
-	(global_label "Ch_116"
+	(global_label "Ch_114"
 		(shape input)
 		(at 101.6 158.75 0)
 		(fields_autoplaced yes)
@@ -13560,7 +13504,7 @@
 	)
 	(global_label "Ch_69"
 		(shape input)
-		(at 176.53 160.02 0)
+		(at 184.15 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13570,7 +13514,7 @@
 		)
 		(uuid "aeb229a5-f7ab-45b2-bf89-bb3cf401c2be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.3208 160.02 0)
+			(at 192.9408 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13966,7 +13910,7 @@
 			)
 		)
 	)
-	(global_label "Ch_126"
+	(global_label "Ch_124"
 		(shape input)
 		(at 101.6 171.45 0)
 		(fields_autoplaced yes)
@@ -14208,7 +14152,7 @@
 			)
 		)
 	)
-	(global_label "Ch_122"
+	(global_label "Ch_120"
 		(shape input)
 		(at 101.6 166.37 0)
 		(fields_autoplaced yes)
@@ -14524,7 +14468,7 @@
 	)
 	(global_label "Ch_59"
 		(shape input)
-		(at 176.53 147.32 0)
+		(at 184.15 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14534,7 +14478,7 @@
 		)
 		(uuid "daa3490e-0c24-4d21-be2d-fd3b248a573f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.3208 147.32 0)
+			(at 192.9408 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15043,7 +14987,7 @@
 			)
 		)
 	)
-	(global_label "Ch_124"
+	(global_label "Ch_122"
 		(shape input)
 		(at 101.6 168.91 0)
 		(fields_autoplaced yes)
