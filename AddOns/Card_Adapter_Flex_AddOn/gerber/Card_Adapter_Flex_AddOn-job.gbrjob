@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.1"
     },
-    "CreationDate": "2025-05-14T13:37:06+02:00"
+    "CreationDate": "2025-05-20T09:40:34+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -47,7 +47,7 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Card_Adapter_Flex_AddOn-NOT_USED_In1_Cu.gbr",
+      "Path": "Card_Adapter_Flex_AddOn-In1_Cu.gbr",
       "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
@@ -59,6 +59,16 @@
     {
       "Path": "Card_Adapter_Flex_AddOn-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Card_Adapter_Flex_AddOn-F_Adhesive.gbr",
+      "FileFunction": "Glue,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Card_Adapter_Flex_AddOn-B_Adhesive.gbr",
+      "FileFunction": "Glue,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -132,20 +142,20 @@
       "Color": "R205G130B0",
       "Thickness": 0.0267,
       "Material": "Polyimide",
-      "Name": "F.Cu/NOT_USED_In1.Cu",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to NOT_USED_In1.Cu)"
+      "Name": "F.Cu/In1.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "NOT_USED_In1.Cu"
+      "Name": "In1.Cu"
     },
     {
       "Type": "Dielectric",
       "Thickness": 0.0267,
       "Material": "FR4",
-      "Name": "NOT_USED_In1.Cu/In2.Cu",
-      "Notes": "Type: dielectric layer 2 (from NOT_USED_In1.Cu to In2.Cu)"
+      "Name": "In1.Cu/In2.Cu",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
     },
     {
       "Type": "Copper",
