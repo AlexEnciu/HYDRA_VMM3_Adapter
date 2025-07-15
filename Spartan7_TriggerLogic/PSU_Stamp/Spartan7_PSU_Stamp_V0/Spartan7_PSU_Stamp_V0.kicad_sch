@@ -635,6 +635,12 @@
 		(uuid "1921e0db-e3bc-49cc-91a2-50530ffd997d")
 	)
 	(junction
+		(at 146.05 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28f1fee9-8fdd-483c-b3a3-2bde34657570")
+	)
+	(junction
 		(at 248.92 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -645,6 +651,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c44e456-2527-42bf-ac95-72a22857e85f")
+	)
+	(junction
+		(at 146.05 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84464d0e-2425-497c-a6bf-ae88cb876304")
 	)
 	(junction
 		(at 147.32 88.9)
@@ -710,7 +722,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 88.9) (xy 147.32 88.9)
+			(xy 142.24 88.9) (xy 146.05 88.9)
 		)
 		(stroke
 			(width 0)
@@ -747,6 +759,16 @@
 			(type default)
 		)
 		(uuid "3f8221fa-1408-41d2-869f-f15a455e8244")
+	)
+	(wire
+		(pts
+			(xy 146.05 107.95) (xy 146.05 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481941f6-5e3f-466a-b44f-dd4addc797d9")
 	)
 	(wire
 		(pts
@@ -830,7 +852,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 111.76) (xy 151.13 111.76)
+			(xy 146.05 88.9) (xy 147.32 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ced852c-4a02-4cfc-9039-253d04cc7337")
+	)
+	(wire
+		(pts
+			(xy 142.24 111.76) (xy 146.05 111.76)
 		)
 		(stroke
 			(width 0)
@@ -857,6 +889,16 @@
 			(type default)
 		)
 		(uuid "b1235267-c969-4e26-b523-85b54f3a11f3")
+	)
+	(wire
+		(pts
+			(xy 146.05 91.44) (xy 146.05 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e12f2f-97f5-4581-8ab6-e84977ef65df")
 	)
 	(wire
 		(pts
@@ -927,6 +969,16 @@
 			(type default)
 		)
 		(uuid "f361dc6c-e377-4dab-8cec-613fd1955a7d")
+	)
+	(wire
+		(pts
+			(xy 146.05 111.76) (xy 151.13 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f80fb440-20f3-40d8-81d5-6cf910d0b4d1")
 	)
 	(wire
 		(pts
@@ -1057,6 +1109,32 @@
 			(justify right bottom)
 		)
 		(uuid "ee810ed2-d6dc-4644-9ea2-cc79d61d89b6")
+	)
+	(hierarchical_label "2V5"
+		(shape input)
+		(at 146.05 91.44 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "56e76f81-68b9-4da4-8841-e4f43520766e")
+	)
+	(hierarchical_label "3V6"
+		(shape input)
+		(at 146.05 107.95 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ad1d7a2b-6a27-4d6d-9850-a3e4116a2815")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x09_Pin")
