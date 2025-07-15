@@ -640,11 +640,15 @@
     ],
     [
       "c7c7c236-59d1-40e7-8d00-1df2c6d798d0",
-      "2.5V-1.8V and 1V"
+      "2.5V to 1V and 1.8V"
     ],
     [
       "8edcdcf1-fc73-4423-ba6a-3a78b2d074c3",
-      "3.6V-3.3V"
+      "3.6V to 3.3V"
+    ],
+    [
+      "22f3aaf9-6bd0-4189-add8-dd539bcfa399",
+      "Power via USB-C"
     ]
   ],
   "text_variables": {}
