@@ -878,6 +878,32 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 176.53 40.64)
+		(end 187.96 105.41)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 255 13 16 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b311f7a5-1f7f-45ea-8e40-46bbe67715ab)
+	)
+	(text "For the feedback resistors:\nR_1, R_2, R_3, and R_4 see the TABLE_2"
+		(exclude_from_sim no)
+		(at 182.372 37.338 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 25 37 1)
+			)
+		)
+		(uuid "7e564e6f-4f05-49d6-8340-9aeb81a3168c")
+	)
 	(junction
 		(at 189.23 76.2)
 		(diameter 0)
@@ -2467,7 +2493,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "19c44fc6-5f7a-4975-a43b-ac1c4b37d812")
 		(property "Reference" "R8"
 			(at 184.15 67.3099 0)
@@ -2478,8 +2503,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 184.15 69.8499 0)
+		(property "Value" "R_2"
+			(at 181.61 70.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +2784,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "347ce874-6c08-4ec3-9295-94030abd7c16")
 		(property "Reference" "R7"
 			(at 184.15 55.8799 0)
@@ -2770,8 +2794,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 184.15 58.4199 0)
+		(property "Value" "R_1"
+			(at 181.61 58.928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3974,7 +3998,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dfa17aa3-7f5c-4b8b-b2db-82e4fc7c9325")
 		(property "Reference" "R5"
 			(at 184.15 96.5199 0)
@@ -3985,8 +4008,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 184.15 99.0599 0)
+		(property "Value" "R_4"
+			(at 181.61 99.822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4119,7 +4142,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ebbad072-75d0-48ed-abd1-78135604b945")
 		(property "Reference" "R3"
 			(at 184.15 82.5499 0)
@@ -4130,8 +4152,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 184.15 85.0899 0)
+		(property "Value" "R_3"
+			(at 181.61 85.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
