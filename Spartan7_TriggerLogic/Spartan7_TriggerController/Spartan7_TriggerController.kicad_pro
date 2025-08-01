@@ -630,6 +630,14 @@
     [
       "4e8a1527-464a-4520-8845-f408be0bbc40",
       "Root"
+    ],
+    [
+      "cff7a2f7-c99f-4c91-9c1c-e7090e743541",
+      "Ground"
+    ],
+    [
+      "0e14c4f1-cc08-4711-a2cf-002e73f6382b",
+      "Power"
     ]
   ],
   "text_variables": {}
