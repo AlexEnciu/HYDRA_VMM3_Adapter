@@ -7,7 +7,9 @@
 	(title_block
 		(title "Card Adapter Flex AddOn")
 		(date "2025-04-28")
-		(rev "0")
+		(rev "1")
+		(company "TU Darmstadt")
+		(comment 1 "Author: Dr. Alexandru Enciu")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
@@ -1479,6 +1481,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb7e4fcf-069b-49fd-9265-21face315548")
+	)
+	(no_connect
+		(at 120.65 73.66)
+		(uuid "1e40fdd1-02f5-4aa2-9a62-93b7484ce5a2")
+	)
+	(no_connect
+		(at 120.65 114.3)
+		(uuid "914ef756-4ef3-4ee1-9340-53e0dc99d5dc")
 	)
 	(wire
 		(pts
@@ -11143,7 +11153,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "90972c8b-c1e4-4a0b-a963-66876cfecf57")
 		(property "Reference" "R12"
 			(at 116.078 114.3 90)
@@ -11153,7 +11163,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "10k"
 			(at 118.11 114.046 90)
 			(effects
 				(font
@@ -11477,7 +11487,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "b22c7fda-4451-4190-8273-0c1213792383")
 		(property "Reference" "R11"
 			(at 116.078 73.66 90)
@@ -11487,7 +11497,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "10k"
 			(at 118.11 73.406 90)
 			(effects
 				(font
