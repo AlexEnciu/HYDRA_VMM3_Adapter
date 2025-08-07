@@ -508,7 +508,7 @@
       "plot": "plot/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "step/Spartan7_PSU_Stamp_V0.step",
       "svg": "",
       "vrml": ""
     },

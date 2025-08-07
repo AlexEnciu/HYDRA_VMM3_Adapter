@@ -4509,7 +4509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_lib:BGA196C100P14X14_1500X1500X155N"
 			(at 140.97 58.42 0)
 			(effects
 				(font
