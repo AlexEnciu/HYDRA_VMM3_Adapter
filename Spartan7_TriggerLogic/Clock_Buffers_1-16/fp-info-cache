@@ -1,25 +1,95 @@
-26122351906011054
-AddOn_lib
-5PB1213NTGK8
+26139841139350429
+0_lib
+5PB1102PGGI
+
+5PB1102PGGI 
+0
+8
+8
+0_lib
+5PB1102PGGI-L
+
+5PB1102PGGI 
+0
+8
+8
+0_lib
+5PB1102PGGI-M
+
+5PB1102PGGI 
+0
+8
+8
+0_lib
+5PB1108PGGI_REN
+
+5PB1108PGGI 
+0
+16
+16
+0_lib
+5PB1108PGGI_REN-L
+
+5PB1108PGGI 
+0
+16
+16
+0_lib
+5PB1108PGGI_REN-M
+
+5PB1108PGGI 
+0
+16
+16
+0_lib
+5PB1214CMGK8
 
 
 0
-11
-10
-AddOn_lib
+16
+16
+0_lib
+5PB1216CMGK8
+
+
+0
+21
+16
+0_lib
 LINX_CONMCX002-SMD-T
 
 
 0
 3
-3
-AddOn_lib
+2
+0_lib
+SAMTEC_IPL1-102-01-X-D-RA-K
+
+
+0
+4
+4
+0_lib
 SAMTEC_MCX-J-P-X-RA-SM1
 
 
 0
 5
-5
+2
+0_lib
+WE-TPC 4828
+
+
+0
+0
+0
+0_lib
+WE-TPC_4828
+<b>WE-TPC SMD Tiny Power Inductorr<br></b><br>Size: 4828, SMT, 2pins<br>LXWXH=4.8X4.8X2.8mm
+
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

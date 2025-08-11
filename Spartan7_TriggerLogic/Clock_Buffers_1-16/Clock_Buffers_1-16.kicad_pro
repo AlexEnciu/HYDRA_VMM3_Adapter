@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.12,
-          "width": 2.16
+          "height": 1.73,
+          "width": 1.73
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -224,8 +224,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
-          "drill": 0.3
+          "diameter": 0.35,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -471,7 +471,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "FIFO_prototype.kicad_pro",
+    "filename": "Clock_Buffers_1-16.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -621,26 +621,6 @@
     [
       "41f3bad4-7a95-441c-8ec9-30aae9c5b28b",
       "Root"
-    ],
-    [
-      "e6fd1bff-f632-4882-894e-c3351e48f49c",
-      "Input_Buffer"
-    ],
-    [
-      "03b337d0-0165-49b1-8ba8-cc0974b1d147",
-      "Output_Group_A"
-    ],
-    [
-      "2e7f974a-447a-4107-aeba-038af630de79",
-      "Output_Group_B"
-    ],
-    [
-      "34c9af5d-facc-49a0-9cae-556e78845c32",
-      "Output_Group_C"
-    ],
-    [
-      "e198a6f3-0d2b-4c63-9810-fb6e36ee4b69",
-      "Output_Group_D"
     ]
   ],
   "text_variables": {}
