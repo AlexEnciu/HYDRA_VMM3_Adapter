@@ -605,7 +605,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://Alexandru_Enciu_HYDRA_Template.kicad_wks",
     "plot_directory": "./",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -621,6 +621,10 @@
     [
       "41f3bad4-7a95-441c-8ec9-30aae9c5b28b",
       "Root"
+    ],
+    [
+      "c6449cc3-2e73-432d-909d-ce1c6f25eefb",
+      "5V_to_3V3"
     ]
   ],
   "text_variables": {}
