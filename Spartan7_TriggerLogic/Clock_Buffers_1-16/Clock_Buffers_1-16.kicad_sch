@@ -2455,6 +2455,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 101.6) (xy 208.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12daa159-db40-421c-9249-5ef946ac334b")
+	)
+	(wire
+		(pts
 			(xy 163.83 31.75) (xy 162.56 31.75)
 		)
 		(stroke
@@ -2462,16 +2472,6 @@
 			(type default)
 		)
 		(uuid "142a4fae-057c-433c-80a5-2e17d6cdb2ab")
-	)
-	(wire
-		(pts
-			(xy 204.47 101.6) (xy 208.28 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18f86071-96b2-4f21-8777-f606166024f1")
 	)
 	(wire
 		(pts
@@ -8862,16 +8862,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 213.36 101.6 0)
+		(at 213.36 104.14 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b078f609-1258-4ac7-8874-bb9416292617")
 		(property "Reference" "J19"
-			(at 214.63 101.5999 0)
+			(at 214.63 104.1401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8880,7 +8880,7 @@
 			)
 		)
 		(property "Value" "Soldarable pads"
-			(at 214.63 104.1399 0)
+			(at 214.63 101.6001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8888,8 +8888,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Horizontal"
-			(at 213.36 101.6 0)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 213.36 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8898,7 +8898,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 101.6 0)
+			(at 213.36 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8907,7 +8907,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 213.36 101.6 0)
+			(at 213.36 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
