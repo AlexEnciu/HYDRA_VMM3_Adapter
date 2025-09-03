@@ -14,7 +14,6 @@ V1 N011 0 PULSE(0 0.15 0.01u 0.5n 0.5n 80n 5u 1000)
 R12 N003 N001 100k
 C2 N003 N001 333f
 XU2 N001 0 N003 opamp Aol=100K GBW=10Meg
-C3 0 N003 1p
 R10 N014 N013 50
 T2 N014 0 N009 0 Td=0.59n Z0=50
 R11 N006 N009 30
@@ -33,7 +32,12 @@ XU1 N002 0 N004 opamp Aol=100K GBW=10Meg
 C6 0 N004 9.5p
 C7 N002 N001 75f
 R21 0 N004 1Meg
+C8 0 N003 9.5p
+R22 0 N003 1Meg
 .tran 0.0015
 .include C:/Users/alex_/AppData/Local/Programs/ADI/LTspice/lib/sub/opamp.sub
+* Oscilloscope probe
+* Oscilloscope probe
+* capacitive coupling
 .backanno
 .end
