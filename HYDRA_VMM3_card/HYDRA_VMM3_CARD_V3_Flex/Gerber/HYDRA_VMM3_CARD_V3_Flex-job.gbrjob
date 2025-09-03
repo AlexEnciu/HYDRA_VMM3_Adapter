@@ -3,21 +3,21 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.2"
+      "Version": "9.0.4"
     },
-    "CreationDate": "2024-07-11T13:13:48+02:00"
+    "CreationDate": "2025-08-26T10:42:32+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "HYDRA_VMM3_CARD",
+      "Name": "HYDRA_VMM3_CARD_V3_Flex",
       "GUID": "48594452-415f-4564-9d4d-335f43415244",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 105.3,
+      "X": 85.25,
       "Y": 61.05
     },
-    "LayerNumber": 6,
+    "LayerNumber": 8,
     "BoardThickness": 1.6,
     "Finish": "Immersion gold",
     "EdgeConnector": true,
@@ -26,97 +26,62 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
-      "TrackToTrack": 0.2,
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
+      "TrackToTrack": 0.1,
       "MinLineWidth": 0.1,
-      "TrackToRegion": 0.2,
-      "RegionToRegion": 0.2
+      "TrackToRegion": 0.1,
+      "RegionToRegion": 0.1
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
-      "TrackToTrack": 0.2,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.1,
       "MinLineWidth": 0.1,
-      "TrackToRegion": 0.2,
-      "RegionToRegion": 0.2
+      "TrackToRegion": 0.1,
+      "RegionToRegion": 0.1
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "HYDRA_VMM3_CARD-F_Cu.gbr",
+      "Path": "HYDRA_VMM3_CARD_V3_Flex-F_Cu Sig.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "HYDRA_VMM3_CARD-In1_Cu.gbr",
-      "FileFunction": "Copper,L2,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "HYDRA_VMM3_CARD-In2_Cu.gbr",
-      "FileFunction": "Copper,L3,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "HYDRA_VMM3_CARD-In3_Cu.gbr",
-      "FileFunction": "Copper,L4,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "HYDRA_VMM3_CARD-In4_Cu.gbr",
+      "Path": "HYDRA_VMM3_CARD_V3_Flex-In1_Cu GND.gbr",
       "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "HYDRA_VMM3_CARD-B_Cu.gbr",
-      "FileFunction": "Copper,L6,Bot",
+      "Path": "HYDRA_VMM3_CARD_V3_Flex-In2_Cu Sig.gbr",
+      "FileFunction": "Copper,L7,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "HYDRA_VMM3_CARD-F_Paste.gbr",
-      "FileFunction": "SolderPaste,Top",
+      "Path": "HYDRA_VMM3_CARD_V3_Flex-In3_Cu GND.gbr",
+      "FileFunction": "Copper,L9,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "HYDRA_VMM3_CARD-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
+      "Path": "HYDRA_VMM3_CARD_V3_Flex-In4_Cu GND.gbr",
+      "FileFunction": "Copper,L11,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "HYDRA_VMM3_CARD-F_Silkscreen.gbr",
-      "FileFunction": "Legend,Top",
+      "Path": "HYDRA_VMM3_CARD_V3_Flex-In5_Cu Sig.gbr",
+      "FileFunction": "Copper,L13,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "HYDRA_VMM3_CARD-B_Silkscreen.gbr",
-      "FileFunction": "Legend,Bot",
+      "Path": "HYDRA_VMM3_CARD_V3_Flex-In6_Cu GND.gbr",
+      "FileFunction": "Copper,L15,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "HYDRA_VMM3_CARD-F_Mask.gbr",
-      "FileFunction": "SolderMask,Top",
-      "FilePolarity": "Negative"
-    },
-    {
-      "Path": "HYDRA_VMM3_CARD-B_Mask.gbr",
-      "FileFunction": "SolderMask,Bot",
-      "FilePolarity": "Negative"
-    },
-    {
-      "Path": "HYDRA_VMM3_CARD-Edge_Cuts.gbr",
-      "FileFunction": "Profile",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "HYDRA_VMM3_CARD-User_1.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "HYDRA_VMM3_CARD-User_2.gbr",
-      "FileFunction": "Other,User",
+      "Path": "HYDRA_VMM3_CARD_V3_Flex-B_Cu Sig.gbr",
+      "FileFunction": "Copper,L8,Bot",
       "FilePolarity": "Positive"
     }
   ],
@@ -131,78 +96,102 @@
     },
     {
       "Type": "SolderMask",
-      "Color": "Green",
+      "Color": "Black",
       "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "F.Cu"
+      "Name": "F.Cu Sig"
     },
     {
       "Type": "Dielectric",
       "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "F.Cu/In1.Cu",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
+      "Name": "F.Cu Sig/In1.Cu GND",
+      "Notes": "Type: dielectric layer 1 (from F.Cu Sig to In1.Cu GND)"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "In1.Cu"
+      "Name": "In1.Cu GND"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.535,
+      "Thickness": 0.3,
       "Material": "FR4",
-      "Name": "In1.Cu/In2.Cu",
-      "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
+      "Name": "In1.Cu GND/In2.Cu Sig",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu GND to In2.Cu Sig)"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "In2.Cu"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 0.1,
-      "Material": "FR4",
-      "Name": "In2.Cu/In3.Cu",
-      "Notes": "Type: dielectric layer 3 (from In2.Cu to In3.Cu)"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.035,
-      "Name": "In3.Cu"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 0.535,
-      "Material": "FR4",
-      "Name": "In3.Cu/In4.Cu",
-      "Notes": "Type: dielectric layer 4 (from In3.Cu to In4.Cu)"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.035,
-      "Name": "In4.Cu"
+      "Name": "In2.Cu Sig"
     },
     {
       "Type": "Dielectric",
       "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "In4.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 5 (from In4.Cu to B.Cu)"
+      "Name": "In2.Cu Sig/In3.Cu GND",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu Sig to In3.Cu GND)"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "B.Cu"
+      "Name": "In3.Cu GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.3,
+      "Material": "FR4",
+      "Name": "In3.Cu GND/In4.Cu GND",
+      "Notes": "Type: dielectric layer 4 (from In3.Cu GND to In4.Cu GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In4.Cu GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "In4.Cu GND/In5.Cu Sig",
+      "Notes": "Type: dielectric layer 5 (from In4.Cu GND to In5.Cu Sig)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In5.Cu Sig"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.3,
+      "Material": "FR4",
+      "Name": "In5.Cu Sig/In6.Cu GND",
+      "Notes": "Type: dielectric layer 6 (from In5.Cu Sig to In6.Cu GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In6.Cu GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "In6.Cu GND/B.Cu Sig",
+      "Notes": "Type: dielectric layer 7 (from In6.Cu GND to B.Cu Sig)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu Sig"
     },
     {
       "Type": "SolderMask",
-      "Color": "Green",
+      "Color": "Black",
       "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },

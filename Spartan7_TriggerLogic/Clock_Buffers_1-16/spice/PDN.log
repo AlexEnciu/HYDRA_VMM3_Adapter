@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * C:\Users\alex_\Documents\IKP\HYDRA\HYDRA_VMM3_Adapter\Spartan7_TriggerLogic\Clock_Buffers_1-16\spice\PDN.asc
-Start Time: Tue Aug 19 16:51:08 2025
+Start Time: Wed Aug 20 10:24:00 2025
 solver = Normal
 Maximum thread count: 20
 tnom = 27
@@ -21,5 +21,5 @@ c14: Increased Cpar to 1e-12
 c2: Increased Cpar to 3.3e-11
 c1: Increased Cpar to 1e-12
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 0.044 seconds.
+Total elapsed time: 0.099 seconds.
 
