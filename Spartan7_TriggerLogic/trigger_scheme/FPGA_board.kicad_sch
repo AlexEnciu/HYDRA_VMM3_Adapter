@@ -1,0 +1,118 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "67c8cfef-8c64-4723-8a7c-494dfa83cbb2")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "Beam_Off"
+		(shape input)
+		(at 90.17 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "091becc6-acfb-44cc-a791-32e84aea15a6")
+	)
+	(hierarchical_label "Heimtime"
+		(shape input)
+		(at 90.17 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a5915f9-5875-4774-9735-81c5f2109eff")
+	)
+	(hierarchical_label "Master Trigger"
+		(shape input)
+		(at 90.17 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c358521-7622-492e-823a-468764a3b6f0")
+	)
+	(hierarchical_label "Beam_On"
+		(shape input)
+		(at 90.17 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57494c79-ea4f-4846-be67-4571235920f7")
+	)
+	(hierarchical_label "Laser_out"
+		(shape output)
+		(at 90.17 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93d83301-84fc-41e7-87c0-a96dffaf29a5")
+	)
+	(hierarchical_label "Heimtime_16"
+		(shape output)
+		(at 104.14 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7045ac7-fe5c-4e77-bf26-1d5c59c98206")
+	)
+	(hierarchical_label "MasterTrigger_1"
+		(shape output)
+		(at 104.14 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0e9a2ba-a0d6-4be4-ba54-ef93ccd1cec0")
+	)
+	(hierarchical_label "Laser_in"
+		(shape input)
+		(at 90.17 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c680ac53-a160-42fa-9bf7-b44ab9a9abaf")
+	)
+	(hierarchical_label "MasterTrigger_16"
+		(shape output)
+		(at 104.14 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce92f2e6-717a-4c28-b799-164fa7f02a7f")
+	)
+	(hierarchical_label "Heimtime_1"
+		(shape output)
+		(at 104.14 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eddcb4c3-5833-4de5-b65e-738ecb38cb1c")
+	)
+)

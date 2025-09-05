@@ -1,0 +1,382 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "67c8cfef-8c64-4723-8a7c-494dfa83cbb2")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "MasterTrigger_10"
+		(shape output)
+		(at 139.7 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11e57040-5cb5-486c-af0c-c2ea79a68027")
+	)
+	(hierarchical_label "Heimtime_2"
+		(shape output)
+		(at 104.14 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1447b4a7-4c69-4893-a690-e2d71cd702d3")
+	)
+	(hierarchical_label "Heimtime_9"
+		(shape output)
+		(at 139.7 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d14e881-b8d4-4055-90d2-80efc362a51b")
+	)
+	(hierarchical_label "MasterTrigger_8"
+		(shape output)
+		(at 104.14 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1db56c2c-ee32-41ca-8cbc-50ec8fd34e8c")
+	)
+	(hierarchical_label "Heimtime"
+		(shape input)
+		(at 90.17 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a5915f9-5875-4774-9735-81c5f2109eff")
+	)
+	(hierarchical_label "Master Trigger"
+		(shape input)
+		(at 90.17 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c358521-7622-492e-823a-468764a3b6f0")
+	)
+	(hierarchical_label "MasterTrigger_6"
+		(shape output)
+		(at 104.14 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33691497-d32f-445b-b957-7fa635179e56")
+	)
+	(hierarchical_label "MasterTrigger_14"
+		(shape output)
+		(at 139.7 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ea02def-5f90-41a9-8ca0-0c1b3edb5fb2")
+	)
+	(hierarchical_label "Heimtime_11"
+		(shape output)
+		(at 139.7 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4abadda0-a9e4-416f-a135-1bb761e377d5")
+	)
+	(hierarchical_label "Heimtime_8"
+		(shape output)
+		(at 104.14 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f268335-fb5a-4005-a8cc-e4fc5513c73f")
+	)
+	(hierarchical_label "Heimtime_3"
+		(shape output)
+		(at 104.14 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57d84514-a9bf-484d-b5c2-9751f36e3162")
+	)
+	(hierarchical_label "Heimtime_5"
+		(shape output)
+		(at 104.14 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d0d3b61-9930-4c6e-b034-19b721264e91")
+	)
+	(hierarchical_label "MasterTrigger_7"
+		(shape output)
+		(at 104.14 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f9e06d1-c4ed-41d1-86cc-973f3e736e01")
+	)
+	(hierarchical_label "MasterTrigger_5"
+		(shape output)
+		(at 104.14 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "642f3fb6-5f2e-48b5-9905-817561d36f93")
+	)
+	(hierarchical_label "Heimtime_6"
+		(shape output)
+		(at 104.14 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65488728-1a37-4248-b5ac-44f5735e502b")
+	)
+	(hierarchical_label "Heimtime_7"
+		(shape output)
+		(at 104.14 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b72f0d0-50e3-45aa-8fbe-1806e611d838")
+	)
+	(hierarchical_label "MasterTrigger_3"
+		(shape output)
+		(at 104.14 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c8763b5-287f-47ed-83d3-7103d1cd420b")
+	)
+	(hierarchical_label "MasterTrigger_11"
+		(shape output)
+		(at 139.7 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "765cf1e8-2eca-4805-8fdb-f617ef625e22")
+	)
+	(hierarchical_label "Heimtime_14"
+		(shape output)
+		(at 139.7 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ba09dbe-ecd3-4b36-8ec1-625f9c2434a1")
+	)
+	(hierarchical_label "MasterTrigger_12"
+		(shape output)
+		(at 139.7 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d80b566-09e0-4c49-aecb-15c4e6cea843")
+	)
+	(hierarchical_label "MasterTrigger_4"
+		(shape output)
+		(at 104.14 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a30ca063-71ec-4927-b683-7e331a06d816")
+	)
+	(hierarchical_label "Heimtime_4"
+		(shape output)
+		(at 104.14 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4b2cf66-5055-43ac-a863-d9e81b547816")
+	)
+	(hierarchical_label "Heimtime_16"
+		(shape output)
+		(at 139.7 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7045ac7-fe5c-4e77-bf26-1d5c59c98206")
+	)
+	(hierarchical_label "Heimtime_12"
+		(shape output)
+		(at 139.7 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "adeb3bb0-348d-47ff-91d6-d477e419c2f9")
+	)
+	(hierarchical_label "MasterTrigger_15"
+		(shape output)
+		(at 139.7 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af421433-850b-46ba-9266-147db62fe419")
+	)
+	(hierarchical_label "Heimtime_15"
+		(shape output)
+		(at 139.7 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1ac3f00-71da-4c8f-9920-44fc9336f88d")
+	)
+	(hierarchical_label "MasterTrigger_1"
+		(shape output)
+		(at 104.14 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0e9a2ba-a0d6-4be4-ba54-ef93ccd1cec0")
+	)
+	(hierarchical_label "MasterTrigger_13"
+		(shape output)
+		(at 139.7 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3c5dcec-e24c-4698-bf42-f6a2c8bdfd3c")
+	)
+	(hierarchical_label "MasterTrigger_16"
+		(shape output)
+		(at 139.7 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce92f2e6-717a-4c28-b799-164fa7f02a7f")
+	)
+	(hierarchical_label "Heimtime_10"
+		(shape output)
+		(at 139.7 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfea8d06-ef76-4a4f-ad41-39792a4dbbc2")
+	)
+	(hierarchical_label "MasterTrigger_2"
+		(shape output)
+		(at 104.14 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e196ee72-1f39-476f-9ac4-44631b274b8e")
+	)
+	(hierarchical_label "Heimtime_1"
+		(shape output)
+		(at 104.14 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eddcb4c3-5833-4de5-b65e-738ecb38cb1c")
+	)
+	(hierarchical_label "Heimtime_13"
+		(shape output)
+		(at 139.7 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0fc2de6-22ca-44fd-b5c5-9386d4efb647")
+	)
+	(hierarchical_label "MasterTrigger_9"
+		(shape output)
+		(at 139.7 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2f8c1ce-574a-4c96-90aa-5cf1e7ef40ec")
+	)
+)

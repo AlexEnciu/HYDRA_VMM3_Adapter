@@ -1,0 +1,1062 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {},
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "rules": {},
+      "track_widths": [],
+      "via_dimensions": []
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "label_multiple_wires": "warning",
+      "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
+      "similar_labels": "warning",
+      "similar_power": "warning",
+      "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
+      "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "Trigger_logic.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 4
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": []
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "pos_files": "",
+      "specctra_dsn": "",
+      "step": "",
+      "svg": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "include_excluded_from_bom": true,
+      "name": "Default Editing",
+      "sort_asc": true,
+      "sort_field": "Reference"
+    },
+    "connection_grid_size": 50.0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "page_layout_descr_file": "kicad-embed://Alexandru_Enciu_HYDRA_Template.kicad_wks",
+    "plot_directory": "./",
+    "space_save_all_events": true,
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "spice_save_all_voltages": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "b864ec12-a8e8-4e7a-9383-4c64dbd59a43",
+      "Root"
+    ],
+    [
+      "04e43095-4e5b-4530-9556-c5512ef72cc3",
+      "2:6 Clock Buffer Pad Plane Adapter2"
+    ],
+    [
+      "5c0e6701-9775-46ea-b2aa-e1822d571225",
+      "2:6 Clock Buffer Pad Plane Adapter0"
+    ],
+    [
+      "9747e1df-9a45-4060-b80a-589dfc937ca0",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "5b012053-1e97-462e-ba1c-de7e4feccbec",
+      "2:8 Flex Clock Buffer0"
+    ],
+    [
+      "14febe02-78f0-490c-b617-bf74b99960bb",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "39f41f36-da91-47af-a496-8cae3fb2b532",
+      "2:8 Flex Clock Buffer1"
+    ],
+    [
+      "4a4bd4e4-3ef6-4b91-892e-2fb39ca229da",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "1be8e57e-c58e-4cb6-b490-2fc4ad9ea234",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "cee06e3d-e521-48d5-a161-f45e760e0b3c",
+      "2:8 Flex Clock Buffer2"
+    ],
+    [
+      "d7e7a010-7726-4adc-ba15-f24c79c02d80",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "bebe279c-1ff4-4a5b-b340-b5f0e9c874f9",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "711b7d10-8913-4bfa-b51d-2e561ae9431a",
+      "2:32 Clock Buffer"
+    ],
+    [
+      "67f6cbf5-325c-4b36-9501-64b0ec9380d9",
+      "2:6 Clock Buffer Pad Plane Adapter3"
+    ],
+    [
+      "3f0d174d-d60b-4bf0-9779-87cd1da2be35",
+      "2:8 Flex Clock Buffer6"
+    ],
+    [
+      "1287de92-c364-4116-b2b4-3d2ed1cd3b78",
+      "2:8 Flex Clock Buffer7"
+    ],
+    [
+      "f205c778-b162-4b8e-b0d8-f79d31f9f1a3",
+      "2:8 Flex Clock Buffer8"
+    ],
+    [
+      "98005083-83b8-4764-b97a-ca4b3516757b",
+      "2:8 Flex Clock Buffer9"
+    ],
+    [
+      "bb94486a-1251-44a2-a989-a83758896685",
+      "2:8 Flex Clock Buffer10"
+    ],
+    [
+      "763eb5f1-1889-4a98-b8a8-dd8bb73dfa00",
+      "2:8 Flex Clock Buffer11"
+    ],
+    [
+      "6c42924f-e0d4-4807-81ff-9c084a893e79",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "8758614b-8ecd-4b23-96cf-aeaca6d8ae1b",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "03cce7c7-9078-4c5f-8b80-59fcc29aeda8",
+      "2:6 Clock Buffer Pad Plane Adapter1"
+    ],
+    [
+      "b35feada-a88d-494d-86df-50b49996917b",
+      "2:8 Flex Clock Buffer3"
+    ],
+    [
+      "485fc8a1-41e7-4c9e-a441-f4b3ca0ae871",
+      "2:8 Flex Clock Buffer4"
+    ],
+    [
+      "0fc76152-8ccd-4f15-9b6a-0dd6f21c3bfa",
+      "2:8 Flex Clock Buffer5"
+    ],
+    [
+      "5b89d157-7c31-43a7-97b8-b24d5afc5db3",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "3fadcb49-0144-4d86-aeee-f9435970a02d",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "7eb9fb61-26ae-4f51-9a5e-dd3eab53d793",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "1a1896cf-4b06-4fd9-a0e2-826dac6b37ff",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "991fc906-ba31-4ec5-837c-a3606e194f6d",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "0a43dc0f-448c-4133-aa83-d8681568b3cd",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "7386878c-da07-4e4d-bae2-204dcaafe897",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "aed29583-4f11-4b40-80a8-08ad099d9254",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "de0d9bb4-4952-4470-958a-8f9a87dffed1",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "69bed0e2-40a9-4864-8312-2484d2e5e792",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "21fec7a6-d2e7-45e1-b664-aaa1ffba67c1",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "99fa9e27-ad6f-4a3d-90ee-6cd7370b9b76",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "61cdf78b-d87d-4157-84d1-52dcd7ea9d0d",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "9ea175b6-0f81-4667-a601-9b3701d2fb22",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "528efaa6-613e-4426-8133-cc335dc9d13a",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "2f9e99b6-b178-4042-bb51-851d6c6f324f",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "70d27f70-7024-46c4-8af1-fe8b851be96a",
+      "2:6 Clock Buffer Pad Plane Adapter4"
+    ],
+    [
+      "42258ffa-fee3-47cf-82ff-14021695f148",
+      "2:6 Clock Buffer Pad Plane Adapter5"
+    ],
+    [
+      "cde7eb10-72bd-4137-806d-a78f576c73bb",
+      "2:6 Clock Buffer Pad Plane Adapter6"
+    ],
+    [
+      "3481a73c-cb7c-46c5-9788-d3a016b614a2",
+      "2:6 Clock Buffer Pad Plane Adapter7"
+    ],
+    [
+      "9abb3d4c-7a22-4572-8c01-4ae76512c1ae",
+      "2:8 Flex Clock Buffer12"
+    ],
+    [
+      "10cc7c3b-c1c5-47c5-b69b-f1bfa9b7cc91",
+      "2:8 Flex Clock Buffer13"
+    ],
+    [
+      "4c4b6305-669e-4803-985c-0a99da9e1e00",
+      "2:8 Flex Clock Buffer14"
+    ],
+    [
+      "978ef3b1-bbe4-467f-befd-faa70703bcf1",
+      "2:8 Flex Clock Buffer15"
+    ],
+    [
+      "c228b200-090a-4921-bdd1-98de9d02e7f5",
+      "2:8 Flex Clock Buffer16"
+    ],
+    [
+      "2f933262-f3d6-410b-b202-00f45d985e93",
+      "2:8 Flex Clock Buffer17"
+    ],
+    [
+      "529708f6-7a67-46d2-8eb2-c65c2374b59e",
+      "2:8 Flex Clock Buffer18"
+    ],
+    [
+      "a846a4a9-7a67-4165-bad9-354aafb5a50e",
+      "2:8 Flex Clock Buffer19"
+    ],
+    [
+      "c31a73d2-efc3-419f-8599-ec6e4ddc7337",
+      "2:8 Flex Clock Buffer20"
+    ],
+    [
+      "3fbdd411-229c-47f3-87eb-c05d52b0a130",
+      "2:8 Flex Clock Buffer21"
+    ],
+    [
+      "109796e2-05a6-4d44-a529-4b8980992f5d",
+      "2:8 Flex Clock Buffer22"
+    ],
+    [
+      "0819329e-d75f-4bb3-8c98-1f85316d2dda",
+      "2:8 Flex Clock Buffer23"
+    ],
+    [
+      "159cc90c-45ed-40ab-9ad3-7cf8e904bb33",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "19035d49-48c9-44b1-8a66-9c56a0c53068",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "626351f7-48af-4b3a-8af4-f7fcc564d885",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "da643ed2-7473-4dba-b949-9c3a708e263b",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "ce1ea4ae-a204-4e52-a918-33a4ef0d9b09",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "cfc4654f-d658-4c9c-9f50-966fcfe05548",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "4e2a0df4-7ff2-44f3-afae-61ed5f5c6357",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "047eda7d-aa09-4437-81bc-9d3fc6268383",
+      "VMM3a_ASIC_31"
+    ],
+    [
+      "c049c1ff-5ebd-4858-aa82-9007c8e59b21",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "f328cc63-0fdf-496a-98d8-095449a81cdb",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "01b5e39b-54f1-4dfd-b8be-e9f4487742ad",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "3d9895fd-c8ad-411f-ad1a-b8c796147ebf",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "87dc1f3e-2ef0-4385-a1be-6e6e0e66a539",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "b43cde81-f0a3-475d-8a37-2e9bd5c352e4",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "4853d1c4-86e1-49de-8e3b-49c90a698b2f",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "ba007481-4efd-40a2-92a1-c4f911c94c30",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "64923f9b-922f-47c4-b2b0-4b3a9b6c1978",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "ff64027d-7bf6-4746-a478-bff227c586ca",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "69cc2e4d-35b4-47b8-965f-5a079e8c8ebf",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "309c7191-b59c-4a11-a80d-686e7bb50e94",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "cfa6ec7a-a918-42bf-a278-d7ea6cf0a9c9",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "1bd28af3-2c05-4988-87b7-2bfe0ccc2fd5",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "6babf865-d795-4ef2-bd38-8eb336c9344c",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "468fcc70-cfac-44e1-9282-82a0f4e2093e",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "5a7e206f-8121-4f00-a52f-5f6f6155d93b",
+      "2:6 Clock Buffer Pad Plane Adapter8"
+    ],
+    [
+      "1466a93a-d039-4413-9b1f-566f4a3584af",
+      "2:6 Clock Buffer Pad Plane Adapter9"
+    ],
+    [
+      "f463442e-9197-4a01-862a-ca6140ba38f7",
+      "2:6 Clock Buffer Pad Plane Adapter10"
+    ],
+    [
+      "652bddd9-80ff-4239-8e7f-1d0596e295fa",
+      "2:6 Clock Buffer Pad Plane Adapter11"
+    ],
+    [
+      "3e1a8aa4-3f7c-4104-b8e2-f18ff033ecfd",
+      "2:6 Clock Buffer Pad Plane Adapter12"
+    ],
+    [
+      "b8d2a182-54d9-424b-a330-e80e57b2a092",
+      "2:6 Clock Buffer Pad Plane Adapter13"
+    ],
+    [
+      "70b4f52d-3554-4bea-bba9-2c5863e5247a",
+      "2:6 Clock Buffer Pad Plane Adapter14"
+    ],
+    [
+      "b4ac28cb-c832-41ed-874b-51893e46a475",
+      "2:6 Clock Buffer Pad Plane Adapter15"
+    ],
+    [
+      "c6a69a77-bd89-4f4a-9772-4b5094767946",
+      "2:8 Flex Clock Buffer24"
+    ],
+    [
+      "3251eaae-8091-49bb-aee5-6314eca29c55",
+      "2:8 Flex Clock Buffer25"
+    ],
+    [
+      "be643004-2149-4ca9-a732-1758cf3acbbf",
+      "2:8 Flex Clock Buffer26"
+    ],
+    [
+      "038cff1e-16e7-47cf-95c1-c69e74f37074",
+      "2:8 Flex Clock Buffer27"
+    ],
+    [
+      "cf03e1b4-8be0-4adf-93d1-5d9ab2a624ad",
+      "2:8 Flex Clock Buffer28"
+    ],
+    [
+      "e72cad3f-ca2d-49c6-8443-12f38e34c05e",
+      "2:8 Flex Clock Buffer29"
+    ],
+    [
+      "08d03f2c-978f-4d5a-ad1c-3ec7e0c1fe4b",
+      "2:8 Flex Clock Buffer30"
+    ],
+    [
+      "9059e96e-66f5-4ee7-9ed7-a302aa75589c",
+      "2:8 Flex Clock Buffer31"
+    ],
+    [
+      "b7adb77a-6d19-408e-837a-a546330028a2",
+      "2:8 Flex Clock Buffer32"
+    ],
+    [
+      "d66b548b-1ad9-4805-82d6-ca0d7ae9b264",
+      "2:8 Flex Clock Buffer33"
+    ],
+    [
+      "3414342b-6b46-4c89-97cb-d980385500b3",
+      "2:8 Flex Clock Buffer34"
+    ],
+    [
+      "006f5003-64eb-43be-a07b-a9313c8b8929",
+      "2:8 Flex Clock Buffer35"
+    ],
+    [
+      "f596cb9a-602d-4864-a150-9a70bbe3f245",
+      "2:8 Flex Clock Buffer36"
+    ],
+    [
+      "23e6097e-24e5-4d42-a1ee-63c127484022",
+      "2:8 Flex Clock Buffer37"
+    ],
+    [
+      "a6d7b5fb-9d9e-431b-9351-08e8c0c791b7",
+      "2:8 Flex Clock Buffer38"
+    ],
+    [
+      "c34ebb6d-e70b-4cdf-84ca-d5c555f9cd07",
+      "2:8 Flex Clock Buffer39"
+    ],
+    [
+      "7192e881-f334-4a29-80c6-ea44141d73ee",
+      "2:8 Flex Clock Buffer40"
+    ],
+    [
+      "e346c44d-7f6e-4052-b7d9-b1da1c5fa9e7",
+      "2:8 Flex Clock Buffer41"
+    ],
+    [
+      "eae8763f-8e6b-4bd3-9d6d-731bb6dc5b40",
+      "2:8 Flex Clock Buffer42"
+    ],
+    [
+      "03503c1a-0761-41d4-8d5a-9bcf53998f95",
+      "2:8 Flex Clock Buffer43"
+    ],
+    [
+      "c68e8d36-a61a-42b7-b4ed-ba1c84564a42",
+      "2:8 Flex Clock Buffer44"
+    ],
+    [
+      "0df14e71-ab19-4c86-a1e0-ca179c1cfd23",
+      "2:8 Flex Clock Buffer45"
+    ],
+    [
+      "68da52d9-09a0-4948-b547-56fa3d98b9b9",
+      "2:8 Flex Clock Buffer46"
+    ],
+    [
+      "9480f9a5-275c-4314-9edd-5776a7260338",
+      "2:8 Flex Clock Buffer47"
+    ],
+    [
+      "c7c433f3-cae0-4a03-ab9b-8dbaea4ed971",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "05d2d1db-421e-4fc1-bba6-a458536dfdd9",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "463e62f9-3a6f-4031-95d8-dc399d774c40",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "2c60beae-0c60-4098-92a9-85b2b227e997",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "82a25280-7062-444b-9e33-c9c821b42ef8",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "4378589d-6d2a-443f-bbe3-2085168d86ce",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "63556130-84b9-481d-b122-43f8f4a4da5b",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "0f38aec4-e2b8-4988-9f4e-7b02bb7b86e5",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "6b7f9f91-5630-4ba9-8281-23fbcccf038b",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "a6bb6f2e-9216-42be-a884-9eb2df36416d",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "e8037aa1-e54e-4a20-90c9-3129f407f1c7",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "5efd4be2-5ea3-4583-b754-a3d051a1dfcd",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "ceac99ed-f387-4afc-9d9b-42a7f332e5d5",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "300bca39-19e4-42f7-98d7-b471a71dc9e3",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "6072bd7b-7560-4380-8ee8-41b88b634b3d",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "2c261295-993c-4c37-b860-71518afc3592",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "503fa95c-aa96-460c-b417-8604a085071c",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "d6179516-743b-4920-b0f3-eab9f960698c",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "4929d3cf-6849-467c-9026-7a65ddadc649",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "0fd9b3f4-63b3-4eea-ba04-df65790394e1",
+      "VMM3a_ASIC_67"
+    ],
+    [
+      "01b9cb7d-2e66-48e4-8aa4-b9849077adcc",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "f5d6c545-5425-415d-8ded-fd0f303a275a",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "7f93659b-ca53-45b1-8c49-9b51aca87069",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "203030ac-8f0a-48e3-b7e4-f90ede3cd4dc",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "4eedfadb-c7e0-429a-aade-48aa16b947d2",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "dc443154-4c8a-4b1c-ad68-b9c2a6be2c05",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "1bb22dea-47ea-4281-ade0-01883415f2ad",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "b783def8-a9d5-4ff5-8f19-0cab143f3a61",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "980a05b6-8c76-4c1d-9b0b-8e0633efcc89",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "5221f4ab-c1b1-42f9-847b-799e03844e9d",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "5927b9b0-ce45-48d8-836f-cac3bdc96c21",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "13873220-822b-4aa4-abbf-eda1972b07d6",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "5d39a698-0eff-4ded-a754-d02c19b25b9a",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "2980976f-7f21-43b4-b284-a0255302ab22",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "0806d873-a839-46ec-a690-5bdd846294e4",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "cad2f5ff-46dd-4fcf-a4e3-189515b5a343",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "08f2087a-f065-45b5-bfa2-a9a7dd9ec477",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "218713b9-0d06-490c-a061-45e283a0d058",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "0c3d2433-f5db-422c-8d10-be12e946580c",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "46262ab3-1583-4d30-a87f-96b93ce7f039",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "a901d163-6ea4-4c08-b4ea-edebde541b43",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "3be34240-64d2-46ef-8cf8-a7446d4f83ef",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "af3f4fba-de7d-451b-b28f-0a97f65ee266",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "46c4ad69-d008-44c7-add8-221bb92bca4c",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "c3bd1753-7818-4819-b54a-87f103c3e74a",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "f0ff0ad3-8633-42e0-acf3-b53d9a411043",
+      "VMM3a_ASIC_1"
+    ],
+    [
+      "110fede9-53bd-403d-a659-aa7332986f03",
+      "VMM3a_ASIC_0"
+    ],
+    [
+      "8f45658b-74af-48a1-bd8f-47d50ef2432f",
+      "VMM3a_ASIC_1"
+    ]
+  ],
+  "text_variables": {}
+}

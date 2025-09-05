@@ -1,19 +1,10 @@
 LTspice 24.0.12 for Windows
 Circuit: * C:\Users\alex_\Documents\IKP\HYDRA\HYDRA_VMM3_Adapter\AddOns\spice\PassiveFilter_vs_CKBuffer.asc
-Start Time: Wed Sep  3 14:09:29 2025
+Start Time: Wed Sep  3 14:17:20 2025
 solver = Normal
 Maximum thread count: 20
 tnom = 27
 temp = 27
 method = modified trap
-.OP point found by inspection.
-Ignoring empty pin current: Ix(u2:1)
-Ignoring empty pin current: Ix(u2:2)
-Ignoring empty pin current: Ix(u1:1)
-Ignoring empty pin current: Ix(u1:2)
-Ignoring empty pin current: Ix(u2:1)
-Ignoring empty pin current: Ix(u2:2)
-Ignoring empty pin current: Ix(u1:1)
-Ignoring empty pin current: Ix(u1:2)
-Total elapsed time: 2.175 seconds.
-
+Fatal Error: PWL time,value pairs out of chronological order in source v3
+    0.00037 is not before 0.00034

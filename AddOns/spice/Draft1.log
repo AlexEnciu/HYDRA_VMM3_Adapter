@@ -1,0 +1,13 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\alex_\Documents\IKP\HYDRA\HYDRA_VMM3_Adapter\AddOns\spice\Draft1.asc
+Start Time: Fri Sep  5 21:49:24 2025
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Less than two connections to node heimtime_laser.  This node is used by a7.
+WARNING: Less than two connections to node laser_out.  This node is used by a10.
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 22.587 seconds.
+

@@ -1,0 +1,118 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2bc5900b-617c-4377-ba11-de84c71ac1ad")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "Master_Trigger_VMM3_ASIC_1"
+		(shape output)
+		(at 121.92 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1baaba8b-f96b-4a02-872f-dbce83604b7f")
+	)
+	(hierarchical_label "Master_Trigger_VMM3_ASIC_0"
+		(shape output)
+		(at 121.92 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48f8d8f3-3072-49c1-a44b-6cd760152abc")
+	)
+	(hierarchical_label "Heimtime_VMM3_ASIC_0"
+		(shape output)
+		(at 121.92 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62d3ac59-8243-4341-86c8-65e24115d6d1")
+	)
+	(hierarchical_label "Master_Trigger_VMM3_ASIC_0_1"
+		(shape output)
+		(at 121.92 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67b86b6d-48d1-46be-ae4f-0dd6273e7ef3")
+	)
+	(hierarchical_label "Heimtime_VMM3_ASIC_0_1"
+		(shape output)
+		(at 121.92 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75ae1344-f3fa-4d65-bef2-20f4305ff9e7")
+	)
+	(hierarchical_label "Heimtime_VMM3_ASIC_1_1"
+		(shape output)
+		(at 121.92 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93ac16a7-ccb7-4b9e-93ed-c033901eb1c9")
+	)
+	(hierarchical_label "Heimtime_VMM3_ASIC_1"
+		(shape output)
+		(at 121.92 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "957cf523-56ad-4ccc-908a-4db3aca8595d")
+	)
+	(hierarchical_label "Heimtime_card_1"
+		(shape input)
+		(at 88.9 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a64123ba-31ea-4357-a0bf-ae158ac3b2af")
+	)
+	(hierarchical_label "Master_Trigger_card_1"
+		(shape input)
+		(at 88.9 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b43c9dbf-d817-460f-9640-f27da6036e43")
+	)
+	(hierarchical_label "Master_Trigger_VMM3_ASIC_1_1"
+		(shape output)
+		(at 121.92 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e75e079f-7b25-4138-b7da-faa46405c7d8")
+	)
+)

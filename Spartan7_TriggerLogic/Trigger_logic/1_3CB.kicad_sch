@@ -1,0 +1,96 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b2380903-f547-4665-a4b3-d52deef0a042")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "Heimtime"
+		(shape input)
+		(at 88.9 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0300c50c-27fa-455a-9d7a-712eee98e568")
+	)
+	(hierarchical_label "Heimtime_card_1"
+		(shape output)
+		(at 110.49 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f5d5c0d-c720-4bed-9dc8-36abe93b5fe1")
+	)
+	(hierarchical_label "Heimtime_card_2"
+		(shape output)
+		(at 110.49 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66829d20-d822-4bf3-aafa-973d47a5e868")
+	)
+	(hierarchical_label "Master_Trigger"
+		(shape input)
+		(at 88.9 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78eb85cd-dff0-4bbf-9422-95d040523c28")
+	)
+	(hierarchical_label "Master_Trigger_card_3"
+		(shape output)
+		(at 110.49 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93e86b5e-a844-4728-a718-460ba63ce9ad")
+	)
+	(hierarchical_label "Heimtime_card_3"
+		(shape output)
+		(at 110.49 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5ae80ae-8ec8-4fe8-a667-80b476ce9366")
+	)
+	(hierarchical_label "Master_Trigger_card_1"
+		(shape output)
+		(at 110.49 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5d0f868-712f-4b8b-826e-035f724c5e6a")
+	)
+	(hierarchical_label "Master_Trigger_card_2"
+		(shape output)
+		(at 110.49 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ffebf08f-7653-4e2d-b84e-ec62e2c60cd5")
+	)
+)
