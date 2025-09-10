@@ -3123,7 +3123,7 @@
 		)
 		(uuid "e573a6cc-9aa9-4c76-8981-cebc7c9df9ac")
 	)
-	(text "Clock Distribution BOX"
+	(text "Clock Distribution Unit"
 		(exclude_from_sim no)
 		(at 202.692 539.496 0)
 		(effects

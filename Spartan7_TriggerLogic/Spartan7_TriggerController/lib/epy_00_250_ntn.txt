@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-20062024-942200";"";
+"REFERENCE";"EPY.00.250.NTN";"";
+"TraceParts.PartTitle";"Receptacle (2 elbows for PCB) - EPY.00.250.NTN";"";
+"TraceParts.InstanceId";"90-20062024-9422002N3XX9WWY2MK673V115V3T3RA";"";
+"SUPPLIER";"LEMO";"";
+"DESIGN";"Two vertical elbow receptacles for printed circuit";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.2";"";

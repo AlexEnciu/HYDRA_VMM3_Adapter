@@ -123,7 +123,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -138,7 +138,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -458,6 +458,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -620,7 +621,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "kicad-embed://Alexandru_Enciu_HYDRA_Template.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "plot/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -635,10 +636,6 @@
     [
       "4e8a1527-464a-4520-8845-f408be0bbc40",
       "Root"
-    ],
-    [
-      "cff7a2f7-c99f-4c91-9c1c-e7090e743541",
-      "Ground"
     ],
     [
       "0e14c4f1-cc08-4711-a2cf-002e73f6382b",

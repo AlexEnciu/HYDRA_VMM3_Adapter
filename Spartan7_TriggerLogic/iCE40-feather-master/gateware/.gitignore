@@ -1,0 +1,12 @@
+*.bit
+*.svf
+*.json
+*.asc
+*.bin
+*.log
+*.rpt
+*.lxt
+*.vcd
+*.history
+
+verilog/out/*

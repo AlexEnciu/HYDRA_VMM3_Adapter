@@ -54,50 +54,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 33.02 29.21)
-		(size 31.75 11.43)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 174 251 1.0000)
-		)
-		(uuid "cff7a2f7-c99f-4c91-9c1c-e7090e743541")
-		(property "Sheetname" "Ground"
-			(at 34.544 38.1 0)
-			(effects
-				(font
-					(size 5 5)
-					(thickness 1)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "gnd.kicad_sch"
-			(at 33.02 95.8346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Spartan7_TriggerController"
-				(path "/4e8a1527-464a-4520-8845-f408be0bbc40"
-					(page "2")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")
