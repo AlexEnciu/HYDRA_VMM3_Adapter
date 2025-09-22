@@ -188,7 +188,8 @@
       ],
       "track_widths": [
         0.0,
-        0.1
+        0.1,
+        0.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -638,8 +639,24 @@
       "Root"
     ],
     [
+      "691d06e0-d834-4784-b752-578b704a611c",
+      "QSPI"
+    ],
+    [
       "0e14c4f1-cc08-4711-a2cf-002e73f6382b",
       "Power"
+    ],
+    [
+      "3f6ce868-5370-4629-be01-93a69a498360",
+      "XC7S6"
+    ],
+    [
+      "4f39890d-7047-41bb-a7f8-5cb12713e9df",
+      "JTAG"
+    ],
+    [
+      "700ec024-9df6-49bd-bd7f-020b02211263",
+      "Boot_Mode"
     ]
   ],
   "text_variables": {}

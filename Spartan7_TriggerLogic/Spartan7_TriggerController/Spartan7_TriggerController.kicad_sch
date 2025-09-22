@@ -10,8 +10,152 @@
 		(rev "0")
 	)
 	(lib_symbols)
+	(no_connect
+		(at 144.78 46.99)
+		(uuid "6dddca95-5b0f-4844-a1da-5eb852789250")
+	)
+	(wire
+		(pts
+			(xy 90.17 59.69) (xy 97.79 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e66f01-b363-44e0-93e6-c8f34a96389d")
+	)
+	(polyline
+		(pts
+			(xy 90.17 40.64) (xy 97.79 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481b9c63-3e0a-41a9-be5f-ed788f9d9fbb")
+	)
+	(wire
+		(pts
+			(xy 90.17 54.61) (xy 97.79 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4916c429-d6d0-4727-a20f-0a08893ba86a")
+	)
+	(wire
+		(pts
+			(xy 137.16 53.34) (xy 144.78 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "556f8a17-e0e4-425e-810d-9fb509e96f3e")
+	)
+	(wire
+		(pts
+			(xy 137.16 44.45) (xy 144.78 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "633b27dc-d738-493c-be5a-5b9fbf131531")
+	)
+	(wire
+		(pts
+			(xy 90.17 52.07) (xy 97.79 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b503e57-f36d-4251-ad8b-ee740c8a1003")
+	)
+	(wire
+		(pts
+			(xy 90.17 62.23) (xy 97.79 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "700ef5e9-afdb-4aae-b04e-8ffed109204b")
+	)
+	(wire
+		(pts
+			(xy 137.16 58.42) (xy 144.78 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a5eb676-3874-40bf-bfb2-faa94be4a1d4")
+	)
+	(wire
+		(pts
+			(xy 137.16 41.91) (xy 144.78 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82db5768-40ef-4cd2-ae4d-dd061e45c901")
+	)
+	(wire
+		(pts
+			(xy 137.16 39.37) (xy 144.78 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8713591-57a7-4006-83d7-56932b61b6ec")
+	)
+	(wire
+		(pts
+			(xy 137.16 55.88) (xy 144.78 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be487418-16ff-4884-8bf6-e85086a3bffa")
+	)
+	(wire
+		(pts
+			(xy 137.16 36.83) (xy 144.78 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62d4c90-b289-4988-8e6b-ad4bce0ab99f")
+	)
+	(wire
+		(pts
+			(xy 90.17 57.15) (xy 97.79 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd9434ef-2391-49eb-a147-aa4b0095115f")
+	)
+	(wire
+		(pts
+			(xy 90.17 64.77) (xy 97.79 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f6dfdb-7468-4f3d-90bb-5167c1d8e79e")
+	)
 	(sheet
-		(at 36.83 41.91)
+		(at 66.04 34.29)
 		(size 24.13 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26,7 +170,7 @@
 		)
 		(uuid "0e14c4f1-cc08-4711-a2cf-002e73f6382b")
 		(property "Sheetname" "Power"
-			(at 36.83 51.816 0)
+			(at 66.04 44.196 0)
 			(effects
 				(font
 					(size 5 5)
@@ -37,7 +181,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 36.83 89.4846 0)
+			(at 66.04 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,6 +194,452 @@
 			(project "Spartan7_TriggerController"
 				(path "/4e8a1527-464a-4520-8845-f408be0bbc40"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 34.29)
+		(size 39.37 114.3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f6ce868-5370-4629-be01-93a69a498360")
+		(property "Sheetname" "XC7S6"
+			(at 103.124 34.798 0)
+			(effects
+				(font
+					(size 5 5)
+					(thickness 1)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "XC7S6_FTGB196.kicad_sch"
+			(at 97.79 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "QSPI_CE_N" input
+			(at 97.79 52.07 180)
+			(uuid "21ecccb9-1c74-4c16-b504-f7b2ddc7907b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "QSPI_IO_0" input
+			(at 97.79 54.61 180)
+			(uuid "131bdf69-651f-47c9-a851-bc2b8aa674fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "QSPI_IO_1" input
+			(at 97.79 57.15 180)
+			(uuid "fb3b72d2-22ca-47a6-992b-401b2e7aa1c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "QSPI_IO_2" input
+			(at 97.79 59.69 180)
+			(uuid "eebd1fb2-fec9-4683-bf1d-503b2d25e1be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "QSPI_IO_3" input
+			(at 97.79 62.23 180)
+			(uuid "f3ea9dfc-d745-445a-a417-c59b5858fad4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "QSPI_SCK" input
+			(at 97.79 64.77 180)
+			(uuid "92eef4b8-66d6-421f-9caa-ad324afa3d65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TCK" input
+			(at 137.16 36.83 0)
+			(uuid "2e657915-4249-4827-9c59-15038798b5fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TDO" input
+			(at 137.16 41.91 0)
+			(uuid "12a3e137-cacf-401d-b051-2966faaaab3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TDI" input
+			(at 137.16 39.37 0)
+			(uuid "486bb5a7-e454-406f-a305-ebd99468c8e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TMS" input
+			(at 137.16 44.45 0)
+			(uuid "4a4015fa-ceba-4bed-96ff-0d9e75b8a23f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M0" input
+			(at 137.16 53.34 0)
+			(uuid "78121b45-adc9-41b1-bfab-0239013a1485")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M1" input
+			(at 137.16 55.88 0)
+			(uuid "25428f72-66b9-4703-8473-da2141238a02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M2" input
+			(at 137.16 58.42 0)
+			(uuid "17510a38-d149-40d0-a7ad-bd27ca7abfd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Spartan7_TriggerController"
+				(path "/4e8a1527-464a-4520-8845-f408be0bbc40"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 34.29)
+		(size 27.94 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 172 255 172 1.0000)
+		)
+		(uuid "4f39890d-7047-41bb-a7f8-5cb12713e9df")
+		(property "Sheetname" "JTAG"
+			(at 152.654 44.958 0)
+			(effects
+				(font
+					(size 5 5)
+					(thickness 1)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "JTAG.kicad_sch"
+			(at 144.78 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "TCK" input
+			(at 144.78 36.83 180)
+			(uuid "077051d1-9c70-4aa6-927e-17f5b55bec37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TDI" input
+			(at 144.78 39.37 180)
+			(uuid "610012ab-493a-472a-aab4-71fb0b7a857c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TDO" input
+			(at 144.78 41.91 180)
+			(uuid "b867a0e3-dc3b-46ae-b453-b50cf1c856f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TMS" input
+			(at 144.78 44.45 180)
+			(uuid "25784f25-ffa1-45fc-a368-e4c84327752b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_ref" input
+			(at 144.78 46.99 180)
+			(uuid "412c9bd4-2f2b-4ebb-ac89-9984e02067d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Spartan7_TriggerController"
+				(path "/4e8a1527-464a-4520-8845-f408be0bbc40"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 49.53)
+		(size 31.75 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 254 177 255 1.0000)
+		)
+		(uuid "691d06e0-d834-4784-b752-578b704a611c")
+		(property "Sheetname" "QSPI"
+			(at 58.928 62.23 0)
+			(effects
+				(font
+					(size 5 5)
+					(thickness 1)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "QSPI_IS25LP256D.kicad_sch"
+			(at 58.42 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "QSPI_CE_N" input
+			(at 90.17 52.07 0)
+			(uuid "bd2b1ee2-5cf9-4d46-9b86-dff0b8572d4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "QSPI_IO_0" input
+			(at 90.17 54.61 0)
+			(uuid "868d7cb3-880b-4615-8594-3f0163eb180f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "QSPI_IO_1" input
+			(at 90.17 57.15 0)
+			(uuid "69e37800-c5c7-4d47-bc35-0abdefc490c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "QSPI_IO_2" input
+			(at 90.17 59.69 0)
+			(uuid "657fb57b-0521-4d45-a486-2b80ab535a26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "QSPI_IO_3" input
+			(at 90.17 62.23 0)
+			(uuid "daec4681-798c-4395-8ecc-afa3a393b4b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "QSPI_SCK" input
+			(at 90.17 64.77 0)
+			(uuid "ded3fd51-0211-49cf-a321-29599e02f90d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Spartan7_TriggerController"
+				(path "/4e8a1527-464a-4520-8845-f408be0bbc40"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 50.8)
+		(size 53.34 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 148 182 255 1.0000)
+		)
+		(uuid "700ec024-9df6-49bd-bd7f-020b02211263")
+		(property "Sheetname" "Boot_Mode"
+			(at 150.876 59.436 0)
+			(effects
+				(font
+					(size 5 5)
+					(thickness 1)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Boot_Mode.kicad_sch"
+			(at 144.78 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "M0" input
+			(at 144.78 53.34 180)
+			(uuid "e6e108a3-d3ee-42a2-be40-ce090643cb40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1" input
+			(at 144.78 55.88 180)
+			(uuid "856fe98c-50c2-4f1b-ba48-15a535c3625b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M2" input
+			(at 144.78 58.42 180)
+			(uuid "f9c996c4-9eac-4736-b689-7469967ce41a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Spartan7_TriggerController"
+				(path "/4e8a1527-464a-4520-8845-f408be0bbc40"
+					(page "6")
 				)
 			)
 		)

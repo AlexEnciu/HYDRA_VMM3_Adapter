@@ -1,4 +1,4 @@
-26387278058401120
+26394308906744228
 0_lib
 BGA196C100P14X14_1500X1500X155N
 
@@ -6,6 +6,13 @@ BGA196C100P14X14_1500X1500X155N
 0
 196
 196
+0_lib
+CONN14_878321422_MOL
+
+878321422 
+0
+14
+14
 0_lib
 CONN_EPY.00.250.NTN_LMO
 
@@ -20,6 +27,27 @@ SAMTEC_MCX-J-P-X-RA-SM1
 0
 5
 5
+0_lib
+WSON_6D-JLLE_ISI
+
+IS25LP256D-JLLE 
+0
+9
+9
+0_lib
+WSON_6D-JLLE_ISI-L
+
+IS25LP256D-JLLE 
+0
+9
+9
+0_lib
+WSON_6D-JLLE_ISI-M
+
+IS25LP256D-JLLE 
+0
+9
+9
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
