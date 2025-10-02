@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "0_lib")(type "KiCad")(uri "${CARD_V2}/Spartan7_TriggerLogic/OpticalTransreciver/lib")(options "")(descr ""))
+)
