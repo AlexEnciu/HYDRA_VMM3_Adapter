@@ -1670,30 +1670,6 @@
 		(uuid "19d16571-c9e0-4e74-a69d-6a80e0948fff")
 	)
 	(junction
-		(at 227.33 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20318cf1-d1be-4b22-98cd-a3ea13074e34")
-	)
-	(junction
-		(at 229.87 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25f7d7b5-b029-4c6f-9a5c-4f3558578d21")
-	)
-	(junction
-		(at 218.44 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "299e5a78-1a4c-4f03-bd83-76b42001a9be")
-	)
-	(junction
-		(at 238.76 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "313ebc37-94b6-4af5-afd2-8840bb19e9f9")
-	)
-	(junction
 		(at 115.57 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1706,18 +1682,6 @@
 		(uuid "3af7a5eb-7a0d-4223-ac36-ab1bcec143fb")
 	)
 	(junction
-		(at 213.36 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5bfbe6ae-988d-4d3a-9f6e-cc76fed57d29")
-	)
-	(junction
-		(at 236.22 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "678fe2ff-3045-4412-853b-27aa2002c6c2")
-	)
-	(junction
 		(at 95.25 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1728,12 +1692,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74432f05-e717-4db8-84d6-9b3549f391f3")
-	)
-	(junction
-		(at 224.79 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76efe7c0-aa78-4ef7-9d61-6dc4c4cbf944")
 	)
 	(junction
 		(at 90.17 102.87)
@@ -1776,12 +1734,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f6180ab-52dd-423d-aecf-2d5676993f39")
-	)
-	(junction
-		(at 215.9 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a68e8cec-4c03-4ef8-bf9a-ec56de6ab95a")
 	)
 	(junction
 		(at 193.04 100.33)
@@ -1838,12 +1790,6 @@
 		(uuid "d7a0f381-2982-4e28-8d67-e3df58350459")
 	)
 	(junction
-		(at 203.2 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3275b81-2884-41d8-b111-9b5fc8a95b2d")
-	)
-	(junction
 		(at 114.3 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1879,7 +1825,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 87.63) (xy 203.2 77.47)
+			(xy 203.2 76.2) (xy 203.2 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1959,16 +1905,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 85.09) (xy 241.3 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a0a2279-dda6-4679-9528-d484ec8fd4f6")
-	)
-	(wire
-		(pts
 			(xy 148.59 123.19) (xy 151.13 123.19)
 		)
 		(stroke
@@ -2016,16 +1952,6 @@
 			(type default)
 		)
 		(uuid "2b7b0e18-3a3a-4343-bfc9-07d594dbb170")
-	)
-	(wire
-		(pts
-			(xy 215.9 85.09) (xy 215.9 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c3fbc50-a2c1-4656-82f6-1b9ea1059271")
 	)
 	(wire
 		(pts
@@ -2079,16 +2005,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 85.09) (xy 218.44 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "435f9115-557c-4d2b-8b3f-b88c3d10f9be")
-	)
-	(wire
-		(pts
 			(xy 124.46 97.79) (xy 124.46 81.28)
 		)
 		(stroke
@@ -2106,16 +2022,6 @@
 			(type default)
 		)
 		(uuid "48dced0c-0bb5-4b89-ac15-a81dd18ec3f5")
-	)
-	(wire
-		(pts
-			(xy 241.3 77.47) (xy 236.22 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49a7254f-4a58-463f-9e5c-b7bc615c2607")
 	)
 	(wire
 		(pts
@@ -2176,16 +2082,6 @@
 			(type default)
 		)
 		(uuid "5807a5c8-a6d2-4707-9e65-ed5adb7f5f35")
-	)
-	(wire
-		(pts
-			(xy 203.2 77.47) (xy 213.36 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ae2279b-7980-4243-8dd1-44b079de58aa")
 	)
 	(wire
 		(pts
@@ -2309,16 +2205,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 85.09) (xy 227.33 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7efca2ff-ff08-4c9f-9c70-356b62f33a93")
-	)
-	(wire
-		(pts
 			(xy 172.72 90.17) (xy 175.26 90.17)
 		)
 		(stroke
@@ -2349,16 +2235,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 85.09) (xy 229.87 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8714a486-773e-44d0-9dcd-1c100d1a7c2f")
-	)
-	(wire
-		(pts
 			(xy 130.81 110.49) (xy 130.81 134.62)
 		)
 		(stroke
@@ -2369,16 +2245,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 77.47) (xy 224.79 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "898c67b9-8a61-43b2-bf4a-aace9733f5fd")
-	)
-	(wire
-		(pts
 			(xy 63.5 86.36) (xy 63.5 87.63)
 		)
 		(stroke
@@ -2386,16 +2252,6 @@
 			(type default)
 		)
 		(uuid "898c6ee9-f0cd-40d2-922b-5e2164869a09")
-	)
-	(wire
-		(pts
-			(xy 229.87 77.47) (xy 236.22 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e1e4467-8688-4852-a4d6-04b22e322340")
 	)
 	(wire
 		(pts
@@ -2416,16 +2272,6 @@
 			(type default)
 		)
 		(uuid "93fe9c5c-6905-4ced-94ad-1c2866fbe60a")
-	)
-	(wire
-		(pts
-			(xy 203.2 77.47) (xy 203.2 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "959dcd58-606a-44ac-aa62-01265e096eed")
 	)
 	(wire
 		(pts
@@ -2466,16 +2312,6 @@
 			(type default)
 		)
 		(uuid "9f897378-3039-42a4-9cbe-84ee52f46b04")
-	)
-	(wire
-		(pts
-			(xy 236.22 85.09) (xy 238.76 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a30ba0ef-4b72-463f-a391-c9ae099bd80a")
 	)
 	(wire
 		(pts
@@ -2546,26 +2382,6 @@
 			(type default)
 		)
 		(uuid "ba7c923a-9bcc-4e67-b83d-07d5558c22a1")
-	)
-	(wire
-		(pts
-			(xy 213.36 77.47) (xy 218.44 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb94ae50-cbdd-4faa-ab99-e31d794c5f00")
-	)
-	(wire
-		(pts
-			(xy 213.36 85.09) (xy 215.9 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c00f37af-ba24-4697-9209-74e5f170b284")
 	)
 	(wire
 		(pts
@@ -2679,16 +2495,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 85.09) (xy 238.76 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5b85063-c8a2-4dea-8581-f6830f7ec2e5")
-	)
-	(wire
-		(pts
 			(xy 138.43 102.87) (xy 118.11 102.87)
 		)
 		(stroke
@@ -2716,16 +2522,6 @@
 			(type default)
 		)
 		(uuid "ef4eece4-e51f-4d16-9cc3-b05e5a213605")
-	)
-	(wire
-		(pts
-			(xy 227.33 85.09) (xy 227.33 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f081e6e0-771d-4419-866d-993034df88b4")
 	)
 	(wire
 		(pts
@@ -2786,16 +2582,6 @@
 			(type default)
 		)
 		(uuid "fb624006-3ab6-42be-a38e-42e08f2d5063")
-	)
-	(wire
-		(pts
-			(xy 224.79 77.47) (xy 229.87 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fedc0fc7-4c7e-4441-9f21-65c49e265306")
 	)
 	(label "MON"
 		(at 163.83 134.62 0)
@@ -3355,73 +3141,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 227.33 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44885fef-1619-4e90-b12e-34edf7119c39")
-		(property "Reference" "#PWR015"
-			(at 227.33 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 227.33 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4513f153-21d0-4764-9e92-2d5a383bd655")
-		)
-		(instances
-			(project "OpticalTransreciver"
-				(path "/8f7e33dd-996a-49ba-9eb4-3bf46e1c9e71"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 69.85 97.79 0)
 		(unit 1)
@@ -3624,73 +3343,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 215.9 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "509f5729-bb25-4d6b-9e92-ce365790881b")
-		(property "Reference" "#PWR014"
-			(at 215.9 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.9 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15953a72-9ecc-4b85-80ab-47bfaa6f84f4")
-		)
-		(instances
-			(project "OpticalTransreciver"
-				(path "/8f7e33dd-996a-49ba-9eb4-3bf46e1c9e71"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
 		(at 209.55 92.71 180)
 		(unit 1)
@@ -3764,73 +3416,6 @@
 			(project ""
 				(path "/8f7e33dd-996a-49ba-9eb4-3bf46e1c9e71"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 238.76 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57508ad0-af89-4e3e-a8d8-ccd4a0dfc1ce")
-		(property "Reference" "#PWR016"
-			(at 238.76 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 238.76 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91b7853c-af9b-41f2-8bd1-edbff5cdc547")
-		)
-		(instances
-			(project "OpticalTransreciver"
-				(path "/8f7e33dd-996a-49ba-9eb4-3bf46e1c9e71"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3973,75 +3558,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 218.44 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64ec4e70-681a-486c-9876-988770d842cc")
-		(property "Reference" "C13"
-			(at 218.44 79.502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 218.948 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 219.4052 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 218.44 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0ac3bf48-e577-4bb1-bb8a-f66082744e4a")
-		)
-		(pin "1"
-			(uuid "f3b41484-a68e-4692-a42a-151e5c724748")
-		)
-		(instances
-			(project "OpticalTransreciver"
-				(path "/8f7e33dd-996a-49ba-9eb4-3bf46e1c9e71"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 63.5 102.87 0)
 		(unit 1)
@@ -4178,144 +3694,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 213.36 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6f224fe8-b820-49ea-a7ad-d5c455e710c9")
-		(property "Reference" "C12"
-			(at 213.36 79.502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 213.868 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 214.3252 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 213.36 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3f670f4d-f20a-4725-9e86-15319252dff5")
-		)
-		(pin "1"
-			(uuid "3433c380-6623-4554-b524-e0e1177073f1")
-		)
-		(instances
-			(project "OpticalTransreciver"
-				(path "/8f7e33dd-996a-49ba-9eb4-3bf46e1c9e71"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 229.87 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a90d5c9-e270-4dd7-a4b1-b27d590df23b")
-		(property "Reference" "C15"
-			(at 229.87 79.502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 230.378 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 230.8352 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 229.87 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "40aac982-f6b1-4e16-9ce9-1d46c0298bac")
-		)
-		(pin "1"
-			(uuid "34f0529d-bba5-4ba7-a39e-93e23ab3b75f")
-		)
-		(instances
-			(project "OpticalTransreciver"
-				(path "/8f7e33dd-996a-49ba-9eb4-3bf46e1c9e71"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 172.72 91.44 0)
 		(unit 1)
@@ -4446,75 +3824,6 @@
 			(project "OpticalTransreciver"
 				(path "/8f7e33dd-996a-49ba-9eb4-3bf46e1c9e71"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 241.3 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84c2c569-3a4c-4ef7-807b-c31a7eb8e3d8")
-		(property "Reference" "C17"
-			(at 241.3 79.502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 241.808 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 242.2652 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 241.3 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4b5903e0-446d-4896-8cc2-700a7427796b")
-		)
-		(pin "1"
-			(uuid "222bb33e-7fdb-4c47-bda9-7e2648b5f986")
-		)
-		(instances
-			(project "OpticalTransreciver"
-				(path "/8f7e33dd-996a-49ba-9eb4-3bf46e1c9e71"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -5000,75 +4309,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 236.22 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bca04c83-553a-40ba-be82-9b542c4bd7e6")
-		(property "Reference" "C16"
-			(at 236.22 79.502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 236.728 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 237.1852 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 236.22 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "91848d4a-74d0-42a0-a509-05e247ba1b94")
-		)
-		(pin "1"
-			(uuid "ea74ef68-17e7-4bd2-bb9c-579d2740aa95")
-		)
-		(instances
-			(project "OpticalTransreciver"
-				(path "/8f7e33dd-996a-49ba-9eb4-3bf46e1c9e71"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 177.8 82.55 0)
 		(unit 1)
@@ -5530,75 +4770,6 @@
 			(project ""
 				(path "/8f7e33dd-996a-49ba-9eb4-3bf46e1c9e71"
 					(reference "Conn1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 224.79 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eab9f61e-c90b-4174-93a8-670ac77fe614")
-		(property "Reference" "C14"
-			(at 224.79 79.502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 225.298 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 225.7552 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 224.79 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 224.79 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "37754004-715b-4451-97ce-ea73ce3e49d3")
-		)
-		(pin "1"
-			(uuid "694554ff-5a0b-4b8a-9ac2-f6f33f381138")
-		)
-		(instances
-			(project "OpticalTransreciver"
-				(path "/8f7e33dd-996a-49ba-9eb4-3bf46e1c9e71"
-					(reference "C14")
 					(unit 1)
 				)
 			)
