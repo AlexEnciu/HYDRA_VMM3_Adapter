@@ -229,7 +229,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -419,7 +419,7 @@
     ],
     [
       "5c0e6701-9775-46ea-b2aa-e1822d571225",
-      "2:6 Clock Buffer Pad Plane Adapter"
+      "2:6 AddOn"
     ],
     [
       "9747e1df-9a45-4060-b80a-589dfc937ca0",
@@ -431,7 +431,7 @@
     ],
     [
       "39f41f36-da91-47af-a496-8cae3fb2b532",
-      "2:8 Flex Clock Buffer"
+      "2:8 Flex AddOn"
     ]
   ],
   "text_variables": {}

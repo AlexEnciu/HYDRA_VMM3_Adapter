@@ -5,7 +5,7 @@
 	(uuid "b864ec12-a8e8-4e7a-9383-4c64dbd59a43")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C_Small"
+		(symbol "C_Small_1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -16,22 +16,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
+			(property "Reference" "C1"
+				(at 6.35 -0.0063 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
+			(property "Value" "500fF"
+				(at 1.016 3.556 90)
 				(effects
 					(font
+						(face "Arial")
 						(size 1.27 1.27)
+						(color 0 0 0 1)
 					)
-					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -79,7 +81,151 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_Small_0_1"
+			(symbol "C_Small_1_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+						(color 255 92 254 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type solid)
+						(color 255 92 254 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "C_Small_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C3"
+				(at 6.35 -0.0063 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "500fF"
+				(at 1.016 3.302 90)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.27 1.27)
+						(color 5 5 5 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_2_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -87,6 +233,7 @@
 					(stroke
 						(width 0.3048)
 						(type default)
+						(color 43 87 255 1)
 					)
 					(fill
 						(type none)
@@ -99,13 +246,14 @@
 					(stroke
 						(width 0.3302)
 						(type default)
+						(color 43 87 255 1)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "C_Small_1_1"
+			(symbol "C_Small_2_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -147,8 +295,8 @@
 		)
 	)
 	(rectangle
-		(start 125.73 68.58)
-		(end 176.53 102.87)
+		(start 142.24 87.63)
+		(end 193.04 121.92)
 		(stroke
 			(width 0)
 			(type solid)
@@ -160,33 +308,36 @@
 		(uuid 334e776f-fd34-4f6a-a6bb-f615b6271bf3)
 	)
 	(rectangle
-		(start 153.67 69.85)
-		(end 161.29 101.6)
+		(start 146.05 90.17)
+		(end 177.8 120.65)
 		(stroke
 			(width 0.127)
-			(type dash)
+			(type solid)
 			(color 0 0 0 1)
 		)
 		(fill
-			(type none)
+			(type color)
+			(color 115 255 212 1)
 		)
 		(uuid c5339b0a-ff4f-421e-b4a8-ba1a2c8c30b6)
 	)
-	(text "500 fF"
+	(text "2:8 Flex AddOn"
 		(exclude_from_sim no)
-		(at 157.48 71.882 0)
+		(at 161.798 89.662 0)
 		(effects
 			(font
 				(face "Arial")
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 				(color 0 0 0 1)
 			)
 		)
-		(uuid "82c9a551-ad34-48b7-8678-ddeead091949")
+		(uuid "7410fb48-3f63-49b6-a3c1-5db54d501309")
 	)
 	(text "VMM3a Hybrid Card Assembly"
 		(exclude_from_sim no)
-		(at 147.32 67.818 0)
+		(at 166.878 87.122 0)
 		(effects
 			(font
 				(face "Arial")
@@ -199,7 +350,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 87.63) (xy 87.63 87.63)
+			(xy 97.79 106.68) (xy 104.14 106.68)
 		)
 		(stroke
 			(width 0.254)
@@ -209,7 +360,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 74.93) (xy 162.56 74.93)
+			(xy 175.26 93.98) (xy 179.07 93.98)
 		)
 		(stroke
 			(width 0.254)
@@ -220,7 +371,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 90.17) (xy 64.77 90.17)
+			(xy 170.18 101.6) (xy 172.72 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0798d135-d65e-42fa-a41e-af3fc86462f5")
+	)
+	(wire
+		(pts
+			(xy 80.01 109.22) (xy 81.28 109.22)
 		)
 		(stroke
 			(width 0.254)
@@ -231,7 +392,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 82.55) (xy 162.56 82.55)
+			(xy 177.8 101.6) (xy 179.07 101.6)
 		)
 		(stroke
 			(width 0.254)
@@ -242,7 +403,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 73.66) (xy 121.92 73.66)
+			(xy 143.51 92.71) (xy 138.43 92.71)
 		)
 		(stroke
 			(width 0.254)
@@ -253,7 +414,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 80.01) (xy 162.56 80.01)
+			(xy 175.26 99.06) (xy 179.07 99.06)
 		)
 		(stroke
 			(width 0.254)
@@ -264,7 +425,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 87.63) (xy 129.54 87.63)
+			(xy 143.51 106.68) (xy 147.32 106.68)
 		)
 		(stroke
 			(width 0.254)
@@ -275,7 +436,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 95.25) (xy 87.63 95.25)
+			(xy 97.79 114.3) (xy 104.14 114.3)
 		)
 		(stroke
 			(width 0.254)
@@ -285,7 +446,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 86.36) (xy 124.46 86.36)
+			(xy 138.43 105.41) (xy 140.97 105.41)
 		)
 		(stroke
 			(width 0.254)
@@ -296,7 +457,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 96.52) (xy 162.56 96.52)
+			(xy 175.26 115.57) (xy 179.07 115.57)
 		)
 		(stroke
 			(width 0.254)
@@ -307,7 +468,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 91.44) (xy 162.56 91.44)
+			(xy 175.26 110.49) (xy 179.07 110.49)
 		)
 		(stroke
 			(width 0.254)
@@ -318,7 +479,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 73.66) (xy 127 87.63)
+			(xy 143.51 92.71) (xy 143.51 106.68)
 		)
 		(stroke
 			(width 0.254)
@@ -329,18 +490,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 74.93) (xy 153.67 74.93)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 255 92 254 1)
-		)
-		(uuid "621381a8-88cb-4e66-bf31-6004fb458c5f")
-	)
-	(wire
-		(pts
-			(xy 81.28 82.55) (xy 87.63 82.55)
+			(xy 97.79 101.6) (xy 104.14 101.6)
 		)
 		(stroke
 			(width 0.254)
@@ -350,29 +500,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 99.06) (xy 156.21 99.06)
+			(xy 170.18 96.52) (xy 172.72 96.52)
 		)
 		(stroke
-			(width 0.254)
+			(width 0)
 			(type default)
-			(color 43 87 255 1)
 		)
-		(uuid "66094da4-65d7-4865-953b-985b9669f1a4")
+		(uuid "682dc28f-d0cb-4965-a437-7419ab741388")
 	)
 	(wire
 		(pts
-			(xy 152.4 96.52) (xy 153.67 96.52)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 43 87 255 1)
-		)
-		(uuid "680f852d-fb03-45ec-91fe-c0115e1bb9a5")
-	)
-	(wire
-		(pts
-			(xy 161.29 99.06) (xy 162.56 99.06)
+			(xy 177.8 118.11) (xy 179.07 118.11)
 		)
 		(stroke
 			(width 0.254)
@@ -383,7 +521,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 93.98) (xy 64.77 93.98)
+			(xy 80.01 113.03) (xy 81.28 113.03)
 		)
 		(stroke
 			(width 0)
@@ -393,7 +531,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 92.71) (xy 87.63 92.71)
+			(xy 170.18 113.03) (xy 172.72 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8ed262-905d-48b0-a637-aaad82c9580b")
+	)
+	(wire
+		(pts
+			(xy 97.79 111.76) (xy 104.14 111.76)
 		)
 		(stroke
 			(width 0.254)
@@ -403,18 +551,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 80.01) (xy 153.67 80.01)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 43 87 255 1)
-		)
-		(uuid "705ade27-5b09-4767-8988-a82ccd464bd8")
-	)
-	(wire
-		(pts
-			(xy 128.27 71.12) (xy 121.92 71.12)
+			(xy 144.78 90.17) (xy 138.43 90.17)
 		)
 		(stroke
 			(width 0.254)
@@ -425,7 +562,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 80.01) (xy 91.44 80.01)
+			(xy 106.68 99.06) (xy 107.95 99.06)
 		)
 		(stroke
 			(width 0.254)
@@ -436,7 +573,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 83.82) (xy 87.63 83.82)
+			(xy 97.79 102.87) (xy 104.14 102.87)
 		)
 		(stroke
 			(width 0.254)
@@ -446,7 +583,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 88.9) (xy 87.63 88.9)
+			(xy 97.79 107.95) (xy 104.14 107.95)
 		)
 		(stroke
 			(width 0.254)
@@ -456,7 +593,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 83.82) (xy 64.77 83.82)
+			(xy 80.01 102.87) (xy 81.28 102.87)
 		)
 		(stroke
 			(width 0)
@@ -466,7 +603,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 85.09) (xy 87.63 85.09)
+			(xy 170.18 118.11) (xy 172.72 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb480c1-b2fa-4a31-9c2b-9e29e28f7c74")
+	)
+	(wire
+		(pts
+			(xy 97.79 104.14) (xy 104.14 104.14)
 		)
 		(stroke
 			(width 0.254)
@@ -476,7 +623,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 80.01) (xy 124.46 80.01)
+			(xy 138.43 99.06) (xy 140.97 99.06)
 		)
 		(stroke
 			(width 0.254)
@@ -487,7 +634,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 93.98) (xy 87.63 93.98)
+			(xy 97.79 113.03) (xy 104.14 113.03)
 		)
 		(stroke
 			(width 0.254)
@@ -497,7 +644,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 85.09) (xy 129.54 85.09)
+			(xy 144.78 104.14) (xy 147.32 104.14)
 		)
 		(stroke
 			(width 0.254)
@@ -508,7 +655,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 71.12) (xy 128.27 85.09)
+			(xy 144.78 90.17) (xy 144.78 104.14)
 		)
 		(stroke
 			(width 0.254)
@@ -519,7 +666,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 90.17) (xy 87.63 90.17)
+			(xy 97.79 109.22) (xy 104.14 109.22)
 		)
 		(stroke
 			(width 0.254)
@@ -529,7 +676,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 77.47) (xy 91.44 77.47)
+			(xy 106.68 96.52) (xy 107.95 96.52)
 		)
 		(stroke
 			(width 0.254)
@@ -540,7 +687,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 87.63) (xy 64.77 87.63)
+			(xy 80.01 106.68) (xy 81.28 106.68)
 		)
 		(stroke
 			(width 0.254)
@@ -551,40 +698,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 93.98) (xy 156.21 93.98)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 255 92 254 1)
-		)
-		(uuid "c53eaa7f-dc39-4286-a86b-33bd8a76426d")
-	)
-	(wire
-		(pts
-			(xy 152.4 91.44) (xy 153.67 91.44)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 255 92 254 1)
-		)
-		(uuid "cfe2f625-a838-45c6-b92f-9ab6906d0f80")
-	)
-	(wire
-		(pts
-			(xy 152.4 82.55) (xy 156.21 82.55)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 43 87 255 1)
-		)
-		(uuid "d3391b77-3209-404b-8d13-6954a3b96627")
-	)
-	(wire
-		(pts
-			(xy 63.5 96.52) (xy 64.77 96.52)
+			(xy 80.01 115.57) (xy 81.28 115.57)
 		)
 		(stroke
 			(width 0)
@@ -594,7 +708,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 81.28) (xy 64.77 81.28)
+			(xy 80.01 100.33) (xy 81.28 100.33)
 		)
 		(stroke
 			(width 0)
@@ -604,7 +718,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 77.47) (xy 162.56 77.47)
+			(xy 177.8 96.52) (xy 179.07 96.52)
 		)
 		(stroke
 			(width 0.254)
@@ -615,7 +729,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 86.36) (xy 87.63 86.36)
+			(xy 97.79 105.41) (xy 104.14 105.41)
 		)
 		(stroke
 			(width 0.254)
@@ -625,7 +739,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 93.98) (xy 162.56 93.98)
+			(xy 177.8 113.03) (xy 179.07 113.03)
 		)
 		(stroke
 			(width 0.254)
@@ -636,18 +750,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 77.47) (xy 156.21 77.47)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 255 92 254 1)
-		)
-		(uuid "e7b392f9-c53d-4136-b0d3-346d40caaf91")
-	)
-	(wire
-		(pts
-			(xy 81.28 91.44) (xy 87.63 91.44)
+			(xy 97.79 110.49) (xy 104.14 110.49)
 		)
 		(stroke
 			(width 0.254)
@@ -657,7 +760,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 100.33) (xy 95.25 100.33)
+			(xy 106.68 119.38) (xy 111.76 119.38)
 		)
 		(stroke
 			(width 0.254)
@@ -668,7 +771,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 83.82) (xy 124.46 83.82)
+			(xy 138.43 102.87) (xy 140.97 102.87)
 		)
 		(stroke
 			(width 0.254)
@@ -679,7 +782,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 77.47) (xy 124.46 77.47)
+			(xy 138.43 96.52) (xy 140.97 96.52)
 		)
 		(stroke
 			(width 0.254)
@@ -690,7 +793,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 97.79) (xy 95.25 97.79)
+			(xy 106.68 116.84) (xy 111.76 116.84)
 		)
 		(stroke
 			(width 0.254)
@@ -700,16 +803,17 @@
 		(uuid "fc02d9ec-51b0-42fc-98d9-e001909278eb")
 	)
 	(symbol
+		(lib_name "C_Small_1")
 		(lib_id "Device:C_Small")
-		(at 156.21 96.52 90)
+		(at 172.72 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0b3ff0fb-e071-4e58-b522-9a012d68c66f")
-		(property "Reference" "C6"
-			(at 156.2163 90.17 90)
+		(uuid "2cc36998-dcdd-41f6-aaaa-68f6c1eb4d46")
+		(property "Reference" "C5"
+			(at 172.7263 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -718,7 +822,7 @@
 			)
 		)
 		(property "Value" "500fF"
-			(at 152.908 95.504 90)
+			(at 169.164 109.474 90)
 			(effects
 				(font
 					(face "Arial")
@@ -729,7 +833,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 96.52 0)
+			(at 172.72 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -738,7 +842,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 96.52 0)
+			(at 172.72 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -747,7 +851,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 156.21 96.52 0)
+			(at 172.72 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -756,166 +860,24 @@
 			)
 		)
 		(pin "2"
-			(uuid "928df90c-57fc-4570-b445-b897d96e3f14")
+			(uuid "d4bbed47-0f1e-43ea-816a-b180d07b142c")
 		)
 		(pin "1"
-			(uuid "4f7248ce-731c-47fb-a3ee-c7413c30370a")
+			(uuid "66f16558-ffaf-478d-b15b-e04aefc385dc")
 		)
 		(instances
 			(project "trigger_scheme"
 				(path "/b864ec12-a8e8-4e7a-9383-4c64dbd59a43"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "C_Small_2")
 		(lib_id "Device:C_Small")
-		(at 158.75 77.47 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29223e0d-2dab-432e-9184-49837dea5949")
-		(property "Reference" "C2"
-			(at 158.7437 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "500fF"
-			(at 162.306 76.454 90)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-					(color 0 0 0 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 158.75 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d89add13-8ed4-4042-bd92-f3d38b16b9b1")
-		)
-		(pin "1"
-			(uuid "d28e3ce7-2256-49a9-a5f0-d198bbbcae90")
-		)
-		(instances
-			(project "trigger_scheme"
-				(path "/b864ec12-a8e8-4e7a-9383-4c64dbd59a43"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 158.75 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e27c40c-a59f-4030-80aa-a63a562841cc")
-		(property "Reference" "C4"
-			(at 158.7563 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "500fF"
-			(at 162.306 81.534 90)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-					(color 0 0 0 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 158.75 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e139fd1a-0c59-453c-a4a2-2b60f8bfc83f")
-		)
-		(pin "1"
-			(uuid "e92080dd-47f4-4982-a91a-4812ed6c1db5")
-		)
-		(instances
-			(project "trigger_scheme"
-				(path "/b864ec12-a8e8-4e7a-9383-4c64dbd59a43"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 156.21 80.01 90)
+		(at 172.72 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -923,7 +885,7 @@
 		(dnp no)
 		(uuid "538beb35-146e-46de-83f2-f8d349a59099")
 		(property "Reference" "C3"
-			(at 156.2163 73.66 90)
+			(at 172.7263 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,7 +894,7 @@
 			)
 		)
 		(property "Value" "500fF"
-			(at 152.908 78.994 90)
+			(at 169.418 98.044 90)
 			(effects
 				(font
 					(face "Arial")
@@ -943,7 +905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 80.01 0)
+			(at 172.72 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -952,7 +914,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 80.01 0)
+			(at 172.72 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -961,7 +923,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 156.21 80.01 0)
+			(at 172.72 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -985,16 +947,17 @@
 		)
 	)
 	(symbol
+		(lib_name "C_Small_2")
 		(lib_id "Device:C_Small")
-		(at 158.75 99.06 90)
+		(at 172.72 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "58a01b9b-e481-4426-b46a-c4e1ff0cdb10")
-		(property "Reference" "C8"
-			(at 158.7563 92.71 90)
+		(uuid "923e3eb7-66a2-4559-b5a8-772d36a013d7")
+		(property "Reference" "C6"
+			(at 172.7263 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1003,18 +966,18 @@
 			)
 		)
 		(property "Value" "500fF"
-			(at 162.306 98.044 90)
+			(at 169.418 114.554 90)
 			(effects
 				(font
 					(face "Arial")
 					(size 1.27 1.27)
-					(color 0 0 0 1)
+					(color 5 5 5 1)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 99.06 0)
+			(at 172.72 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1023,7 +986,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 99.06 0)
+			(at 172.72 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1032,7 +995,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 158.75 99.06 0)
+			(at 172.72 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1041,103 +1004,32 @@
 			)
 		)
 		(pin "2"
-			(uuid "32c8ec25-6952-422c-8d6d-91a708429855")
+			(uuid "932e35b3-7637-4874-815f-88dc0d077eff")
 		)
 		(pin "1"
-			(uuid "383ff7e9-d20f-4d4a-9895-0619f5b15ed5")
+			(uuid "4c434110-d2e2-4118-ab23-0f93737e9ba3")
 		)
 		(instances
 			(project "trigger_scheme"
 				(path "/b864ec12-a8e8-4e7a-9383-4c64dbd59a43"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "C_Small_1")
 		(lib_id "Device:C_Small")
-		(at 156.21 91.44 90)
+		(at 175.26 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5976da3a-bb51-4fbd-ad33-7ed0a11c32f2")
-		(property "Reference" "C5"
-			(at 156.2163 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "500fF"
-			(at 152.654 90.424 90)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-					(color 0 0 0 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 156.21 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a6c528ab-b33c-4c9a-98c3-0c9ce58bac65")
-		)
-		(pin "1"
-			(uuid "486ceb7d-0d48-410a-8392-2fe2716629d0")
-		)
-		(instances
-			(project "trigger_scheme"
-				(path "/b864ec12-a8e8-4e7a-9383-4c64dbd59a43"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 158.75 93.98 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8383c58b-d07c-43c5-b6c8-8e4088966c9f")
+		(uuid "95f7c98e-a171-41b6-a6f9-cd4af1990429")
 		(property "Reference" "C7"
-			(at 158.7437 87.63 90)
+			(at 175.2663 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,7 +1038,7 @@
 			)
 		)
 		(property "Value" "500fF"
-			(at 162.306 92.964 90)
+			(at 171.704 112.014 90)
 			(effects
 				(font
 					(face "Arial")
@@ -1157,7 +1049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 93.98 0)
+			(at 175.26 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1166,7 +1058,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 93.98 0)
+			(at 175.26 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,7 +1067,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 158.75 93.98 0)
+			(at 175.26 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1184,10 +1076,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "17916956-382b-4393-89f0-1098dc0de89b")
+			(uuid "4ff23d5b-0de8-4503-a5fc-18ed34f6488a")
 		)
 		(pin "1"
-			(uuid "b40a0104-cf06-4ca8-a383-bd130efb8e91")
+			(uuid "e22acd43-0947-4a42-9034-80ef3aacb3c3")
 		)
 		(instances
 			(project "trigger_scheme"
@@ -1199,16 +1091,17 @@
 		)
 	)
 	(symbol
+		(lib_name "C_Small_2")
 		(lib_id "Device:C_Small")
-		(at 156.21 74.93 90)
+		(at 175.26 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c9c9c349-7521-480d-8858-7121926f5a24")
-		(property "Reference" "C1"
-			(at 156.2163 68.58 90)
+		(uuid "c5b0f9d2-5313-4b14-b8cb-61aaf7dfc4b1")
+		(property "Reference" "C4"
+			(at 175.2663 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1217,7 +1110,79 @@
 			)
 		)
 		(property "Value" "500fF"
-			(at 152.654 73.914 90)
+			(at 171.958 100.584 90)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+					(color 5 5 5 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 175.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f798ff1-fcdd-4b94-9109-30427c9aab11")
+		)
+		(pin "1"
+			(uuid "2747fedc-4ac5-407f-a676-5db8c77e7fc6")
+		)
+		(instances
+			(project "trigger_scheme"
+				(path "/b864ec12-a8e8-4e7a-9383-4c64dbd59a43"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_Small_1")
+		(lib_id "Device:C_Small")
+		(at 172.72 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9c9c349-7521-480d-8858-7121926f5a24")
+		(property "Reference" "C1"
+			(at 172.7263 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "500fF"
+			(at 169.164 92.964 90)
 			(effects
 				(font
 					(face "Arial")
@@ -1228,7 +1193,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 74.93 0)
+			(at 172.72 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1237,7 +1202,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 74.93 0)
+			(at 172.72 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1246,7 +1211,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 156.21 74.93 0)
+			(at 172.72 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,8 +1234,152 @@
 			)
 		)
 	)
+	(symbol
+		(lib_name "C_Small_1")
+		(lib_id "Device:C_Small")
+		(at 175.26 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca57946e-a812-4e98-896e-8339f5c0914b")
+		(property "Reference" "C2"
+			(at 175.2663 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "500fF"
+			(at 171.704 95.504 90)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+					(color 0 0 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 175.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a2220ac-9dcc-4c06-9b03-cdbf1a0ca75a")
+		)
+		(pin "1"
+			(uuid "67bed7c3-a6a7-48c7-bce3-57940ae7adf9")
+		)
+		(instances
+			(project "trigger_scheme"
+				(path "/b864ec12-a8e8-4e7a-9383-4c64dbd59a43"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_Small_2")
+		(lib_id "Device:C_Small")
+		(at 175.26 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef851981-d303-4485-8c5e-566bec99e591")
+		(property "Reference" "C8"
+			(at 175.2663 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "500fF"
+			(at 171.958 117.094 90)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+					(color 5 5 5 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 175.26 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9adbf691-c39b-4c23-93ce-f45ee912783f")
+		)
+		(pin "1"
+			(uuid "98ab8e4a-c6a6-490e-949e-bf729cd4c6fb")
+		)
+		(instances
+			(project "trigger_scheme"
+				(path "/b864ec12-a8e8-4e7a-9383-4c64dbd59a43"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 162.56 72.39)
+		(at 179.07 91.44)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1286,7 +1395,7 @@
 		)
 		(uuid "14febe02-78f0-490c-b617-bf74b99960bb")
 		(property "Sheetname" "VMM3a_ASIC_0"
-			(at 162.56 71.6784 0)
+			(at 179.07 90.7284 0)
 			(effects
 				(font
 					(face "Arial")
@@ -1298,7 +1407,7 @@
 			)
 		)
 		(property "Sheetfile" "asic.kicad_sch"
-			(at 162.56 85.6746 0)
+			(at 179.07 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1308,7 +1417,7 @@
 			)
 		)
 		(pin "Hybrid Ch.55" input
-			(at 162.56 74.93 180)
+			(at 179.07 93.98 180)
 			(uuid "f674fc2e-574c-48b2-9b9f-6b862f4d0b3c")
 			(effects
 				(font
@@ -1319,7 +1428,7 @@
 			)
 		)
 		(pin "Hybrid Ch.57" input
-			(at 162.56 77.47 180)
+			(at 179.07 96.52 180)
 			(uuid "9744d5e5-f444-4b55-82b3-46e3e5e4fe20")
 			(effects
 				(font
@@ -1330,7 +1439,7 @@
 			)
 		)
 		(pin "Hybrid Ch.61" input
-			(at 162.56 80.01 180)
+			(at 179.07 99.06 180)
 			(uuid "8435dd7e-7964-462d-a3a3-fff769611721")
 			(effects
 				(font
@@ -1341,7 +1450,7 @@
 			)
 		)
 		(pin "Hybrid Ch.63" input
-			(at 162.56 82.55 180)
+			(at 179.07 101.6 180)
 			(uuid "bf315e44-5dc3-441a-b589-26312b26cc60")
 			(effects
 				(font
@@ -1360,22 +1469,22 @@
 		)
 	)
 	(sheet
-		(at 129.54 73.66)
+		(at 147.32 92.71)
 		(size 22.86 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(stroke
-			(width 0.1524)
+			(width 0)
 			(type solid)
 		)
 		(fill
-			(color 180 255 153 1.0000)
+			(color 0 0 0 0.0000)
 		)
 		(uuid "39f41f36-da91-47af-a496-8cae3fb2b532")
-		(property "Sheetname" "2:8 Flex Clock Buffer"
-			(at 132.588 72.39 0)
+		(property "Sheetname" "2:8 Flex AddOn"
+			(at 153.924 91.948 0)
 			(effects
 				(font
 					(face "Arial")
@@ -1384,10 +1493,11 @@
 					(color 0 0 0 1)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Sheetfile" "2_8_clockbuffer.kicad_sch"
-			(at 129.54 105.9946 0)
+			(at 147.32 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1397,7 +1507,7 @@
 			)
 		)
 		(pin "Heimtime" input
-			(at 129.54 85.09 180)
+			(at 147.32 104.14 180)
 			(uuid "e2e2e80e-bf14-4969-98b5-085a1dd38666")
 			(effects
 				(font
@@ -1408,7 +1518,7 @@
 			)
 		)
 		(pin "Heimtime 0" output
-			(at 152.4 74.93 0)
+			(at 170.18 93.98 0)
 			(uuid "afbd88ac-e290-406d-9b34-c758d89c17b5")
 			(effects
 				(font
@@ -1419,7 +1529,7 @@
 			)
 		)
 		(pin "Heimtime 1" output
-			(at 152.4 91.44 0)
+			(at 170.18 110.49 0)
 			(uuid "b73a8a34-2a11-40c9-b6bd-e7553f3e01ab")
 			(effects
 				(font
@@ -1429,8 +1539,8 @@
 				(justify right)
 			)
 		)
-		(pin "Master Trigger" input
-			(at 129.54 87.63 180)
+		(pin "Master Start" input
+			(at 147.32 106.68 180)
 			(uuid "11d34a46-3135-42bd-b865-153872a55a41")
 			(effects
 				(font
@@ -1440,8 +1550,8 @@
 				(justify left)
 			)
 		)
-		(pin "Master Trigger 0" output
-			(at 152.4 80.01 0)
+		(pin "Master Start 0" output
+			(at 170.18 99.06 0)
 			(uuid "e0a226f3-db7c-430b-9cd6-9daac0a26c9f")
 			(effects
 				(font
@@ -1451,8 +1561,8 @@
 				(justify right)
 			)
 		)
-		(pin "Master Trigger 1" output
-			(at 152.4 99.06 0)
+		(pin "Master Start 1" output
+			(at 170.18 118.11 0)
 			(uuid "28f79426-fcac-46c1-a8a1-b34c76fd308f")
 			(effects
 				(font
@@ -1463,7 +1573,7 @@
 			)
 		)
 		(pin "Heimtime 0" output
-			(at 152.4 77.47 0)
+			(at 170.18 96.52 0)
 			(uuid "03a15815-35f3-43c1-987e-01a7b26645a7")
 			(effects
 				(font
@@ -1474,7 +1584,7 @@
 			)
 		)
 		(pin "Heimtime 1" output
-			(at 152.4 93.98 0)
+			(at 170.18 113.03 0)
 			(uuid "44d86bd0-e91b-47dd-9fcc-0617a96bb2f1")
 			(effects
 				(font
@@ -1484,8 +1594,8 @@
 				(justify right)
 			)
 		)
-		(pin "Master Trigger 0" output
-			(at 152.4 82.55 0)
+		(pin "Master Start 0" output
+			(at 170.18 101.6 0)
 			(uuid "63154e31-fbba-4a4a-882c-4ba4694e8066")
 			(effects
 				(font
@@ -1495,8 +1605,8 @@
 				(justify right)
 			)
 		)
-		(pin "Master Trigger 1" output
-			(at 152.4 96.52 0)
+		(pin "Master Start 1" output
+			(at 170.18 115.57 0)
 			(uuid "40a08571-fa5e-4ec8-b433-88e8c7f18979")
 			(effects
 				(font
@@ -1515,7 +1625,7 @@
 		)
 	)
 	(sheet
-		(at 91.44 69.85)
+		(at 107.95 88.9)
 		(size 30.48 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1529,8 +1639,8 @@
 			(color 143 231 255 1.0000)
 		)
 		(uuid "5c0e6701-9775-46ea-b2aa-e1822d571225")
-		(property "Sheetname" "2:6 Clock Buffer Pad Plane Adapter"
-			(at 91.948 69.342 0)
+		(property "Sheetname" "2:6 AddOn"
+			(at 118.872 88.646 0)
 			(effects
 				(font
 					(face "Arial")
@@ -1542,7 +1652,7 @@
 			)
 		)
 		(property "Sheetfile" "1_3CB.kicad_sch"
-			(at 91.44 85.6746 0)
+			(at 107.95 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,7 +1662,7 @@
 			)
 		)
 		(pin "Heimtime" input
-			(at 91.44 77.47 180)
+			(at 107.95 96.52 180)
 			(uuid "edf3d241-436f-4512-8821-7ffafd08af5d")
 			(effects
 				(font
@@ -1563,7 +1673,7 @@
 			)
 		)
 		(pin "Heimtime 1" output
-			(at 121.92 71.12 0)
+			(at 138.43 90.17 0)
 			(uuid "82022ab1-8f32-4ffd-a336-e87e1cec48c7")
 			(effects
 				(font
@@ -1574,7 +1684,7 @@
 			)
 		)
 		(pin "Heimtime 2" output
-			(at 121.92 77.47 0)
+			(at 138.43 96.52 0)
 			(uuid "1de56486-2be3-41cb-86e9-a9c08a14ac8e")
 			(effects
 				(font
@@ -1585,7 +1695,7 @@
 			)
 		)
 		(pin "Heimtime 3" output
-			(at 121.92 83.82 0)
+			(at 138.43 102.87 0)
 			(uuid "a48ac09d-f5cd-407b-b477-15e7996b781d")
 			(effects
 				(font
@@ -1595,8 +1705,8 @@
 				(justify right)
 			)
 		)
-		(pin "Master Trigger" input
-			(at 91.44 80.01 180)
+		(pin "Master Start" input
+			(at 107.95 99.06 180)
 			(uuid "5515b410-b194-45d0-b6dc-339db2f1f56f")
 			(effects
 				(font
@@ -1606,8 +1716,8 @@
 				(justify left)
 			)
 		)
-		(pin "Master Trigger 1" output
-			(at 121.92 73.66 0)
+		(pin "Master Start 1" output
+			(at 138.43 92.71 0)
 			(uuid "f5823ce2-2ce3-42cd-a192-605bc4d4d2d4")
 			(effects
 				(font
@@ -1617,8 +1727,8 @@
 				(justify right)
 			)
 		)
-		(pin "Master Trigger 2" output
-			(at 121.92 80.01 0)
+		(pin "Master Start 2" output
+			(at 138.43 99.06 0)
 			(uuid "14f6de3e-5528-4748-94fe-31725c9ec8e7")
 			(effects
 				(font
@@ -1628,8 +1738,8 @@
 				(justify right)
 			)
 		)
-		(pin "Master Trigger 3" output
-			(at 121.92 86.36 0)
+		(pin "Master Start 3" output
+			(at 138.43 105.41 0)
 			(uuid "90cbda20-bdcb-4dfe-a097-674319282703")
 			(effects
 				(font
@@ -1648,7 +1758,7 @@
 		)
 	)
 	(sheet
-		(at 162.56 88.9)
+		(at 179.07 107.95)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1664,7 +1774,7 @@
 		)
 		(uuid "9747e1df-9a45-4060-b80a-589dfc937ca0")
 		(property "Sheetname" "VMM3a_ASIC_1"
-			(at 162.56 88.1884 0)
+			(at 179.07 107.2384 0)
 			(effects
 				(font
 					(face "Arial")
@@ -1676,7 +1786,7 @@
 			)
 		)
 		(property "Sheetfile" "asic.kicad_sch"
-			(at 162.56 102.1846 0)
+			(at 179.07 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,7 +1796,7 @@
 			)
 		)
 		(pin "Hybrid Ch.65" input
-			(at 162.56 91.44 180)
+			(at 179.07 110.49 180)
 			(uuid "69f62d4a-011e-45f9-a0ca-dc20e9ee324d")
 			(effects
 				(font
@@ -1697,7 +1807,7 @@
 			)
 		)
 		(pin "Hybrid Ch.67" input
-			(at 162.56 93.98 180)
+			(at 179.07 113.03 180)
 			(uuid "615402b8-ec50-4b80-830e-54e374821ac8")
 			(effects
 				(font
@@ -1708,7 +1818,7 @@
 			)
 		)
 		(pin "Hybrid Ch.71" input
-			(at 162.56 96.52 180)
+			(at 179.07 115.57 180)
 			(uuid "95c29399-44c1-4986-9818-a968e6d031db")
 			(effects
 				(font
@@ -1719,7 +1829,7 @@
 			)
 		)
 		(pin "Hybrid Ch.73" input
-			(at 162.56 99.06 180)
+			(at 179.07 118.11 180)
 			(uuid "4dfd4db7-8c29-4721-8227-b31deb59d02f")
 			(effects
 				(font
@@ -1738,7 +1848,7 @@
 		)
 	)
 	(sheet
-		(at 64.77 76.2)
+		(at 81.28 95.25)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1753,7 +1863,7 @@
 		)
 		(uuid "aa629653-5e0b-40cc-8cb4-5a7d94846c92")
 		(property "Sheetname" "HYDRA Clock Distribution Box"
-			(at 65.024 75.184 0)
+			(at 81.026 94.742 0)
 			(effects
 				(font
 					(face "Arial")
@@ -1765,7 +1875,7 @@
 			)
 		)
 		(property "Sheetfile" "FPGA_board.kicad_sch"
-			(at 64.77 102.1846 0)
+			(at 81.28 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1775,7 +1885,7 @@
 			)
 		)
 		(pin "Beam Off" input
-			(at 64.77 83.82 180)
+			(at 81.28 102.87 180)
 			(uuid "7b18ae53-f4c9-4772-9313-61d5bb317938")
 			(effects
 				(font
@@ -1786,7 +1896,7 @@
 			)
 		)
 		(pin "Beam On" input
-			(at 64.77 81.28 180)
+			(at 81.28 100.33 180)
 			(uuid "a4c0d911-2a19-416f-baf6-8e928ce37081")
 			(effects
 				(font
@@ -1797,7 +1907,7 @@
 			)
 		)
 		(pin "Heimtime" input
-			(at 64.77 87.63 180)
+			(at 81.28 106.68 180)
 			(uuid "72b88333-a7b2-4b72-a9df-097e9c2a8d74")
 			(effects
 				(font
@@ -1808,7 +1918,7 @@
 			)
 		)
 		(pin "Heimtime 1" output
-			(at 90.17 77.47 0)
+			(at 106.68 96.52 0)
 			(uuid "ca346b7a-7bbb-435b-8009-dcb19a7eb605")
 			(effects
 				(font
@@ -1819,7 +1929,7 @@
 			)
 		)
 		(pin "Heimtime 16" output
-			(at 90.17 97.79 0)
+			(at 106.68 116.84 0)
 			(uuid "fe64a584-8458-4773-8b72-cc8cfdfa2edc")
 			(effects
 				(font
@@ -1830,7 +1940,7 @@
 			)
 		)
 		(pin "Laser In" input
-			(at 64.77 93.98 180)
+			(at 81.28 113.03 180)
 			(uuid "f2fe182e-fd7d-4212-948d-da78619f3139")
 			(effects
 				(font
@@ -1841,7 +1951,7 @@
 			)
 		)
 		(pin "Laser Out" output
-			(at 64.77 96.52 180)
+			(at 81.28 115.57 180)
 			(uuid "cbd718fb-aeb4-4452-9d54-ea21d0f26f21")
 			(effects
 				(font
@@ -1852,7 +1962,7 @@
 			)
 		)
 		(pin "Master Trigger" input
-			(at 64.77 90.17 180)
+			(at 81.28 109.22 180)
 			(uuid "0d28a198-693a-4639-8267-bc4171b4f448")
 			(effects
 				(font
@@ -1862,8 +1972,8 @@
 				(justify left)
 			)
 		)
-		(pin "Master Trigger 1" output
-			(at 90.17 80.01 0)
+		(pin "Master Start 1" output
+			(at 106.68 99.06 0)
 			(uuid "5f82720e-4c69-4393-9537-baa129eda8b9")
 			(effects
 				(font
@@ -1873,8 +1983,8 @@
 				(justify right)
 			)
 		)
-		(pin "Master Trigger 16" output
-			(at 90.17 100.33 0)
+		(pin "Master Start 16" output
+			(at 106.68 119.38 0)
 			(uuid "6050d23d-8ced-4b24-a4cf-dfd9a4862208")
 			(effects
 				(font
