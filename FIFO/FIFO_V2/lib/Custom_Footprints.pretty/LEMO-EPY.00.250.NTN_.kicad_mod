@@ -1,0 +1,177 @@
+(footprint "LEMO-EPY.00.250.NTN_"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LEMO CONNECTOR")
+	(tags "LEMO CONNECTOR")
+	(property "Reference" ">NAME"
+		(at 3.175 -5.26288 0)
+		(layer "F.SilkS")
+		(uuid "f2d6461a-53bd-440b-a3a6-3d530d3165c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Value" ">VALUE"
+		(at 3.81 4.8641 0)
+		(layer "F.SilkS")
+		(uuid "ee442d65-676f-4497-8bc2-74c63b532130")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b8f9c74-39ce-4730-9a95-c29762cd9572")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b3c6a74-5f1b-4bea-814d-2783e7d331e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -4.95808 -3.99796)
+		(end -4.95808 3.99796)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "873d25f4-596f-4ba3-9567-1a419caa5623")
+	)
+	(fp_line
+		(start -4.95808 -3.99796)
+		(end 16.53794 -3.99796)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4633b5b-7f53-4731-8494-e57c8200b253")
+	)
+	(fp_line
+		(start -4.95808 3.99796)
+		(end 16.53794 3.99796)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "096e8015-7cb3-4304-b0d9-9d8a1a72c5db")
+	)
+	(fp_line
+		(start 16.53794 -3.99796)
+		(end 16.53794 3.99796)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48b33c91-6a6d-4d57-b84a-a7dd45ba5a85")
+	)
+	(fp_text user "1U"
+		(at -2.8575 -0.91948 0)
+		(layer "F.SilkS")
+		(uuid "33302e52-809e-4d70-956d-6c52985a1358")
+		(effects
+			(font
+				(size 0.79756 0.79756)
+				(thickness 0.0762)
+			)
+		)
+	)
+	(fp_text user "1L"
+		(at 3.85826 -0.91948 0)
+		(layer "F.SilkS")
+		(uuid "665ebe0a-20a3-49b8-9ccf-8ddfbce8cdec")
+		(effects
+			(font
+				(size 0.79756 0.79756)
+				(thickness 0.0762)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 1.29794 1.29794)
+		(drill 0.79756)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1bfa64d0-6807-4c8d-8af3-d409234b1cca")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.29794 1.29794)
+		(drill 0.79756)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7ca8021b-04fe-4bc1-9818-6982835c3405")
+	)
+	(pad "4" thru_hole circle
+		(at -2.54 2.54)
+		(size 1.29794 1.29794)
+		(drill 0.79756)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8aa870c0-e083-4019-9da1-d528b2016c41")
+	)
+	(pad "5" thru_hole circle
+		(at 2.54 2.54)
+		(size 1.29794 1.29794)
+		(drill 0.79756)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c053e635-dd97-4d6b-a8ed-ccf020b273cb")
+	)
+	(pad "6" thru_hole circle
+		(at 2.54 -2.54)
+		(size 1.29794 1.29794)
+		(drill 0.79756)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7f656d39-cc6f-459a-a374-07bbc7252453")
+	)
+	(pad "7" thru_hole circle
+		(at -2.54 -2.54)
+		(size 1.29794 1.29794)
+		(drill 0.79756)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c577799e-9b3b-46d1-8392-bfc68c180ee9")
+	)
+	(embedded_fonts no)
+	(model "${FIFO_PROTOTYPE}/FIFO_V2/lib/Custom_Footprints.pretty/epy_00_250_ntn.STEP"
+		(offset
+			(xyz 0 0 11.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

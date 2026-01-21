@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-28052024-052478";"";
+"REFERENCE";"EPL.00.250.NTN";"";
+"TraceParts.PartTitle";"Elbow receptacle (PCB) - EPL.00.250.NTN";"";
+"TraceParts.InstanceId";"90-28052024-0524782N3XX9WWY2MK673V115V3T3RA";"";
+"SUPPLIER";"LEMO";"";
+"DESIGN";"Elbow receptacle for printed circuit";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.2";"";

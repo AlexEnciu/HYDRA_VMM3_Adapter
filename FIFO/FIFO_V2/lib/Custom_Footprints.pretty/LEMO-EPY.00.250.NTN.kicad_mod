@@ -1,0 +1,153 @@
+(footprint "LEMO-EPY.00.250.NTN"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e66a48cd-8ccc-49fa-b5b4-864d83077555")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LEMO-EPY.00.250.NTN"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dda0e925-3fc4-4db0-9388-6977f97f5ec5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2d01dcc-e22a-46a2-a84b-8ace3edb8563")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c47497f2-d52e-4e82-a9a1-abb007d13e21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4 -2.42)
+		(end 4 8.58)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "67ed2e74-0de4-46aa-a818-6580206db43f")
+	)
+	(fp_poly
+		(pts
+			(xy 3.4 19.08) (xy -3.4 19.08) (xy -3.4 8.58) (xy -4 8.58) (xy -4 -2.42) (xy 4 -2.42) (xy 4 8.58)
+			(xy 3.4 8.58)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e35aa344-e0d7-48a5-97ee-2222c0f8bbb1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9d018e7d-e6ed-4e67-bfe4-9f9685fb9572")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 5.08)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "10eb6d4d-da94-493c-a74a-a787a7e9c6bb")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4ad25356-6e48-4ab5-a81f-eeb3f096ca1a")
+	)
+	(pad "3" thru_hole circle
+		(at -2.54 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a5c7ae11-d387-442a-9528-f81fbbed5b07")
+	)
+	(pad "3" thru_hole circle
+		(at -2.54 5.08)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a720fd8d-c7c0-49c5-be75-1c8750c43591")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fccfb15e-6a11-4770-87b8-7822c754015d")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 5.08)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7f08603a-09e4-429c-a88a-3e6b031f5234")
+	)
+	(embedded_fonts no)
+	(model "${FIFO_PROTOTYPE}/FIFO_V2/lib/Custom_Footprints.pretty/epy_00_250_ntn.STEP"
+		(offset
+			(xyz 0 -3 11.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
